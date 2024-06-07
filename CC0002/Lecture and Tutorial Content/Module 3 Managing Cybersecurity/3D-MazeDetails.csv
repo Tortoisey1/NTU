@@ -1,0 +1,7218 @@
+Classroom,ID,Maze Source,Name,Type,Description,Size,Solved by,Created at,Updated at,Gem,Heart,Enemy,Obstacle,Action,Condition,Selection,Repetition,Solution,Life,Steps,Solving Time,Time user enters maze,Time script button is clicked,Time execute button is clicked,Time maze is solved,Time maze is published,Maze Solution
+T1,1411,687,Commands_Lesson 1,tutorial,,3x8,417,2023-08-21T00:42:43.000,2023-08-21T00:42:43.000,0,0,0,16,3,0,0,0,3,300,3,57.44100189,21/08/2023 8:42,21/08/2023 8:42,21/08/2023 8:43,21/08/2023 8:43,,"moveForward
+moveForward
+moveForward"
+T1,1460,687,Commands_Lesson 1,tutorial,,3x8,421,2023-08-21T00:45:34.000,2023-08-21T00:45:34.000,0,0,0,16,3,0,0,0,3,300,3,182.5225067,21/08/2023 8:42,21/08/2023 8:44,21/08/2023 8:45,21/08/2023 8:45,,"moveForward
+moveForward
+moveForward"
+T1,1544,688,Commands_Lesson 2,tutorial,,7x7,421,2023-08-21T00:48:15.000,2023-08-21T00:48:15.000,0,0,1,32,7,0,0,0,7,300,6,153.4470062,21/08/2023 8:46,21/08/2023 8:46,21/08/2023 8:48,21/08/2023 8:48,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1441,687,Commands_Lesson 1,tutorial,,3x8,407,2023-08-21T00:44:18.000,2023-08-21T00:44:18.000,0,0,0,16,3,0,0,0,3,300,3,61.69449997,21/08/2023 8:43,21/08/2023 8:44,21/08/2023 8:44,21/08/2023 8:44,,"moveForward
+moveForward
+moveForward"
+T1,1500,688,Commands_Lesson 2,tutorial,,7x7,407,2023-08-21T00:46:46.000,2023-08-21T00:46:46.000,0,0,1,32,7,0,0,0,7,300,6,141.4075012,21/08/2023 8:44,21/08/2023 8:44,21/08/2023 8:47,21/08/2023 8:47,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1527,689,Commands_Lesson 3,tutorial,,7x7,407,2023-08-21T00:47:48.000,2023-08-21T00:47:48.000,0,0,0,33,15,0,0,0,15,300,12,57.37139893,21/08/2023 8:47,21/08/2023 8:47,21/08/2023 8:48,21/08/2023 8:48,,"moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1527,689,Commands_Lesson 3,tutorial,,7x7,407,2023-08-21T00:47:48.000,2023-08-21T00:47:48.000,0,0,0,33,15,0,0,0,15,300,12,57.37139893,21/08/2023 8:47,21/08/2023 8:47,21/08/2023 8:48,21/08/2023 8:48,,"moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1563,690,Commands_Lesson 4,tutorial,,7x7,407,2023-08-21T00:48:48.000,2023-08-21T00:48:48.000,1,0,1,32,8,0,0,0,8,300,6,53.02069855,21/08/2023 8:48,21/08/2023 8:48,21/08/2023 8:49,21/08/2023 8:49,,"moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1434,687,Commands_Lesson 1,tutorial,,3x8,409,2023-08-21T00:44:04.000,2023-08-21T00:44:04.000,0,0,0,16,3,0,0,0,3,300,3,190.901001,21/08/2023 8:41,21/08/2023 8:43,21/08/2023 8:44,21/08/2023 8:44,,"moveForward
+moveForward
+moveForward"
+T1,1546,688,Commands_Lesson 2,tutorial,,7x7,409,2023-08-21T00:48:19.000,2023-08-21T00:48:19.000,0,0,1,32,7,0,0,0,7,300,6,247.8580017,21/08/2023 8:44,21/08/2023 8:44,21/08/2023 8:48,21/08/2023 8:48,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,,687,Commands_Lesson 1,tutorial,,3x8,400,,2023-08-21T00:42:20.000,0,0,0,16,3,0,0,0,3,300,3,17.78129959,21/08/2023 8:42,21/08/2023 8:42,21/08/2023 8:42,21/08/2023 8:42,,"moveForward
+moveForward
+moveForward"
+T1,1446,687,Commands_Lesson 1,tutorial,,3x8,374,2023-08-21T00:44:39.000,2023-08-21T00:44:39.000,0,0,0,16,4,2,2,0,8,300,3,363.8630066,21/08/2023 8:38,21/08/2023 8:39,21/08/2023 8:44,21/08/2023 8:44,,"if (NotReachDest)
+{
+    moveForward
+}
+else
+{
+    attack
+}
+repeatCount = 1;
+if (repeatCount < 5)
+{
+    repeatCount add 1
+    moveForward
+    moveForward
+}"
+T1,1520,688,Commands_Lesson 2,tutorial,,7x7,374,2023-08-21T00:47:32.000,2023-08-21T00:47:32.000,0,0,1,32,5,4,2,2,13,300,6,142.2949982,21/08/2023 8:45,21/08/2023 8:45,21/08/2023 8:47,21/08/2023 8:47,,"if (NotReachDest)
+{
+    moveForward
+}
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+if (NotReachDest)
+{
+    turnRight
+}
+else
+{
+    moveForward
+}
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1516,687,Commands_Lesson 1,tutorial,,3x8,410,2023-08-21T00:47:20.000,2023-08-21T00:47:20.000,0,0,0,16,3,0,0,0,3,300,3,22.12750053,21/08/2023 8:47,21/08/2023 8:47,21/08/2023 8:47,21/08/2023 8:47,,"moveForward
+moveForward
+moveForward"
+T1,1552,688,Commands_Lesson 2,tutorial,,7x7,410,2023-08-21T00:48:30.000,2023-08-21T00:48:30.000,0,0,1,32,7,0,0,0,7,300,6,63.10150146,21/08/2023 8:47,21/08/2023 8:48,21/08/2023 8:48,21/08/2023 8:48,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1398,687,Commands_Lesson 1,tutorial,,3x8,377,2023-08-21T00:40:41.000,2023-08-21T00:43:22.000,0,0,0,16,4,1,1,0,6,300,3,106.9332962,21/08/2023 8:41,21/08/2023 8:41,21/08/2023 8:42,21/08/2023 8:43,,"if (Enemy In Front)
+{
+    attack
+}
+else
+{
+    moveForward
+}
+moveForward
+moveForward"
+T1,1442,688,Commands_Lesson 2,tutorial,,7x7,377,2023-08-21T00:44:19.000,2023-08-21T00:44:19.000,0,0,1,32,7,0,0,0,7,300,6,48.13019943,21/08/2023 8:43,21/08/2023 8:44,21/08/2023 8:44,21/08/2023 8:44,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1490,689,Commands_Lesson 3,tutorial,,7x7,377,2023-08-21T00:46:25.000,2023-08-21T00:46:25.000,0,0,0,33,15,0,0,0,15,300,12,119.6725006,21/08/2023 8:44,21/08/2023 8:45,21/08/2023 8:46,21/08/2023 8:46,,"moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1568,690,Commands_Lesson 4,tutorial,,7x7,377,2023-08-21T00:48:58.000,2023-08-21T00:48:58.000,1,0,1,32,8,0,0,0,8,300,6,148.3630981,21/08/2023 8:46,21/08/2023 8:47,21/08/2023 8:49,21/08/2023 8:49,,"moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1404,687,Commands_Lesson 1,tutorial,,3x8,402,2023-08-21T00:42:06.000,2023-08-21T00:42:59.000,0,0,0,16,4,0,0,0,4,300,3,42.7928009,21/08/2023 8:42,21/08/2023 8:43,21/08/2023 8:43,21/08/2023 8:43,,"moveForward
+moveForward
+moveForward
+moveForward"
+T1,1456,688,Commands_Lesson 2,tutorial,,7x7,402,2023-08-21T00:45:27.000,2023-08-21T00:45:27.000,0,0,1,32,3,2,0,2,7,300,6,142.0894928,21/08/2023 8:43,21/08/2023 8:44,21/08/2023 8:45,21/08/2023 8:45,,"repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1572,687,Commands_Lesson 1,tutorial,,3x8,381,2023-08-21T00:49:06.000,2023-08-21T00:49:06.000,0,0,0,16,2,2,1,1,6,300,3,596.9619751,21/08/2023 8:39,21/08/2023 8:40,21/08/2023 8:49,21/08/2023 8:49,,"if (NotReachDest)
+{
+    moveForward
+}
+while (Dir == ""Forward"")
+{
+    moveForward
+}"
+T1,1414,687,Commands_Lesson 1,tutorial,,3x8,399,2023-08-21T00:43:02.000,2023-08-21T00:43:02.000,0,0,0,16,3,3,3,0,9,300,3,168.5019073,21/08/2023 8:40,21/08/2023 8:40,21/08/2023 8:43,21/08/2023 8:43,,"if (NotReachDest)
+{
+    moveForward
+}
+if (NotReachDest)
+{
+    moveForward
+}
+if (NotReachDest)
+{
+    moveForward
+}"
+T1,1501,688,Commands_Lesson 2,tutorial,,7x7,399,2023-08-21T00:46:48.000,2023-08-21T00:46:48.000,0,0,1,32,3,2,0,2,7,300,6,218.2156982,21/08/2023 8:43,21/08/2023 8:43,21/08/2023 8:47,21/08/2023 8:47,,"repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1560,689,Commands_Lesson 3,tutorial,,7x7,399,2023-08-21T00:48:41.000,2023-08-21T00:48:41.000,0,0,0,33,7,4,0,4,15,300,12,105.2386017,21/08/2023 8:47,21/08/2023 8:47,21/08/2023 8:48,21/08/2023 8:49,,"repeatCount = 1;
+while (repeatCount < 5)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 5)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1403,820,tws,public,tws,10x10,390,2023-08-21T00:41:56.000,2023-08-21T00:41:56.000,0,0,0,0,1,1,0,1,3,300,1,158.8990021,21/08/2023 8:39,21/08/2023 8:40,21/08/2023 8:42,21/08/2023 8:42,,"while (Dir == ""Forward"")
+{
+    moveForward
+}"
+T1,1571,687,Commands_Lesson 1,tutorial,,3x8,390,2023-08-21T00:49:03.000,2023-08-21T00:49:03.000,0,0,0,16,1,1,0,1,3,300,3,19.87509918,21/08/2023 8:49,21/08/2023 8:49,21/08/2023 8:49,21/08/2023 8:49,,"while (NotReachDest)
+{
+    moveForward
+}"
+T1,1410,687,Commands_Lesson 1,tutorial,,3x8,387,2023-08-21T00:42:33.000,2023-08-21T00:42:33.000,0,0,0,16,3,0,0,0,3,300,3,60.13019943,21/08/2023 8:42,21/08/2023 8:42,21/08/2023 8:42,21/08/2023 8:43,,"moveForward
+moveForward
+moveForward"
+T1,1427,688,Commands_Lesson 2,tutorial,,7x7,387,2023-08-21T00:43:44.000,2023-08-21T00:43:44.000,0,0,1,32,7,0,0,0,7,300,6,62.57419968,21/08/2023 8:43,21/08/2023 8:43,21/08/2023 8:44,21/08/2023 8:44,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1542,689,Commands_Lesson 3,tutorial,,7x7,387,2023-08-21T00:48:14.000,2023-08-21T00:48:14.000,0,0,0,33,9,2,0,2,13,300,12,254.1576996,21/08/2023 8:44,21/08/2023 8:44,21/08/2023 8:48,21/08/2023 8:48,,"repeatCount = 1;
+while (repeatCount < 5)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 6)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1409,687,Commands_Lesson 1,tutorial,,3x8,392,2023-08-21T00:42:30.000,2023-08-21T00:42:30.000,0,0,0,16,3,0,0,0,3,300,3,95.6969986,21/08/2023 8:41,21/08/2023 8:42,21/08/2023 8:42,21/08/2023 8:42,,"moveForward
+moveForward
+moveForward"
+T1,1444,687,Commands_Lesson 1,tutorial,,3x8,445,2023-08-21T00:44:31.000,2023-08-21T00:44:31.000,0,0,0,16,3,0,0,0,3,300,3,81.95459747,21/08/2023 8:43,21/08/2023 8:44,21/08/2023 8:44,21/08/2023 8:44,,"moveForward
+moveForward
+moveForward"
+T1,1401,687,Commands_Lesson 1,tutorial,,3x8,400,2023-08-21T00:41:46.000,2023-08-21T00:42:20.000,0,0,0,16,3,0,0,0,3,300,3,17.78129959,21/08/2023 8:42,21/08/2023 8:42,21/08/2023 8:42,21/08/2023 8:42,,"moveForward
+moveForward
+moveForward"
+T1,1416,688,Commands_Lesson 2,tutorial,,7x7,400,2023-08-21T00:43:08.000,2023-08-21T00:43:08.000,0,0,1,32,7,0,0,0,7,300,6,40.28680038,21/08/2023 8:42,21/08/2023 8:43,21/08/2023 8:43,21/08/2023 8:43,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1448,687,Commands_Lesson 1,tutorial,,3x8,391,2023-08-21T00:44:51.000,2023-08-21T00:44:51.000,0,0,0,16,3,0,0,0,3,300,3,15.88829994,21/08/2023 8:45,21/08/2023 8:45,21/08/2023 8:45,21/08/2023 8:45,,"moveForward
+moveForward
+moveForward"
+T1,1491,688,Commands_Lesson 2,tutorial,,7x7,391,2023-08-21T00:46:27.000,2023-08-21T00:46:27.000,0,0,1,32,7,0,0,0,7,300,6,88.94390106,21/08/2023 8:45,21/08/2023 8:45,21/08/2023 8:46,21/08/2023 8:46,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1525,689,Commands_Lesson 3,tutorial,,7x7,391,2023-08-21T00:47:47.000,2023-08-21T00:47:47.000,0,0,0,33,15,0,0,0,15,300,12,71.91459656,21/08/2023 8:47,21/08/2023 8:47,21/08/2023 8:48,21/08/2023 8:48,,"moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1417,687,Commands_Lesson 1,tutorial,,3x8,408,2023-08-21T00:43:10.000,2023-08-21T00:43:10.000,0,0,0,16,3,0,0,0,3,300,3,113.4236984,21/08/2023 8:41,21/08/2023 8:43,21/08/2023 8:43,21/08/2023 8:43,,"moveForward
+moveForward
+moveForward"
+T1,1430,688,Commands_Lesson 2,tutorial,,7x7,408,2023-08-21T00:43:58.000,2023-08-21T00:43:58.000,0,0,1,32,7,0,0,0,7,300,6,39.00880051,21/08/2023 8:43,21/08/2023 8:43,21/08/2023 8:44,21/08/2023 8:44,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1485,689,Commands_Lesson 3,tutorial,,7x7,408,2023-08-21T00:46:11.000,2023-08-21T00:46:11.000,0,0,0,33,15,0,0,0,15,300,12,124.9781036,21/08/2023 8:44,21/08/2023 8:44,21/08/2023 8:46,21/08/2023 8:46,,"moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1522,690,Commands_Lesson 4,tutorial,,7x7,408,2023-08-21T00:47:38.000,2023-08-21T00:47:38.000,1,0,1,32,8,0,0,0,8,300,6,66.31580353,21/08/2023 8:46,21/08/2023 8:46,21/08/2023 8:47,21/08/2023 8:47,,"moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1575,691,Commands_Lesson 5,tutorial,,9x6,408,2023-08-21T00:49:14.000,2023-08-21T00:49:14.000,0,0,1,31,7,0,0,0,7,280,5,79.37999725,21/08/2023 8:48,21/08/2023 8:49,21/08/2023 8:49,21/08/2023 8:49,,"moveForward
+turnRight
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1408,687,Commands_Lesson 1,tutorial,,3x8,385,2023-08-21T00:42:28.000,2023-08-21T00:42:28.000,0,0,0,16,7,0,0,0,7,300,3,180.1470032,21/08/2023 8:39,21/08/2023 8:40,21/08/2023 8:42,21/08/2023 8:42,,"moveForward
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+turnRight"
+T1,1432,688,Commands_Lesson 2,tutorial,,7x7,385,2023-08-21T00:44:03.000,2023-08-21T00:44:03.000,0,0,1,32,14,0,0,0,14,300,10,83.1780014,21/08/2023 8:43,21/08/2023 8:43,21/08/2023 8:44,21/08/2023 8:44,,"turnBack
+moveForward
+turnLeft
+moveForward
+moveForward
+moveForward
+moveForward
+turnLeft
+moveForward
+moveForward
+moveForward
+moveForward
+turnLeft
+moveForward"
+T1,1484,689,Commands_Lesson 3,tutorial,,7x7,385,2023-08-21T00:46:08.000,2023-08-21T00:46:08.000,0,0,0,33,15,0,0,0,15,300,12,114.7070007,21/08/2023 8:44,21/08/2023 8:44,21/08/2023 8:46,21/08/2023 8:46,,"moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1504,690,Commands_Lesson 4,tutorial,,7x7,385,2023-08-21T00:46:58.000,2023-08-21T00:46:58.000,1,0,1,32,8,0,0,0,8,300,6,41.37799835,21/08/2023 8:46,21/08/2023 8:47,21/08/2023 8:47,21/08/2023 8:47,,"moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1459,687,Commands_Lesson 1,tutorial,,3x8,411,2023-08-21T00:45:34.000,2023-08-21T00:45:34.000,0,0,0,16,3,0,0,0,3,300,3,190.6519928,21/08/2023 8:42,21/08/2023 8:42,21/08/2023 8:46,21/08/2023 8:46,,"moveForward
+moveForward
+moveForward"
+T1,1529,688,Commands_Lesson 2,tutorial,,7x7,411,2023-08-21T00:47:51.000,2023-08-21T00:47:51.000,0,0,1,32,7,0,0,0,7,300,6,130.7879944,21/08/2023 8:46,21/08/2023 8:47,21/08/2023 8:48,21/08/2023 8:48,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1455,687,Commands_Lesson 1,tutorial,,3x8,427,2023-08-21T00:45:26.000,2023-08-21T00:45:26.000,0,0,0,16,1,1,0,1,3,300,3,19.80800056,21/08/2023 8:45,21/08/2023 8:45,21/08/2023 8:45,21/08/2023 8:45,,"while (NotReachDest)
+{
+    moveForward
+}"
+T1,1452,687,Commands_Lesson 1,tutorial,,3x8,216,2023-08-21T00:45:14.000,2023-08-21T00:45:14.000,0,0,0,16,3,0,0,0,3,300,3,168.9718933,21/08/2023 8:42,21/08/2023 8:42,21/08/2023 8:45,21/08/2023 8:45,,"moveForward
+moveForward
+moveForward"
+T1,1482,688,Commands_Lesson 2,tutorial,,7x7,216,2023-08-21T00:46:05.000,2023-08-21T00:46:05.000,0,0,1,32,7,0,0,0,7,300,6,43.42679977,21/08/2023 8:45,21/08/2023 8:45,21/08/2023 8:46,21/08/2023 8:46,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1457,687,Commands_Lesson 1,tutorial,,3x8,447,2023-08-21T00:45:31.000,2023-08-21T00:45:31.000,0,0,0,16,3,0,0,0,3,300,3,104.2369995,21/08/2023 8:44,21/08/2023 8:45,21/08/2023 8:45,21/08/2023 8:45,,"moveForward
+moveForward
+moveForward"
+T1,1547,688,Commands_Lesson 2,tutorial,,7x7,447,2023-08-21T00:48:20.000,2023-08-21T00:48:20.000,0,0,1,32,7,0,0,0,7,300,6,158.2017059,21/08/2023 8:46,21/08/2023 8:46,21/08/2023 8:48,21/08/2023 8:48,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1412,687,Commands_Lesson 1,tutorial,,3x8,379,2023-08-21T00:42:49.000,2023-08-21T00:42:49.000,0,0,0,16,1,1,0,1,3,300,3,247.3061066,21/08/2023 8:39,21/08/2023 8:40,21/08/2023 8:43,21/08/2023 8:43,,"repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1528,688,Commands_Lesson 2,tutorial,,7x7,379,2023-08-21T00:47:50.000,2023-08-21T00:47:50.000,0,0,1,32,8,2,0,2,12,300,10,288.1149902,21/08/2023 8:43,21/08/2023 8:44,21/08/2023 8:48,21/08/2023 8:48,,"turnBack
+moveForward
+turnLeft
+repeatCount = 1;
+while (repeatCount < 5)
+{
+    repeatCount add 1
+    moveForward
+}
+turnLeft
+repeatCount = 1;
+while (repeatCount < 5)
+{
+    repeatCount add 1
+    moveForward
+}
+turnLeft
+moveForward"
+T1,1423,820,tws,public,tws,10x10,405,2023-08-21T00:43:24.000,2023-08-21T00:43:24.000,0,0,0,0,1,1,1,0,3,300,1,50.44300079,21/08/2023 8:43,21/08/2023 8:43,21/08/2023 8:43,21/08/2023 8:43,,"if (NotReachDest)
+{
+    moveForward
+}"
+T1,1462,687,Commands_Lesson 1,tutorial,,3x8,448,2023-08-21T00:45:36.000,2023-08-21T00:46:34.000,0,0,0,16,7,0,0,0,7,300,3,49.0359993,21/08/2023 8:46,21/08/2023 8:46,21/08/2023 8:46,21/08/2023 8:46,,"turnRight
+turnRight
+turnRight
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1462,687,Commands_Lesson 1,tutorial,,3x8,448,2023-08-21T00:45:36.000,2023-08-21T00:46:34.000,0,0,0,16,7,0,0,0,7,300,3,49.0359993,21/08/2023 8:46,21/08/2023 8:46,21/08/2023 8:46,21/08/2023 8:46,,"turnRight
+turnRight
+turnRight
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1511,688,Commands_Lesson 2,tutorial,,7x7,448,2023-08-21T00:47:12.000,2023-08-21T00:47:12.000,0,0,1,32,7,0,0,0,7,300,6,32.35900116,21/08/2023 8:47,21/08/2023 8:47,21/08/2023 8:47,21/08/2023 8:47,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1431,687,Commands_Lesson 1,tutorial,,3x8,382,2023-08-21T00:44:02.000,2023-08-21T00:44:02.000,0,0,0,16,5,0,0,0,5,300,3,43.53300095,21/08/2023 8:43,21/08/2023 8:43,21/08/2023 8:44,21/08/2023 8:44,,"moveForward
+moveForward
+moveForward
+moveForward
+attack"
+T1,1458,688,Commands_Lesson 2,tutorial,,7x7,382,2023-08-21T00:45:32.000,2023-08-21T00:45:32.000,0,0,1,32,8,0,0,0,8,300,6,77.99500275,21/08/2023 8:44,21/08/2023 8:44,21/08/2023 8:45,21/08/2023 8:46,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+attack"
+T1,1569,689,Commands_Lesson 3,tutorial,,7x7,382,2023-08-21T00:48:58.000,2023-08-21T00:48:58.000,0,0,0,33,18,0,0,0,18,300,12,193.7680054,21/08/2023 8:46,21/08/2023 8:46,21/08/2023 8:49,21/08/2023 8:49,,"moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+attack"
+T1,1397,687,Commands_Lesson 1,tutorial,,3x8,375,2023-08-21T00:40:34.000,2023-08-21T00:42:49.000,0,0,0,16,5,0,0,0,5,300,3,111.2109985,21/08/2023 8:40,21/08/2023 8:41,21/08/2023 8:42,21/08/2023 8:42,,"moveForward
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,1499,688,Commands_Lesson 2,tutorial,,7x7,375,2023-08-21T00:46:46.000,2023-08-21T00:46:46.000,0,0,1,32,7,0,0,0,7,300,6,217.6049957,21/08/2023 8:43,21/08/2023 8:43,21/08/2023 8:47,21/08/2023 8:47,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1537,689,Commands_Lesson 3,tutorial,,7x7,375,2023-08-21T00:48:05.000,2023-08-21T00:48:05.000,0,0,0,33,15,0,0,0,15,300,12,74.12000275,21/08/2023 8:47,21/08/2023 8:47,21/08/2023 8:48,21/08/2023 8:48,,"moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1451,687,Commands_Lesson 1,tutorial,,3x8,373,2023-08-21T00:44:56.000,2023-08-21T00:44:56.000,0,0,0,16,2,2,1,1,6,300,3,176.7722931,21/08/2023 8:42,21/08/2023 8:42,21/08/2023 8:45,21/08/2023 8:45,,"if (NotReachDest)
+{
+    moveForward
+}
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1438,687,Commands_Lesson 1,tutorial,,3x8,403,2023-08-21T00:44:14.000,2023-08-21T00:44:14.000,0,0,0,16,3,0,0,0,3,300,3,255.0189972,21/08/2023 8:40,21/08/2023 8:42,21/08/2023 8:44,21/08/2023 8:44,,"moveForward
+moveForward
+moveForward"
+T1,1476,688,Commands_Lesson 2,tutorial,,7x7,403,2023-08-21T00:45:58.000,2023-08-21T00:45:58.000,0,0,1,32,7,0,0,0,7,300,6,96.76300049,21/08/2023 8:44,21/08/2023 8:44,21/08/2023 8:46,21/08/2023 8:46,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1561,689,Commands_Lesson 3,tutorial,,7x7,403,2023-08-21T00:48:44.000,2023-08-21T00:48:44.000,0,0,0,33,15,0,0,0,15,300,12,158.6260071,21/08/2023 8:46,21/08/2023 8:46,21/08/2023 8:49,21/08/2023 8:49,,"moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1480,687,Commands_Lesson 1,tutorial,,3x8,449,2023-08-21T00:46:03.000,2023-08-21T00:46:03.000,0,0,0,16,3,0,0,0,3,300,3,109.512001,21/08/2023 8:44,21/08/2023 8:45,21/08/2023 8:46,21/08/2023 8:46,,"moveForward
+moveForward
+moveForward"
+T1,1574,688,Commands_Lesson 2,tutorial,,7x7,449,2023-08-21T00:49:13.000,2023-08-21T00:49:13.000,0,0,1,32,8,0,0,0,8,300,6,183.177002,21/08/2023 8:46,21/08/2023 8:46,21/08/2023 8:49,21/08/2023 8:49,,"moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1399,687,Commands_Lesson 1,tutorial,,3x8,383,2023-08-21T00:41:00.000,2023-08-21T00:44:43.000,0,0,0,16,3,0,0,0,3,300,3,16.62509918,21/08/2023 8:44,21/08/2023 8:45,21/08/2023 8:45,21/08/2023 8:45,,"moveForward
+moveForward
+moveForward"
+T1,1467,688,Commands_Lesson 2,tutorial,,7x7,383,2023-08-21T00:45:45.000,2023-08-21T00:45:45.000,0,0,1,32,7,0,0,0,7,300,6,39.99200058,21/08/2023 8:45,21/08/2023 8:45,21/08/2023 8:46,21/08/2023 8:46,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1524,689,Commands_Lesson 3,tutorial,,7x7,383,2023-08-21T00:47:44.000,2023-08-21T00:47:44.000,0,0,0,33,15,0,0,0,15,300,12,108.1447983,21/08/2023 8:46,21/08/2023 8:46,21/08/2023 8:47,21/08/2023 8:48,,"moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1400,687,Commands_Lesson 1,tutorial,,3x8,396,2023-08-21T00:41:34.000,2023-08-21T00:41:34.000,0,0,0,16,3,0,0,0,3,300,3,85.22059631,21/08/2023 8:40,21/08/2023 8:41,21/08/2023 8:41,21/08/2023 8:42,,"moveForward
+moveForward
+moveForward"
+T1,1440,688,Commands_Lesson 2,tutorial,,7x7,396,2023-08-21T00:44:15.000,2023-08-21T00:44:15.000,0,0,1,32,3,2,0,2,7,300,6,126.8167038,21/08/2023 8:42,21/08/2023 8:42,21/08/2023 8:44,21/08/2023 8:44,,"repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1532,689,Commands_Lesson 3,tutorial,,7x7,396,2023-08-21T00:48:00.000,2023-08-21T00:48:00.000,0,0,0,33,7,4,0,4,15,300,12,204.561203,21/08/2023 8:45,21/08/2023 8:45,21/08/2023 8:48,21/08/2023 8:48,,"repeatCount = 1;
+while (repeatCount < 5)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 5)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1396,687,Commands_Lesson 1,tutorial,,3x8,372,2023-08-21T00:39:40.000,2023-08-22T12:30:52.000,0,0,0,16,1,1,0,1,3,300,3,29.49799919,22/08/2023 8:31,22/08/2023 8:31,22/08/2023 8:31,22/08/2023 8:31,,"repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1421,687,Commands_Lesson 1,tutorial,,3x8,401,2023-08-21T00:43:21.000,2023-08-21T00:44:04.000,0,0,0,16,3,0,0,0,3,300,3,36.86899948,21/08/2023 8:43,21/08/2023 8:43,21/08/2023 8:44,21/08/2023 8:44,,"moveForward
+moveForward
+moveForward"
+T1,1429,687,Commands_Lesson 1,tutorial,,3x8,386,2023-08-21T00:43:46.000,2023-08-21T00:43:46.000,0,0,0,16,3,1,0,1,5,300,3,256.6283875,21/08/2023 8:39,21/08/2023 8:42,21/08/2023 8:44,21/08/2023 8:44,,"while (NotReachDest)
+{
+    moveForward
+    moveForward
+    moveForward
+}"
+T1,1536,688,Commands_Lesson 2,tutorial,,7x7,386,2023-08-21T00:48:04.000,2023-08-21T00:48:04.000,0,0,1,32,18,2,1,1,22,300,6,241.0449982,21/08/2023 8:44,21/08/2023 8:44,21/08/2023 8:48,21/08/2023 8:48,,"while (NotReachDest)
+{
+    if (Dir == ""Right"")
+    {
+        turnRight
+        moveForward
+        moveForward
+        turnLeft
+        moveForward
+        attack
+        attack
+        moveForward
+        moveForward
+        turnRight
+        moveForward
+    }
+    else
+    {
+        moveForward
+        moveForward
+        moveForward
+        turnRight
+        moveForward
+        moveForward
+        moveForward
+    }
+}"
+T1,1422,687,Commands_Lesson 1,tutorial,,3x8,378,2023-08-21T00:43:22.000,2023-08-21T00:44:02.000,0,0,0,16,3,0,0,0,3,300,3,13.91530037,21/08/2023 8:43,21/08/2023 8:44,21/08/2023 8:44,21/08/2023 8:44,,"moveForward
+moveForward
+moveForward"
+T1,1472,688,Commands_Lesson 2,tutorial,,7x7,378,2023-08-21T00:45:48.000,2023-08-21T00:45:48.000,0,0,1,32,7,0,0,0,7,300,6,93.7519989,21/08/2023 8:44,21/08/2023 8:44,21/08/2023 8:46,21/08/2023 8:46,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1543,689,Commands_Lesson 3,tutorial,,7x7,378,2023-08-21T00:48:15.000,2023-08-21T00:48:15.000,0,0,0,33,15,0,0,0,15,300,12,139.5921021,21/08/2023 8:46,21/08/2023 8:47,21/08/2023 8:48,21/08/2023 8:48,,"moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1474,687,Commands_Lesson 1,tutorial,,3x8,451,2023-08-21T00:45:56.000,2023-08-21T00:46:20.000,0,0,0,16,3,0,0,0,3,300,3,16.51499939,21/08/2023 8:46,21/08/2023 8:46,21/08/2023 8:46,21/08/2023 8:46,,"moveForward
+moveForward
+moveForward"
+T1,1513,688,Commands_Lesson 2,tutorial,,7x7,451,2023-08-21T00:47:16.000,2023-08-21T00:47:16.000,0,0,1,32,7,0,0,0,7,300,6,50.61600113,21/08/2023 8:46,21/08/2023 8:47,21/08/2023 8:47,21/08/2023 8:47,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1405,687,Commands_Lesson 1,tutorial,,3x8,416,2023-08-21T00:42:10.000,2023-08-21T00:42:10.000,0,0,0,16,6,0,0,0,6,300,3,60.19400024,21/08/2023 8:41,21/08/2023 8:42,21/08/2023 8:42,21/08/2023 8:42,,"moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,1420,688,Commands_Lesson 2,tutorial,,7x7,416,2023-08-21T00:43:18.000,2023-08-21T00:43:18.000,0,0,1,32,7,0,0,0,7,300,6,48.68500137,21/08/2023 8:42,21/08/2023 8:43,21/08/2023 8:43,21/08/2023 8:43,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1551,687,Commands_Lesson 1,tutorial,,3x8,388,2023-08-21T00:48:28.000,2023-08-21T00:48:28.000,0,0,0,16,4,1,1,0,6,300,3,349.8482971,21/08/2023 8:43,21/08/2023 8:43,21/08/2023 8:48,21/08/2023 8:48,,"moveForward
+repeatCount = 1;
+if (repeatCount < 2)
+{
+    repeatCount add 1
+    moveForward
+}
+else
+{
+    attack
+}
+moveForward"
+T1,1648,688,Commands_Lesson 2,tutorial,,7x7,417,2023-08-21T00:51:40.000,2023-08-21T00:51:40.000,0,0,1,32,7,0,0,0,7,300,6,157.6950989,21/08/2023 8:49,21/08/2023 8:49,21/08/2023 8:51,21/08/2023 8:51,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1600,689,Commands_Lesson 3,tutorial,,7x7,421,2023-08-21T00:49:59.000,2023-08-21T00:49:59.000,0,0,0,33,15,0,0,0,15,300,12,82.83119965,21/08/2023 8:48,21/08/2023 8:49,21/08/2023 8:50,21/08/2023 8:50,,"moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1670,690,Commands_Lesson 4,tutorial,,7x7,421,2023-08-21T00:52:28.000,2023-08-21T00:52:28.000,1,0,1,32,8,0,0,0,8,300,6,117.0656967,21/08/2023 8:51,21/08/2023 8:51,21/08/2023 8:52,21/08/2023 8:52,,"moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1594,691,Commands_Lesson 5,tutorial,,9x6,407,2023-08-21T00:49:48.000,2023-08-21T00:49:48.000,0,0,1,31,7,0,0,0,7,260,5,52.44860077,21/08/2023 8:49,21/08/2023 8:49,21/08/2023 8:50,21/08/2023 8:50,,"moveForward
+turnRight
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1586,689,Commands_Lesson 3,tutorial,,7x7,409,2023-08-21T00:49:40.000,2023-08-21T00:49:40.000,0,0,0,33,18,0,0,0,18,300,12,70.52400208,21/08/2023 8:48,21/08/2023 8:49,21/08/2023 8:50,21/08/2023 8:50,,"moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1769,,Commands_Lesson 2,tutorial,,7x7,381,2023-08-21T00:56:01.000,,0,0,1,32,8,0,0,0,8,300,6,409.7550049,21/08/2023 8:49,21/08/2023 8:49,21/08/2023 8:56,21/08/2023 8:56,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,1621,690,Commands_Lesson 4,tutorial,,7x7,409,2023-08-21T00:50:41.000,2023-08-21T00:50:41.000,1,0,1,32,9,0,0,0,9,300,6,55.70999908,21/08/2023 8:50,21/08/2023 8:50,21/08/2023 8:51,21/08/2023 8:51,,"moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1678,691,Commands_Lesson 5,tutorial,,9x6,409,2023-08-21T00:52:37.000,2023-08-21T00:52:37.000,0,0,1,31,7,0,0,0,7,280,5,103.8529968,21/08/2023 8:51,21/08/2023 8:51,21/08/2023 8:52,21/08/2023 8:53,,"moveForward
+turnRight
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1733,692,Commands_Lesson 6,tutorial,,7x10,409,2023-08-21T00:54:51.000,2023-08-21T00:54:51.000,1,1,4,38,15,0,0,0,15,90,13,126.2949982,21/08/2023 8:53,21/08/2023 8:53,21/08/2023 8:55,21/08/2023 8:55,,"moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,1683,689,Commands_Lesson 3,tutorial,,7x7,374,2023-08-21T00:52:45.000,2023-08-21T00:52:45.000,0,0,0,33,11,11,7,4,33,300,12,278.1270142,21/08/2023 8:48,21/08/2023 8:48,21/08/2023 8:53,21/08/2023 8:53,,"if (NotReachDest)
+{
+    moveForward
+}
+repeatCount = 1;
+while (repeatCount < 5)
+{
+    repeatCount add 1
+    moveForward
+}
+if (NotReachDest)
+{
+    turnRight
+}
+if (NotReachDest)
+{
+    moveForward
+}
+repeatCount = 1;
+while (repeatCount < 5)
+{
+    repeatCount add 1
+    moveForward
+}
+if (NotReachDest)
+{
+    turnRight
+}
+if (NotReachDest)
+{
+    moveForward
+}
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+if (NotReachDest)
+{
+    turnRight
+}
+if (NotReachDest)
+{
+    moveForward
+}
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1651,689,Commands_Lesson 3,tutorial,,7x7,410,2023-08-21T00:51:45.000,2023-08-21T00:51:45.000,0,0,0,33,15,0,0,0,15,300,12,188.4029999,21/08/2023 8:49,21/08/2023 8:49,21/08/2023 8:52,21/08/2023 8:52,,"moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1687,690,Commands_Lesson 4,tutorial,,7x7,410,2023-08-21T00:52:48.000,2023-08-21T00:52:48.000,1,0,1,32,8,0,0,0,8,300,6,56.10739899,21/08/2023 8:52,21/08/2023 8:52,21/08/2023 8:53,21/08/2023 8:53,,"moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1729,691,Commands_Lesson 5,tutorial,,9x6,410,2023-08-21T00:54:41.000,2023-08-21T00:54:41.000,0,0,1,31,17,0,0,0,17,300,13,100.899498,21/08/2023 8:53,21/08/2023 8:53,21/08/2023 8:55,21/08/2023 8:55,,"moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1613,691,Commands_Lesson 5,tutorial,,9x6,377,2023-08-21T00:50:24.000,2023-08-21T00:50:24.000,0,0,1,31,16,0,0,0,16,300,13,77.71179962,21/08/2023 8:49,21/08/2023 8:49,21/08/2023 8:50,21/08/2023 8:50,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1675,692,Commands_Lesson 6,tutorial,,7x10,377,2023-08-21T00:52:34.000,2023-08-21T00:52:34.000,1,1,4,38,15,0,0,0,15,90,13,111.6200027,21/08/2023 8:51,21/08/2023 8:51,21/08/2023 8:52,21/08/2023 8:53,,"moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,1747,693,Commands_Lesson 7,tutorial,,3x5,377,2023-08-21T00:55:13.000,2023-08-21T00:55:13.000,0,0,1,10,5,0,0,0,5,280,4,151.7212982,21/08/2023 8:53,21/08/2023 8:53,21/08/2023 8:55,21/08/2023 8:55,,"moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1588,689,Commands_Lesson 3,tutorial,,7x7,402,2023-08-21T00:49:43.000,2023-08-21T00:49:43.000,0,0,0,33,7,4,0,4,15,300,12,249.925293,21/08/2023 8:46,21/08/2023 8:46,21/08/2023 8:50,21/08/2023 8:50,,"repeatCount = 1;
+while (repeatCount < 5)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 5)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1753,690,Commands_Lesson 4,tutorial,,7x7,402,2023-08-21T00:55:30.000,2023-08-21T00:55:30.000,1,0,1,32,5,3,0,3,11,300,6,340.6047058,21/08/2023 8:50,21/08/2023 8:50,21/08/2023 8:55,21/08/2023 8:55,,"repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1769,688,Commands_Lesson 2,tutorial,,7x7,381,2023-08-21T00:56:01.000,2023-08-21T00:56:01.000,0,0,1,32,8,0,0,0,8,300,6,409.7550049,21/08/2023 8:49,21/08/2023 8:49,21/08/2023 8:56,21/08/2023 8:56,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,1590,690,Commands_Lesson 4,tutorial,,7x7,399,2023-08-21T00:49:46.000,2023-08-21T00:49:46.000,1,0,1,32,5,3,0,3,11,300,6,60.35910034,21/08/2023 8:49,21/08/2023 8:49,21/08/2023 8:50,21/08/2023 8:50,,"repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1637,691,Commands_Lesson 5,tutorial,,9x6,399,2023-08-21T00:51:05.000,2023-08-21T00:51:05.000,0,0,1,31,7,0,0,0,7,280,5,66.29000092,21/08/2023 8:50,21/08/2023 8:50,21/08/2023 8:51,21/08/2023 8:51,,"moveForward
+turnRight
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1671,692,Commands_Lesson 6,tutorial,,7x10,399,2023-08-21T00:52:31.000,2023-08-21T00:52:31.000,1,1,4,38,6,3,0,3,12,90,9,76.01679993,21/08/2023 8:51,21/08/2023 8:51,21/08/2023 8:52,21/08/2023 8:52,,"repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+attack
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1695,693,Commands_Lesson 7,tutorial,,3x5,399,2023-08-21T00:53:09.000,2023-08-21T00:53:09.000,0,0,1,10,6,0,0,0,6,280,4,32.35200119,21/08/2023 8:53,21/08/2023 8:53,21/08/2023 8:53,21/08/2023 8:53,,"moveForward
+attack
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,1719,694,Commands_Lesson 8,tutorial,,9x5,399,2023-08-21T00:54:12.000,2023-08-21T00:54:12.000,1,0,2,29,10,0,0,0,10,240,6,53.78279877,21/08/2023 8:53,21/08/2023 8:53,21/08/2023 8:54,21/08/2023 8:54,,"turnRight
+moveForward
+attack
+moveForward
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1741,696,For Loops_ Lesson 1,tutorial,,3x8,399,2023-08-21T00:55:03.000,2023-08-21T00:55:03.000,0,0,0,16,1,1,0,1,3,300,7,35.95589828,21/08/2023 8:54,21/08/2023 8:54,21/08/2023 8:55,21/08/2023 8:55,,"repeatCount = 1;
+while (repeatCount < 8)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1608,688,Commands_Lesson 2,tutorial,,7x7,390,2023-08-21T00:50:17.000,2023-08-21T00:50:17.000,0,0,1,32,3,2,0,2,7,300,6,63.89160156,21/08/2023 8:49,21/08/2023 8:49,21/08/2023 8:50,21/08/2023 8:50,,"repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+while (NotReachDest)
+{
+    moveForward
+}"
+T1,1587,690,Commands_Lesson 4,tutorial,,7x7,387,2023-08-21T00:49:42.000,2023-08-21T00:49:42.000,1,0,1,32,8,0,0,0,8,300,6,71.24220276,21/08/2023 8:49,21/08/2023 8:49,21/08/2023 8:50,21/08/2023 8:50,,"moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1633,691,Commands_Lesson 5,tutorial,,9x6,387,2023-08-21T00:51:02.000,2023-08-21T00:51:02.000,0,0,1,31,7,0,0,0,7,280,5,75.59200287,21/08/2023 8:50,21/08/2023 8:50,21/08/2023 8:51,21/08/2023 8:51,,"moveForward
+turnRight
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1590,690,Commands_Lesson 4,tutorial,,7x7,399,2023-08-21T00:49:46.000,2023-08-21T00:49:46.000,1,0,1,32,5,3,0,3,11,300,6,60.35910034,21/08/2023 8:49,21/08/2023 8:49,21/08/2023 8:50,21/08/2023 8:50,,"repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1684,692,Commands_Lesson 6,tutorial,,7x10,387,2023-08-21T00:52:45.000,2023-08-21T00:52:45.000,1,1,4,38,5,3,0,3,11,250,17,94.6292038,21/08/2023 8:51,21/08/2023 8:51,21/08/2023 8:53,21/08/2023 8:53,,"repeatCount = 1;
+while (repeatCount < 8)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 8)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1696,693,Commands_Lesson 7,tutorial,,3x5,387,2023-08-21T00:53:15.000,2023-08-21T00:53:15.000,0,0,1,10,5,0,0,0,5,280,4,24.45879936,21/08/2023 8:53,21/08/2023 8:53,21/08/2023 8:53,21/08/2023 8:53,,"moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1743,694,Commands_Lesson 8,tutorial,,9x5,387,2023-08-21T00:55:06.000,2023-08-21T00:55:06.000,1,0,2,29,9,0,0,0,9,220,6,106.1728973,21/08/2023 8:53,21/08/2023 8:53,21/08/2023 8:55,21/08/2023 8:55,,"turnRight
+moveForward
+attack
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1763,696,For Loops_ Lesson 1,tutorial,,3x8,387,2023-08-21T00:55:44.000,2023-08-21T00:55:44.000,0,0,0,16,1,1,0,1,3,300,7,30.64319992,21/08/2023 8:55,21/08/2023 8:55,21/08/2023 8:56,21/08/2023 8:56,,"repeatCount = 1;
+while (repeatCount < 8)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1641,688,Commands_Lesson 2,tutorial,,7x7,392,2023-08-21T00:51:16.000,2023-08-21T00:51:16.000,0,0,1,32,7,0,0,0,7,300,6,36.00899887,21/08/2023 8:51,21/08/2023 8:51,21/08/2023 8:51,21/08/2023 8:51,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1718,689,Commands_Lesson 3,tutorial,,7x7,392,2023-08-21T00:54:10.000,2023-08-21T00:54:10.000,0,0,0,33,15,0,0,0,15,300,12,87.43499756,21/08/2023 8:53,21/08/2023 8:53,21/08/2023 8:54,21/08/2023 8:54,,"moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1756,690,Commands_Lesson 4,tutorial,,7x7,392,2023-08-21T00:55:31.000,2023-08-21T00:55:31.000,1,0,1,32,8,0,0,0,8,300,6,55.95800018,21/08/2023 8:54,21/08/2023 8:55,21/08/2023 8:55,21/08/2023 8:55,,"moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1690,688,Commands_Lesson 2,tutorial,,7x7,445,2023-08-21T00:52:59.000,2023-08-21T00:56:23.000,0,0,1,32,7,0,0,0,7,300,6,705.8823242,21/08/2023 8:45,21/08/2023 8:45,21/08/2023 8:56,21/08/2023 8:56,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1721,689,Commands_Lesson 3,tutorial,,7x7,445,2023-08-21T00:54:25.000,2023-08-21T00:58:22.000,0,0,0,33,15,0,0,0,15,300,12,110.1998978,21/08/2023 8:57,21/08/2023 8:57,21/08/2023 8:58,21/08/2023 8:58,,"moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1659,689,Commands_Lesson 3,tutorial,,7x7,400,2023-08-21T00:52:05.000,2023-08-21T00:52:05.000,0,0,0,33,15,0,0,0,15,300,12,528.1618042,21/08/2023 8:43,21/08/2023 8:43,21/08/2023 8:52,21/08/2023 8:52,,"moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1699,690,Commands_Lesson 4,tutorial,,7x7,400,2023-08-21T00:53:17.000,2023-08-21T00:53:17.000,1,0,1,32,8,0,0,0,8,300,6,65.49330139,21/08/2023 8:52,21/08/2023 8:52,21/08/2023 8:53,21/08/2023 8:53,,"moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1615,690,Commands_Lesson 4,tutorial,,7x7,391,2023-08-21T00:50:28.000,2023-08-21T00:51:25.000,1,0,1,32,8,0,0,0,8,300,6,38.28170013,21/08/2023 8:51,21/08/2023 8:51,21/08/2023 8:51,21/08/2023 8:51,,"moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1717,691,Commands_Lesson 5,tutorial,,9x6,391,2023-08-21T00:54:08.000,2023-08-21T00:54:08.000,0,0,1,31,17,0,0,0,17,300,13,156.936203,21/08/2023 8:52,21/08/2023 8:52,21/08/2023 8:54,21/08/2023 8:54,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1631,692,Commands_Lesson 6,tutorial,,7x10,408,2023-08-21T00:51:01.000,2023-08-21T00:51:01.000,1,1,4,38,18,0,0,0,18,60,9,90.50700378,21/08/2023 8:49,21/08/2023 8:50,21/08/2023 8:51,21/08/2023 8:51,,"moveForward
+turnRight
+attack
+moveForward
+attack
+moveForward
+turnLeft
+moveForward
+moveForward
+turnRight
+moveForward
+turnRight
+moveForward
+moveForward
+turnLeft
+attack
+turnRight
+moveForward"
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+T1,1644,693,Commands_Lesson 7,tutorial,,3x5,408,2023-08-21T00:51:31.000,2023-08-21T00:51:31.000,0,0,1,10,5,0,0,0,5,260,4,25.16480064,21/08/2023 8:51,21/08/2023 8:51,21/08/2023 8:51,21/08/2023 8:52,,"moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1667,694,Commands_Lesson 8,tutorial,,9x5,408,2023-08-21T00:52:20.000,2023-08-21T00:52:20.000,1,0,2,29,9,0,0,0,9,220,6,44.47579956,21/08/2023 8:52,21/08/2023 8:52,21/08/2023 8:52,21/08/2023 8:52,,"turnRight
+moveForward
+attack
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1601,691,Commands_Lesson 5,tutorial,,9x6,385,2023-08-21T00:50:00.000,2023-08-21T00:50:00.000,0,0,1,31,7,0,0,0,7,280,5,166.4459991,21/08/2023 8:47,21/08/2023 8:47,21/08/2023 8:50,21/08/2023 8:50,,"moveForward
+turnRight
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1731,689,Commands_Lesson 3,tutorial,,7x7,411,2023-08-21T00:54:48.000,2023-08-21T00:54:48.000,0,0,0,33,16,0,0,0,16,300,12,411.2369995,21/08/2023 8:48,21/08/2023 8:48,21/08/2023 8:55,21/08/2023 8:55,,"moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1702,688,Commands_Lesson 2,tutorial,,7x7,427,2023-08-21T00:53:26.000,2023-08-21T00:53:26.000,0,0,1,32,3,2,0,2,7,300,6,470.5275879,21/08/2023 8:46,21/08/2023 8:46,21/08/2023 8:53,21/08/2023 8:53,,"repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1580,689,Commands_Lesson 3,tutorial,,7x7,216,2023-08-21T00:49:23.000,2023-08-21T00:49:23.000,0,0,0,33,15,0,0,0,15,300,12,192.1605988,21/08/2023 8:46,21/08/2023 8:46,21/08/2023 8:49,21/08/2023 8:49,,"moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1634,690,Commands_Lesson 4,tutorial,,7x7,216,2023-08-21T00:51:02.000,2023-08-21T00:51:02.000,1,0,1,32,8,0,0,0,8,300,6,79.27100372,21/08/2023 8:50,21/08/2023 8:50,21/08/2023 8:51,21/08/2023 8:51,,"moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1682,691,Commands_Lesson 5,tutorial,,9x6,216,2023-08-21T00:52:44.000,2023-08-21T00:52:44.000,0,0,1,31,16,0,0,0,16,300,13,96.0789032,21/08/2023 8:51,21/08/2023 8:51,21/08/2023 8:53,21/08/2023 8:53,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1750,692,Commands_Lesson 6,tutorial,,7x10,216,2023-08-21T00:55:17.000,2023-08-21T00:55:17.000,1,1,4,38,19,0,0,0,19,190,17,138.438797,21/08/2023 8:53,21/08/2023 8:53,21/08/2023 8:55,21/08/2023 8:55,,"moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,1708,689,Commands_Lesson 3,tutorial,,7x7,447,2023-08-21T00:53:45.000,2023-08-21T00:53:45.000,0,0,0,33,15,0,0,0,15,300,12,311.2221069,21/08/2023 8:48,21/08/2023 8:48,21/08/2023 8:54,21/08/2023 8:54,,"moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1762,690,Commands_Lesson 4,tutorial,,7x7,447,2023-08-21T00:55:40.000,2023-08-21T00:55:40.000,1,0,1,32,9,0,0,0,9,300,6,102.036499,21/08/2023 8:54,21/08/2023 8:54,21/08/2023 8:56,21/08/2023 8:56,,"moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1605,689,Commands_Lesson 3,tutorial,,7x7,379,2023-08-21T00:50:12.000,2023-08-21T00:50:12.000,0,0,0,33,7,4,0,4,15,300,12,129.4299011,21/08/2023 8:48,21/08/2023 8:49,21/08/2023 8:50,21/08/2023 8:50,,"repeatCount = 1;
+while (repeatCount < 5)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 5)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1666,687,Commands_Lesson 1,tutorial,,3x8,405,2023-08-21T00:52:18.000,2023-08-21T00:52:18.000,0,0,0,16,3,3,3,0,9,300,3,255.6419983,21/08/2023 8:48,21/08/2023 8:48,21/08/2023 8:52,21/08/2023 8:52,,"if (Dir == ""Forward"")
+{
+    moveForward
+}
+if (NotReachDest)
+{
+    moveForward
+}
+if (NotReachDest)
+{
+    moveForward
+}"
+T1,1589,687,Commands_Lesson 1,tutorial,,3x8,443,2023-08-21T00:49:45.000,2023-08-21T00:49:45.000,0,0,0,16,3,0,0,0,3,300,3,308.9049988,21/08/2023 8:44,21/08/2023 8:45,21/08/2023 8:50,21/08/2023 8:50,,"moveForward
+moveForward
+moveForward"
+T1,1625,688,Commands_Lesson 2,tutorial,,7x7,443,2023-08-21T00:50:50.000,2023-08-21T00:50:50.000,0,0,1,32,7,0,0,0,7,300,6,58.08599854,21/08/2023 8:50,21/08/2023 8:50,21/08/2023 8:51,21/08/2023 8:51,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1654,690,Commands_Lesson 4,tutorial,,7x7,403,2023-08-21T00:51:53.000,2023-08-21T00:51:53.000,1,0,1,32,8,0,0,0,8,300,6,71.3710022,21/08/2023 8:51,21/08/2023 8:51,21/08/2023 8:52,21/08/2023 8:52,,"moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1691,690,Commands_Lesson 4,tutorial,,7x7,382,2023-08-21T00:53:02.000,2023-08-21T00:53:02.000,1,0,1,32,9,0,0,0,9,300,6,238.2200012,21/08/2023 8:49,21/08/2023 8:49,21/08/2023 8:53,21/08/2023 8:53,,"moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+attack"
+T1,1748,691,Commands_Lesson 5,tutorial,,9x6,382,2023-08-21T00:55:14.000,2023-08-21T00:55:14.000,0,0,1,31,8,0,0,0,8,280,5,124.862999,21/08/2023 8:53,21/08/2023 8:53,21/08/2023 8:55,21/08/2023 8:55,,"moveForward
+turnRight
+moveForward
+attack
+moveForward
+moveForward
+moveForward
+attack"
+T1,1611,690,Commands_Lesson 4,tutorial,,7x7,375,2023-08-21T00:50:23.000,2023-08-21T00:50:23.000,1,0,1,32,8,0,0,0,8,300,6,35.80799866,21/08/2023 8:50,21/08/2023 8:50,21/08/2023 8:50,21/08/2023 8:50,,"moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1638,691,Commands_Lesson 5,tutorial,,9x6,375,2023-08-21T00:51:06.000,2023-08-21T00:51:06.000,0,0,1,31,7,0,0,0,7,280,5,36.72399902,21/08/2023 8:51,21/08/2023 8:51,21/08/2023 8:51,21/08/2023 8:51,,"moveForward
+turnRight
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1751,692,Commands_Lesson 6,tutorial,,7x10,375,2023-08-21T00:55:18.000,2023-08-21T00:55:18.000,1,1,4,38,17,0,0,0,17,120,9,247.0359955,21/08/2023 8:51,21/08/2023 8:51,21/08/2023 8:55,21/08/2023 8:55,,"moveForward
+turnRight
+attack
+moveForward
+attack
+moveForward
+moveForward
+moveForward
+attack
+turnLeft
+moveForward
+moveForward
+turnBack
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,1766,693,Commands_Lesson 7,tutorial,,3x5,375,2023-08-21T00:55:55.000,2023-08-21T00:55:55.000,0,0,1,10,5,0,0,0,5,280,4,33.24100113,21/08/2023 8:55,21/08/2023 8:56,21/08/2023 8:56,21/08/2023 8:56,,"moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1654,690,Commands_Lesson 4,tutorial,,7x7,403,2023-08-21T00:51:53.000,2023-08-21T00:51:53.000,1,0,1,32,8,0,0,0,8,300,6,71.3710022,21/08/2023 8:51,21/08/2023 8:51,21/08/2023 8:52,21/08/2023 8:52,,"moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1709,689,Commands_Lesson 3,tutorial,,7x7,449,2023-08-21T00:53:45.000,2023-08-21T00:53:45.000,0,0,0,33,15,0,0,0,15,300,12,246.1419983,21/08/2023 8:49,21/08/2023 8:50,21/08/2023 8:53,21/08/2023 8:53,,"moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1767,690,Commands_Lesson 4,tutorial,,7x7,449,2023-08-21T00:55:56.000,2023-08-21T00:55:56.000,1,0,1,32,9,0,0,0,9,300,6,123.5500031,21/08/2023 8:54,21/08/2023 8:55,21/08/2023 8:56,21/08/2023 8:56,,"moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1598,690,Commands_Lesson 4,tutorial,,7x7,383,2023-08-21T00:49:58.000,2023-08-21T00:49:58.000,1,0,1,32,8,0,0,0,8,300,6,29.63920021,21/08/2023 8:49,21/08/2023 8:50,21/08/2023 8:50,21/08/2023 8:50,,"moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1664,691,Commands_Lesson 5,tutorial,,9x6,383,2023-08-21T00:52:16.000,2023-08-21T00:52:16.000,0,0,1,31,8,1,1,0,10,280,5,123.7205963,21/08/2023 8:50,21/08/2023 8:51,21/08/2023 8:52,21/08/2023 8:52,,"moveForward
+turnRight
+moveForward
+moveForward
+if (Enemy In Front)
+{
+    attack
+}
+moveForward
+moveForward
+moveForward"
+T1,1714,692,Commands_Lesson 6,tutorial,,7x10,383,2023-08-21T00:54:00.000,2023-08-21T00:54:00.000,1,1,4,38,15,0,0,0,15,90,13,81.05180359,21/08/2023 8:53,21/08/2023 8:53,21/08/2023 8:54,21/08/2023 8:54,,"moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,1730,693,Commands_Lesson 7,tutorial,,3x5,383,2023-08-21T00:54:41.000,2023-08-21T00:54:41.000,0,0,1,10,6,1,1,0,8,280,4,34.13130188,21/08/2023 8:54,21/08/2023 8:54,21/08/2023 8:55,21/08/2023 8:55,,"moveForward
+moveForward
+if (Enemy In Front)
+{
+    attack
+}
+moveForward
+moveForward
+moveForward"
+T1,1581,690,Commands_Lesson 4,tutorial,,7x7,396,2023-08-21T00:49:27.000,2023-08-21T00:49:27.000,1,0,1,32,5,3,0,3,11,300,6,77.20899963,21/08/2023 8:48,21/08/2023 8:48,21/08/2023 8:49,21/08/2023 8:49,,"repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1662,691,Commands_Lesson 5,tutorial,,9x6,396,2023-08-21T00:52:08.000,2023-08-21T00:52:08.000,0,0,1,31,5,3,1,2,11,280,5,156.4181061,21/08/2023 8:50,21/08/2023 8:50,21/08/2023 8:52,21/08/2023 8:52,,"moveForward
+turnRight
+repeatCount = 1;
+while (repeatCount < 2)
+{
+    repeatCount add 1
+    moveForward
+}
+if (Enemy In Front)
+{
+    attack
+}
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1728,692,Commands_Lesson 6,tutorial,,7x10,396,2023-08-21T00:54:39.000,2023-08-21T00:54:39.000,1,1,4,38,5,3,0,3,11,90,13,120.6280975,21/08/2023 8:52,21/08/2023 8:53,21/08/2023 8:54,21/08/2023 8:54,,"repeatCount = 1;
+while (repeatCount < 6)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 6)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1688,688,Commands_Lesson 2,tutorial,,7x7,372,2023-08-21T00:52:52.000,2023-08-21T00:52:52.000,0,0,1,32,3,2,0,2,7,300,6,677.2545166,21/08/2023 8:42,21/08/2023 8:42,21/08/2023 8:53,21/08/2023 8:53,,"repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1591,688,Commands_Lesson 2,tutorial,,7x7,401,2023-08-21T00:49:47.000,2023-08-21T00:49:47.000,0,0,1,32,7,0,0,0,7,300,6,73.30799866,21/08/2023 8:49,21/08/2023 8:49,21/08/2023 8:50,21/08/2023 8:50,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1749,689,Commands_Lesson 3,tutorial,,7x7,401,2023-08-21T00:55:14.000,2023-08-21T00:55:14.000,0,0,0,33,15,0,0,0,15,300,12,322.0889893,21/08/2023 8:50,21/08/2023 8:50,21/08/2023 8:55,21/08/2023 8:55,,"moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1622,689,Commands_Lesson 3,tutorial,,7x7,386,2023-08-21T00:50:45.000,2023-08-21T00:50:45.000,0,0,0,33,15,1,0,1,17,300,12,155.4806061,21/08/2023 8:48,21/08/2023 8:48,21/08/2023 8:51,21/08/2023 8:51,,"while (NotReachDest)
+{
+    moveForward
+    moveForward
+    moveForward
+    moveForward
+    turnRight
+    moveForward
+    moveForward
+    moveForward
+    moveForward
+    turnRight
+    moveForward
+    moveForward
+    turnRight
+    moveForward
+    moveForward
+}"
+T1,1765,690,Commands_Lesson 4,tutorial,,7x7,386,2023-08-21T00:55:51.000,2023-08-21T00:55:51.000,1,0,1,32,8,1,0,1,10,300,6,287.5878906,21/08/2023 8:51,21/08/2023 8:51,21/08/2023 8:56,21/08/2023 8:56,,"while (NotReachDest)
+{
+    moveForward
+    moveForward
+    turnRight
+    moveForward
+    moveForward
+    turnRight
+    moveForward
+    moveForward
+}"
+T1,1624,690,Commands_Lesson 4,tutorial,,7x7,378,2023-08-21T00:50:48.000,2023-08-21T00:50:48.000,1,0,1,32,8,0,0,0,8,300,6,137.5039063,21/08/2023 8:49,21/08/2023 8:50,21/08/2023 8:51,21/08/2023 8:51,,"moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1596,687,Commands_Lesson 1,tutorial,,3x8,456,2023-08-21T00:49:52.000,2023-08-21T00:49:52.000,0,0,0,16,1,1,0,1,3,300,3,127.2900009,21/08/2023 8:47,21/08/2023 8:48,21/08/2023 8:49,21/08/2023 8:49,,"while (Dir == ""Forward"")
+{
+    moveForward
+}"
+T1,1583,687,Commands_Lesson 1,tutorial,,3x8,424,2023-08-21T00:49:33.000,2023-08-21T00:49:33.000,0,0,0,16,4,0,0,0,4,300,3,392.3609924,21/08/2023 8:43,21/08/2023 8:49,21/08/2023 8:50,21/08/2023 8:50,,"moveForward
+moveForward
+moveForward
+moveForward"
+T1,1636,688,Commands_Lesson 2,tutorial,,7x7,424,2023-08-21T00:51:05.000,2023-08-21T00:51:05.000,0,0,1,32,7,0,0,0,7,300,6,80.52999878,21/08/2023 8:50,21/08/2023 8:50,21/08/2023 8:51,21/08/2023 8:51,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1672,689,Commands_Lesson 3,tutorial,,7x7,424,2023-08-21T00:52:32.000,2023-08-21T00:52:32.000,0,0,0,33,15,0,0,0,15,300,12,69.3010025,21/08/2023 8:51,21/08/2023 8:51,21/08/2023 8:52,21/08/2023 8:52,,"moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1933,690,,tutorial,,,417,2023-08-21T01:02:48.000,2023-08-21T01:02:48.000,1,0,1,32,8,0,0,0,8,300,6,89.7960968,21/08/2023 9:01,21/08/2023 9:01,21/08/2023 9:02,21/08/2023 9:02,,"moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1727,690,Commands_Lesson 4,tutorial,,7x7,424,2023-08-21T00:54:36.000,2023-08-21T00:54:36.000,1,0,1,32,8,0,0,0,8,300,6,112.3089981,21/08/2023 8:53,21/08/2023 8:53,21/08/2023 8:55,21/08/2023 8:55,,"moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1724,689,Commands_Lesson 3,tutorial,,7x7,451,2023-08-21T00:54:33.000,2023-08-21T00:54:33.000,0,0,0,33,15,0,0,0,15,300,12,430.32901,21/08/2023 8:47,21/08/2023 8:47,21/08/2023 8:54,21/08/2023 8:55,,"moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1607,689,Commands_Lesson 3,tutorial,,7x7,416,2023-08-21T00:50:16.000,2023-08-21T00:50:16.000,0,0,0,33,16,0,0,0,16,300,12,41.62099838,21/08/2023 8:50,21/08/2023 8:50,21/08/2023 8:50,21/08/2023 8:50,,"moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1661,690,Commands_Lesson 4,tutorial,,7x7,416,2023-08-21T00:52:07.000,2023-08-21T00:52:07.000,1,0,1,32,8,0,0,0,8,300,6,43.97100067,21/08/2023 8:51,21/08/2023 8:51,21/08/2023 8:52,21/08/2023 8:52,,"moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1689,691,Commands_Lesson 5,tutorial,,9x6,416,2023-08-21T00:52:53.000,2023-08-21T00:52:53.000,0,0,1,31,8,0,0,0,8,280,5,41.45600128,21/08/2023 8:52,21/08/2023 8:52,21/08/2023 8:53,21/08/2023 8:53,,"moveForward
+turnRight
+moveForward
+attack
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,1714,692,Commands_Lesson 6,tutorial,,7x10,383,2023-08-21T00:54:00.000,2023-08-21T00:54:00.000,1,1,4,38,15,0,0,0,15,90,13,81.05180359,21/08/2023 8:53,21/08/2023 8:53,21/08/2023 8:54,21/08/2023 8:54,,"moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,1723,692,Commands_Lesson 6,tutorial,,7x10,416,2023-08-21T00:54:32.000,2023-08-21T00:54:32.000,1,1,4,38,19,0,0,0,19,190,17,93.4489975,21/08/2023 8:53,21/08/2023 8:53,21/08/2023 8:54,21/08/2023 8:55,,"moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,1738,693,Commands_Lesson 7,tutorial,,3x5,416,2023-08-21T00:54:57.000,2023-08-21T00:54:57.000,0,0,1,10,5,0,0,0,5,280,4,20.15299988,21/08/2023 8:55,21/08/2023 8:55,21/08/2023 8:55,21/08/2023 8:55,,"moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1759,694,Commands_Lesson 8,tutorial,,9x5,416,2023-08-21T00:55:36.000,2023-08-21T00:55:36.000,1,0,2,29,9,0,0,0,9,220,6,33.82600021,21/08/2023 8:55,21/08/2023 8:55,21/08/2023 8:56,21/08/2023 8:56,,"turnRight
+moveForward
+attack
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1768,696,For Loops_ Lesson 1,tutorial,,3x8,416,2023-08-21T00:55:58.000,2023-08-21T00:55:58.000,0,0,0,16,1,1,0,1,3,300,7,17.8560009,21/08/2023 8:56,21/08/2023 8:56,21/08/2023 8:56,21/08/2023 8:56,,"while (NotReachDest)
+{
+    moveForward
+}"
+T1,1896,689,Commands_Lesson 3,tutorial,,7x7,417,2023-08-21T01:00:42.000,2023-08-21T01:00:42.000,0,0,0,33,15,0,0,0,15,300,12,530.6738892,21/08/2023 8:52,21/08/2023 8:52,21/08/2023 9:00,21/08/2023 9:00,,"moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1933,690,Commands_Lesson 4,tutorial,,7x7,417,2023-08-21T01:02:48.000,2023-08-21T01:02:48.000,1,0,1,32,8,0,0,0,8,300,6,89.7960968,21/08/2023 9:01,21/08/2023 9:01,21/08/2023 9:02,21/08/2023 9:02,,"moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1894,691,Commands_Lesson 5,tutorial,,9x6,421,2023-08-21T01:00:40.000,2023-08-21T01:00:40.000,0,0,1,31,16,0,0,0,16,300,13,484.4949951,21/08/2023 8:53,21/08/2023 8:53,21/08/2023 9:00,21/08/2023 9:01,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1923,692,Commands_Lesson 6,tutorial,,7x10,421,2023-08-21T01:02:17.000,2023-08-21T01:02:17.000,1,1,4,38,15,0,0,0,15,90,13,85.81400299,21/08/2023 9:01,21/08/2023 9:01,21/08/2023 9:02,21/08/2023 9:02,,"moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,1942,693,Commands_Lesson 7,tutorial,,3x5,421,2023-08-21T01:03:10.000,2023-08-21T01:03:10.000,0,0,1,10,5,0,0,0,5,280,4,45.36050034,21/08/2023 9:02,21/08/2023 9:03,21/08/2023 9:03,21/08/2023 9:03,,"moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1964,694,Commands_Lesson 8,tutorial,,9x5,421,2023-08-21T01:04:22.000,2023-08-21T01:04:22.000,1,0,2,29,9,0,0,0,9,240,6,68.17120361,21/08/2023 9:03,21/08/2023 9:03,21/08/2023 9:04,21/08/2023 9:04,,"turnRight
+moveForward
+attack
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1814,692,Commands_Lesson 6,tutorial,,7x10,407,2023-08-21T00:57:34.000,2023-08-21T00:57:34.000,1,1,4,38,11,1,0,1,13,90,13,226.9808044,21/08/2023 8:54,21/08/2023 8:55,21/08/2023 8:57,21/08/2023 8:57,,"moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+turnRight
+while (Dir == ""Forward"")
+{
+    moveForward
+}"
+T1,1851,693,Commands_Lesson 7,tutorial,,3x5,407,2023-08-21T00:58:54.000,2023-08-21T00:58:54.000,0,0,1,10,6,2,1,1,10,280,4,75.34320068,21/08/2023 8:58,21/08/2023 8:58,21/08/2023 8:59,21/08/2023 8:59,,"while (Dir == ""Forward"")
+{
+    moveForward
+}
+if (Enemy In Front)
+{
+    attack
+}
+else
+{
+    moveForward
+}
+moveForward
+moveForward
+moveForward"
+T1,1944,694,Commands_Lesson 8,tutorial,,9x5,407,2023-08-21T01:03:11.000,2023-08-21T01:03:11.000,1,0,2,29,9,0,0,0,9,220,6,251.1324005,21/08/2023 8:59,21/08/2023 8:59,21/08/2023 9:03,21/08/2023 9:03,,"turnRight
+moveForward
+attack
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1771,693,Commands_Lesson 7,tutorial,,3x5,409,2023-08-21T00:56:05.000,2023-08-21T00:56:05.000,0,0,1,10,5,0,0,0,5,280,4,66.55799866,21/08/2023 8:55,21/08/2023 8:55,21/08/2023 8:56,21/08/2023 8:56,,"moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1714,692,Commands_Lesson 6,tutorial,,7x10,383,2023-08-21T00:54:00.000,2023-08-21T00:54:00.000,1,1,4,38,15,0,0,0,15,90,13,81.05180359,21/08/2023 8:53,21/08/2023 8:53,21/08/2023 8:54,21/08/2023 8:54,,"moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,1872,694,Commands_Lesson 8,tutorial,,9x5,409,2023-08-21T00:59:43.000,2023-08-21T00:59:43.000,1,0,2,29,10,0,0,0,10,240,6,211.3630066,21/08/2023 8:56,21/08/2023 8:58,21/08/2023 9:00,21/08/2023 9:00,,"turnRight
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1889,696,For Loops_ Lesson 1,tutorial,,3x8,409,2023-08-21T01:00:23.000,2023-08-21T01:00:23.000,0,0,0,16,7,0,0,0,7,300,7,35.41500092,21/08/2023 9:00,21/08/2023 9:00,21/08/2023 9:00,21/08/2023 9:00,,"moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,1938,700,For Loops_Lesson 5,tutorial,,5x11,409,2023-08-21T01:03:05.000,2023-08-21T01:03:05.000,2,0,1,38,19,0,0,0,19,240,10,144.7510071,21/08/2023 9:01,21/08/2023 9:01,21/08/2023 9:03,21/08/2023 9:03,,"moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+attack
+moveForward
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward"
+T1,1773,690,Commands_Lesson 4,tutorial,,7x7,374,2023-08-21T00:56:08.000,2023-08-21T00:56:08.000,1,0,1,32,8,0,0,0,8,300,6,188.8769989,21/08/2023 8:53,21/08/2023 8:53,21/08/2023 8:56,21/08/2023 8:56,,"moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1805,691,Commands_Lesson 5,tutorial,,9x6,374,2023-08-21T00:57:20.000,2023-08-21T00:57:20.000,0,0,1,31,8,0,0,0,8,280,5,64.74299622,21/08/2023 8:56,21/08/2023 8:56,21/08/2023 8:57,21/08/2023 8:57,,"moveForward
+turnRight
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1867,692,Commands_Lesson 6,tutorial,,7x10,374,2023-08-21T00:59:33.000,2023-08-21T00:59:33.000,1,1,4,38,19,0,0,0,19,190,17,126.2460022,21/08/2023 8:57,21/08/2023 8:58,21/08/2023 8:59,21/08/2023 9:00,,"moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,1911,693,Commands_Lesson 7,tutorial,,3x5,374,2023-08-21T01:01:32.000,2023-08-21T01:01:32.000,0,0,1,10,5,0,0,0,5,280,4,31.26300049,21/08/2023 9:01,21/08/2023 9:01,21/08/2023 9:01,21/08/2023 9:02,,"moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1936,694,Commands_Lesson 8,tutorial,,9x5,374,2023-08-21T01:02:59.000,2023-08-21T01:02:59.000,1,0,2,29,9,0,0,0,9,240,6,82.18000031,21/08/2023 9:02,21/08/2023 9:02,21/08/2023 9:03,21/08/2023 9:03,,"turnRight
+moveForward
+attack
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1959,696,For Loops_ Lesson 1,tutorial,,3x8,374,2023-08-21T01:04:07.000,2023-08-21T01:04:07.000,0,0,0,16,2,2,1,1,6,300,7,51.7120018,21/08/2023 9:03,21/08/2023 9:03,21/08/2023 9:04,21/08/2023 9:04,,"if (NotReachDest)
+{
+    moveForward
+}
+repeatCount = 1;
+while (repeatCount < 8)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1774,692,Commands_Lesson 6,tutorial,,7x10,410,2023-08-21T00:56:14.000,2023-08-21T00:56:14.000,1,1,4,38,19,0,0,0,19,250,17,85.67749786,21/08/2023 8:55,21/08/2023 8:55,21/08/2023 8:56,21/08/2023 8:56,,"moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,1828,693,Commands_Lesson 7,tutorial,,3x5,410,2023-08-21T00:57:56.000,2023-08-21T00:57:56.000,0,0,1,10,6,1,0,1,8,280,4,94.51879883,21/08/2023 8:56,21/08/2023 8:56,21/08/2023 8:58,21/08/2023 8:58,,"moveForward
+moveForward
+while (Enemy In Front)
+{
+    attack
+}
+moveForward
+moveForward
+moveForward"
+T1,1795,694,Commands_Lesson 8,tutorial,,9x5,377,2023-08-21T00:57:00.000,2023-08-21T00:57:00.000,1,0,2,29,9,0,0,0,9,220,6,98.13510132,21/08/2023 8:55,21/08/2023 8:55,21/08/2023 8:57,21/08/2023 8:57,,"turnRight
+moveForward
+attack
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1819,696,For Loops_ Lesson 1,tutorial,,3x8,377,2023-08-21T00:57:38.000,2023-08-21T00:57:38.000,0,0,0,16,7,0,0,0,7,300,7,30.38780022,21/08/2023 8:57,21/08/2023 8:57,21/08/2023 8:58,21/08/2023 8:58,,"moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,1882,700,For Loops_Lesson 5,tutorial,,5x11,377,2023-08-21T00:59:57.000,2023-08-21T00:59:57.000,2,0,1,38,19,0,0,0,19,240,10,130.3988953,21/08/2023 8:58,21/08/2023 8:58,21/08/2023 9:00,21/08/2023 9:00,,"moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+attack
+moveForward
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward"
+T1,1916,702,For Loops_Lesson 7,tutorial,,7x7,377,2023-08-21T01:01:43.000,2023-08-21T01:01:43.000,2,3,2,20,14,0,0,0,14,350,10,94.25370026,21/08/2023 9:00,21/08/2023 9:00,21/08/2023 9:02,21/08/2023 9:02,,"moveForward
+moveForward
+turnBack
+moveForward
+moveForward
+moveForward
+moveForward
+turnBack
+moveForward
+moveForward
+turnLeft
+attack
+moveForward
+moveForward"
+T1,1928,704,Conditions_Lesson 1,tutorial,,5x5,377,2023-08-21T01:02:25.000,2023-08-21T01:02:25.000,0,0,1,10,7,0,0,0,7,300,6,30.4048996,21/08/2023 9:02,21/08/2023 9:02,21/08/2023 9:02,21/08/2023 9:02,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1934,706,Conditions_Lesson 3,tutorial,,3x7,377,2023-08-21T01:02:53.000,2023-08-21T01:02:53.000,0,0,1,6,5,0,0,0,5,240,4,19.24010086,21/08/2023 9:03,21/08/2023 9:03,21/08/2023 9:03,21/08/2023 9:03,,"moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1963,707,Conditions_Lesson 4,tutorial,,4x9,377,2023-08-21T01:04:19.000,2023-08-21T01:04:19.000,3,0,1,17,18,0,0,0,18,270,10,78.47049713,21/08/2023 9:03,21/08/2023 9:03,21/08/2023 9:04,21/08/2023 9:04,,"moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward"
+T1,1963,707,Conditions_Lesson 4,tutorial,,4x9,377,2023-08-21T01:04:19.000,2023-08-21T01:04:19.000,3,0,1,17,18,0,0,0,18,270,10,78.47049713,21/08/2023 9:03,21/08/2023 9:03,21/08/2023 9:04,21/08/2023 9:04,,"moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward"
+T1,1810,691,Commands_Lesson 5,tutorial,,9x6,402,2023-08-21T00:57:30.000,2023-08-21T00:57:30.000,0,0,1,31,8,0,0,0,8,280,5,100.3611984,21/08/2023 8:56,21/08/2023 8:56,21/08/2023 8:57,21/08/2023 8:57,,"moveForward
+turnRight
+moveForward
+attack
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,1888,692,Commands_Lesson 6,tutorial,,7x10,402,2023-08-21T01:00:16.000,2023-08-21T01:00:16.000,1,1,4,38,5,3,0,3,11,190,17,156.8061981,21/08/2023 8:58,21/08/2023 8:58,21/08/2023 9:00,21/08/2023 9:00,,"repeatCount = 1;
+while (repeatCount < 8)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 8)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1910,693,Commands_Lesson 7,tutorial,,3x5,402,2023-08-21T01:01:30.000,2023-08-21T01:01:30.000,0,0,1,10,6,0,0,0,6,280,4,51.72520065,21/08/2023 9:01,21/08/2023 9:01,21/08/2023 9:01,21/08/2023 9:01,,"moveForward
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+T1,1946,694,Commands_Lesson 8,tutorial,,9x5,402,2023-08-21T01:03:17.000,2023-08-21T01:03:17.000,1,0,2,29,9,0,0,0,9,240,6,99.5848999,21/08/2023 9:02,21/08/2023 9:02,21/08/2023 9:03,21/08/2023 9:03,,"turnRight
+moveForward
+attack
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1956,696,For Loops_ Lesson 1,tutorial,,3x8,402,2023-08-21T01:03:58.000,2023-08-21T01:03:58.000,0,0,0,16,1,1,0,1,3,300,7,34.50370026,21/08/2023 9:03,21/08/2023 9:03,21/08/2023 9:04,21/08/2023 9:04,,"repeatCount = 1;
+while (repeatCount < 8)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1861,689,Commands_Lesson 3,tutorial,,7x7,381,2023-08-21T00:59:19.000,2023-08-21T00:59:19.000,0,0,0,33,19,0,0,0,19,300,12,194.0010071,21/08/2023 8:56,21/08/2023 8:56,21/08/2023 8:59,21/08/2023 8:59,,"moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1914,690,Commands_Lesson 4,tutorial,,7x7,381,2023-08-21T01:01:42.000,2023-08-21T01:01:42.000,1,0,1,32,10,0,0,0,10,300,6,132.9470062,21/08/2023 9:00,21/08/2023 9:00,21/08/2023 9:02,21/08/2023 9:02,,"moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,1787,689,Commands_Lesson 3,tutorial,,7x7,390,2023-08-21T00:56:44.000,2023-08-21T00:56:44.000,0,0,0,33,8,3,0,3,14,300,12,377.1076965,21/08/2023 8:50,21/08/2023 8:51,21/08/2023 8:57,21/08/2023 8:57,,"repeatCount = 1;
+while (repeatCount < 5)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 5)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+moveForward
+moveForward"
+T1,1918,690,Commands_Lesson 4,tutorial,,7x7,390,2023-08-21T01:01:47.000,2023-08-21T01:01:47.000,1,0,1,32,2,2,0,2,6,300,6,104.2181015,21/08/2023 9:00,21/08/2023 9:00,21/08/2023 9:02,21/08/2023 9:02,,"repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    repeatCount = 1;
+    while (repeatCount < 3)
+    {
+        repeatCount add 1
+        moveForward
+    }
+    turnRight
+}"
+T1,1965,691,Commands_Lesson 5,tutorial,,9x6,390,2023-08-21T01:04:25.000,2023-08-21T01:04:25.000,0,0,1,31,9,1,1,0,11,260,5,138.9494019,21/08/2023 9:02,21/08/2023 9:02,21/08/2023 9:04,21/08/2023 9:04,,"moveForward
+turnRight
+moveForward
+moveForward
+if (Enemy In Front)
+{
+    attack
+}
+else
+{
+    moveForward
+}
+moveForward
+moveForward
+moveForward"
+T1,1849,691,Commands_Lesson 5,tutorial,,9x6,392,2023-08-21T00:58:42.000,2023-08-21T00:58:42.000,0,0,1,31,16,0,0,0,16,300,13,179.75,21/08/2023 8:56,21/08/2023 8:56,21/08/2023 8:59,21/08/2023 8:59,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1913,692,Commands_Lesson 6,tutorial,,7x10,392,2023-08-21T01:01:38.000,2023-08-21T01:01:38.000,1,1,4,38,19,0,0,0,19,190,17,167.2700043,21/08/2023 8:59,21/08/2023 8:59,21/08/2023 9:01,21/08/2023 9:02,,"moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,1943,693,Commands_Lesson 7,tutorial,,3x5,392,2023-08-21T01:03:11.000,2023-08-21T01:03:11.000,0,0,1,10,5,0,0,0,5,280,4,36.5909996,21/08/2023 9:03,21/08/2023 9:03,21/08/2023 9:03,21/08/2023 9:03,,"moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1856,690,Commands_Lesson 4,tutorial,,7x7,445,2023-08-21T00:59:03.000,2023-08-21T00:59:03.000,1,0,1,32,8,0,0,0,8,300,6,220.6109924,21/08/2023 8:55,21/08/2023 8:55,21/08/2023 8:59,21/08/2023 8:59,,"moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1816,691,Commands_Lesson 5,tutorial,,9x6,400,2023-08-21T00:57:35.000,2023-08-21T00:57:35.000,0,0,1,31,9,0,0,0,9,280,5,248.7210999,21/08/2023 8:53,21/08/2023 8:54,21/08/2023 8:58,21/08/2023 8:58,,"moveForward
+turnRight
+moveForward
+attack
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward"
+T1,1897,692,Commands_Lesson 6,tutorial,,7x10,400,2023-08-21T01:00:44.000,2023-08-21T01:00:44.000,1,1,4,38,5,3,0,3,11,190,17,181.7124023,21/08/2023 8:58,21/08/2023 8:58,21/08/2023 9:00,21/08/2023 9:01,,"repeatCount = 1;
+while (repeatCount < 8)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 8)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1927,693,Commands_Lesson 7,tutorial,,3x5,400,2023-08-21T01:02:23.000,2023-08-21T01:02:23.000,0,0,1,10,5,0,0,0,5,260,4,83.07910156,21/08/2023 9:01,21/08/2023 9:01,21/08/2023 9:02,21/08/2023 9:02,,"moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1949,694,Commands_Lesson 8,tutorial,,9x5,400,2023-08-21T01:03:24.000,2023-08-21T01:03:24.000,1,0,2,29,9,0,0,0,9,240,6,53.79449844,21/08/2023 9:03,21/08/2023 9:03,21/08/2023 9:03,21/08/2023 9:03,,"turnRight
+moveForward
+attack
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1955,696,For Loops_ Lesson 1,tutorial,,3x8,400,2023-08-21T01:03:49.000,2023-08-21T01:03:49.000,0,0,0,16,1,1,0,1,3,300,7,18.10160065,21/08/2023 9:04,21/08/2023 9:04,21/08/2023 9:04,21/08/2023 9:04,,"while (NotReachDest)
+{
+    moveForward
+}"
+T1,1857,692,Commands_Lesson 6,tutorial,,7x10,391,2023-08-21T00:59:06.000,2023-08-21T00:59:06.000,1,1,4,38,5,3,0,3,11,190,17,289.9450073,21/08/2023 8:54,21/08/2023 8:55,21/08/2023 8:59,21/08/2023 8:59,,"repeatCount = 1;
+while (repeatCount < 8)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 8)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1903,693,Commands_Lesson 7,tutorial,,3x5,391,2023-08-21T01:01:06.000,2023-08-21T01:01:06.000,0,0,1,10,7,1,1,0,9,280,4,112.4384003,21/08/2023 8:59,21/08/2023 8:59,21/08/2023 9:01,21/08/2023 9:01,,"moveForward
+moveForward
+if (Enemy In Front)
+{
+    attack
+}
+else
+{
+    moveForward
+}
+moveForward
+moveForward
+moveForward"
+T1,1958,694,Commands_Lesson 8,tutorial,,9x5,391,2023-08-21T01:04:06.000,2023-08-21T01:04:06.000,1,0,2,29,13,2,2,0,17,240,6,168.9833069,21/08/2023 9:01,21/08/2023 9:02,21/08/2023 9:04,21/08/2023 9:04,,"turnRight
+moveForward
+moveForward
+if (Enemy In Front)
+{
+    attack
+}
+else
+{
+    moveForward
+}
+moveForward
+moveForward
+moveForward
+if (Enemy In Front)
+{
+    attack
+}
+else
+{
+    moveForward
+}
+moveForward
+moveForward
+moveForward"
+T1,1770,696,For Loops_ Lesson 1,tutorial,,3x8,408,2023-08-21T00:56:02.000,2023-08-21T00:57:40.000,0,0,0,16,1,1,0,1,3,300,7,22.69669914,21/08/2023 8:57,21/08/2023 8:57,21/08/2023 8:58,21/08/2023 8:58,,"repeatCount = 1;
+while (repeatCount < 8)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1932,700,For Loops_Lesson 5,tutorial,,5x11,408,2023-08-21T01:02:48.000,2023-08-21T01:06:25.000,2,0,1,38,11,2,0,2,15,240,10,163.0841064,21/08/2023 9:04,21/08/2023 9:04,21/08/2023 9:06,21/08/2023 9:06,,"repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+    turnRight
+    moveForward
+    turnLeft
+}
+attack
+moveForward
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+    turnLeft
+    moveForward
+    turnRight
+}
+moveForward"
+T1,1825,692,Commands_Lesson 6,tutorial,,7x10,385,2023-08-21T00:57:53.000,2023-08-21T00:57:53.000,1,1,4,38,9,3,0,3,15,160,17,266.1524048,21/08/2023 8:53,21/08/2023 8:54,21/08/2023 8:58,21/08/2023 8:58,,"repeatCount = 1;
+while (repeatCount < 8)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 7)
+{
+    repeatCount add 1
+    moveForward
+}
+turnLeft
+attack
+turnRight
+moveForward"
+T1,1884,693,Commands_Lesson 7,tutorial,,3x5,385,2023-08-21T00:59:59.000,2023-08-21T00:59:59.000,0,0,1,10,5,1,0,1,7,280,4,111.9705963,21/08/2023 8:58,21/08/2023 8:58,21/08/2023 9:00,21/08/2023 9:00,,"repeatCount = 1;
+while (repeatCount < 2)
+{
+    repeatCount add 1
+    moveForward
+}
+attack
+moveForward
+moveForward
+moveForward"
+T1,1929,694,Commands_Lesson 8,tutorial,,9x5,385,2023-08-21T01:02:29.000,2023-08-21T01:08:36.000,1,0,2,29,3,2,1,1,7,240,6,57.40179825,21/08/2023 9:08,21/08/2023 9:08,21/08/2023 9:08,21/08/2023 9:09,,"turnRight
+while (NotReachDest)
+{
+    if (Enemy In Front)
+    {
+        attack
+    }
+    else
+    {
+        moveForward
+    }
+}"
+T1,1868,690,Commands_Lesson 4,tutorial,,7x7,411,2023-08-21T00:59:35.000,2023-08-21T00:59:35.000,1,0,1,32,11,0,0,0,11,300,6,280.57901,21/08/2023 8:55,21/08/2023 8:57,21/08/2023 9:00,21/08/2023 9:00,,"turnLeft
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1924,691,Commands_Lesson 5,tutorial,,9x6,411,2023-08-21T01:02:21.000,2023-08-21T01:02:21.000,0,0,1,31,17,0,0,0,17,300,13,154.4519958,21/08/2023 9:00,21/08/2023 9:00,21/08/2023 9:02,21/08/2023 9:02,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1781,693,Commands_Lesson 7,tutorial,,3x5,216,2023-08-21T00:56:33.000,2023-08-21T00:56:33.000,0,0,1,10,5,0,0,0,5,280,4,62.61500168,21/08/2023 8:56,21/08/2023 8:56,21/08/2023 8:56,21/08/2023 8:57,,"moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1843,694,Commands_Lesson 8,tutorial,,9x5,216,2023-08-21T00:58:36.000,2023-08-21T00:58:36.000,1,0,2,29,9,0,0,0,9,240,6,112.2069016,21/08/2023 8:57,21/08/2023 8:57,21/08/2023 8:58,21/08/2023 8:59,,"turnRight
+moveForward
+attack
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1902,696,For Loops_ Lesson 1,tutorial,,3x8,216,2023-08-21T01:01:05.000,2023-08-21T01:01:05.000,0,0,0,16,1,1,0,1,3,300,7,143.3518066,21/08/2023 8:59,21/08/2023 8:59,21/08/2023 9:01,21/08/2023 9:01,,"while (NotReachDest)
+{
+    moveForward
+}"
+T1,1813,691,Commands_Lesson 5,tutorial,,9x6,447,2023-08-21T00:57:32.000,2023-08-21T00:57:32.000,0,0,1,31,7,0,0,0,7,280,5,93.64399719,21/08/2023 8:56,21/08/2023 8:56,21/08/2023 8:57,21/08/2023 8:57,,"moveForward
+turnRight
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1859,692,Commands_Lesson 6,tutorial,,7x10,447,2023-08-21T00:59:11.000,2023-08-21T00:59:11.000,1,1,4,38,12,0,0,0,12,90,9,88.46459961,21/08/2023 8:58,21/08/2023 8:58,21/08/2023 8:59,21/08/2023 8:59,,"moveForward
+moveForward
+moveForward
+turnRight
+attack
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1879,693,Commands_Lesson 7,tutorial,,3x5,447,2023-08-21T00:59:51.000,2023-08-21T00:59:51.000,0,0,1,10,5,0,0,0,5,280,4,29.29969978,21/08/2023 8:59,21/08/2023 8:59,21/08/2023 9:00,21/08/2023 9:00,,"moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1901,694,Commands_Lesson 8,tutorial,,9x5,447,2023-08-21T01:01:01.000,2023-08-21T01:01:01.000,1,0,2,29,10,0,0,0,10,240,6,61.4552002,21/08/2023 9:00,21/08/2023 9:00,21/08/2023 9:01,21/08/2023 9:01,,"turnRight
+moveForward
+attack
+moveForward
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1930,696,For Loops_ Lesson 1,tutorial,,3x8,447,2023-08-21T01:02:31.000,2023-08-21T01:02:31.000,0,0,0,16,7,0,0,0,7,300,7,58.2038002,21/08/2023 9:02,21/08/2023 9:02,21/08/2023 9:02,21/08/2023 9:02,,"moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,1966,700,For Loops_Lesson 5,tutorial,,5x11,447,2023-08-21T01:04:27.000,2023-08-21T01:04:27.000,2,0,1,38,19,0,0,0,19,240,10,110.629303,21/08/2023 9:03,21/08/2023 9:03,21/08/2023 9:04,21/08/2023 9:04,,"moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+attack
+moveForward
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward"
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+T1,1782,690,Commands_Lesson 4,tutorial,,7x7,379,2023-08-21T00:56:41.000,2023-08-21T00:56:41.000,1,0,1,32,5,3,0,3,11,300,6,204.3979034,21/08/2023 8:53,21/08/2023 8:53,21/08/2023 8:57,21/08/2023 8:57,,"repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1829,691,Commands_Lesson 5,tutorial,,9x6,379,2023-08-21T00:57:59.000,2023-08-21T00:57:59.000,0,0,1,31,6,1,0,1,8,260,5,70.47920227,21/08/2023 8:57,21/08/2023 8:57,21/08/2023 8:58,21/08/2023 8:58,,"moveForward
+turnRight
+moveForward
+moveForward
+attack
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1878,692,Commands_Lesson 6,tutorial,,7x10,379,2023-08-21T00:59:46.000,2023-08-21T00:59:46.000,1,1,4,38,5,3,0,3,11,190,17,96.96530151,21/08/2023 8:58,21/08/2023 8:58,21/08/2023 9:00,21/08/2023 9:00,,"repeatCount = 1;
+while (repeatCount < 8)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 8)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1898,693,Commands_Lesson 7,tutorial,,3x5,379,2023-08-21T01:00:49.000,2023-08-21T01:00:49.000,0,0,1,10,3,1,0,1,5,280,4,57.39709854,21/08/2023 9:00,21/08/2023 9:00,21/08/2023 9:01,21/08/2023 9:01,,"moveForward
+attack
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1941,694,Commands_Lesson 8,tutorial,,9x5,379,2023-08-21T01:03:08.000,2023-08-21T01:03:08.000,1,0,2,29,6,2,0,2,10,220,6,134.2785034,21/08/2023 9:01,21/08/2023 9:01,21/08/2023 9:03,21/08/2023 9:03,,"turnRight
+moveForward
+attack
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+attack
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1953,696,For Loops_ Lesson 1,tutorial,,3x8,379,2023-08-21T01:03:44.000,2023-08-21T01:03:44.000,0,0,0,16,1,1,0,1,3,300,7,27.94720078,21/08/2023 9:03,21/08/2023 9:03,21/08/2023 9:04,21/08/2023 9:04,,"repeatCount = 1;
+while (repeatCount < 8)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1881,688,Commands_Lesson 2,tutorial,,7x7,405,2023-08-21T00:59:57.000,2023-08-21T00:59:57.000,0,0,1,32,7,0,0,0,7,300,6,454.2359924,21/08/2023 8:52,21/08/2023 8:58,21/08/2023 9:00,21/08/2023 9:00,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1922,689,Commands_Lesson 3,tutorial,,7x7,405,2023-08-21T01:02:14.000,2023-08-21T01:02:14.000,0,0,0,33,15,0,0,0,15,300,12,132.7070007,21/08/2023 9:00,21/08/2023 9:00,21/08/2023 9:02,21/08/2023 9:02,,"moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1772,689,Commands_Lesson 3,tutorial,,7x7,448,2023-08-21T00:56:07.000,2023-08-21T00:56:07.000,0,0,0,33,16,0,0,0,16,300,12,529.0079956,21/08/2023 8:47,21/08/2023 8:48,21/08/2023 8:56,21/08/2023 8:56,,"moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1804,690,Commands_Lesson 4,tutorial,,7x7,448,2023-08-21T00:57:12.000,2023-08-21T00:57:12.000,1,0,1,32,9,0,0,0,9,300,6,60.60699844,21/08/2023 8:56,21/08/2023 8:56,21/08/2023 8:57,21/08/2023 8:57,,"moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1909,691,Commands_Lesson 5,tutorial,,9x6,448,2023-08-21T01:01:29.000,2023-08-21T01:01:29.000,0,0,1,31,8,0,0,0,8,280,5,248.8849945,21/08/2023 8:57,21/08/2023 8:57,21/08/2023 9:01,21/08/2023 9:01,,"moveForward
+turnRight
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1947,692,Commands_Lesson 6,tutorial,,7x10,448,2023-08-21T01:03:19.000,2023-08-21T01:03:19.000,1,1,4,38,19,0,0,0,19,190,17,105.0390015,21/08/2023 9:02,21/08/2023 9:02,21/08/2023 9:03,21/08/2023 9:03,,"moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,1957,693,Commands_Lesson 7,tutorial,,3x5,448,2023-08-21T01:03:58.000,2023-08-21T01:03:58.000,0,0,1,10,6,0,0,0,6,260,4,32.45999908,21/08/2023 9:03,21/08/2023 9:04,21/08/2023 9:04,21/08/2023 9:04,,"moveForward
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1960,689,Commands_Lesson 3,tutorial,,7x7,443,2023-08-21T01:04:07.000,2023-08-21T01:04:07.000,0,0,0,33,16,0,0,0,16,300,12,791.4780273,21/08/2023 8:51,21/08/2023 8:51,21/08/2023 9:04,21/08/2023 9:04,,"moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1785,692,Commands_Lesson 6,tutorial,,7x10,382,2023-08-21T00:56:42.000,2023-08-21T00:56:42.000,1,1,4,38,19,0,0,0,19,190,17,81.08100128,21/08/2023 8:55,21/08/2023 8:56,21/08/2023 8:57,21/08/2023 8:57,,"moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,1811,693,Commands_Lesson 7,tutorial,,3x5,382,2023-08-21T00:57:30.000,2023-08-21T00:57:30.000,0,0,1,10,6,0,0,0,6,280,4,41.59700012,21/08/2023 8:57,21/08/2023 8:57,21/08/2023 8:57,21/08/2023 8:58,,"moveForward
+attack
+moveForward
+moveForward
+moveForward
+attack"
+T1,1848,694,Commands_Lesson 8,tutorial,,9x5,382,2023-08-21T00:58:39.000,2023-08-21T00:58:39.000,1,0,2,29,12,0,0,0,12,240,6,62.77999878,21/08/2023 8:58,21/08/2023 8:58,21/08/2023 8:59,21/08/2023 8:59,,"turnRight
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+moveForward
+moveForward
+attack"
+T1,1860,696,For Loops_ Lesson 1,tutorial,,3x8,382,2023-08-21T00:59:16.000,2023-08-21T00:59:16.000,0,0,0,16,7,0,0,0,7,300,7,31.24699974,21/08/2023 8:59,21/08/2023 8:59,21/08/2023 8:59,21/08/2023 8:59,,"moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,1908,700,For Loops_Lesson 5,tutorial,,5x11,382,2023-08-21T01:01:26.000,2023-08-21T01:01:26.000,2,0,1,38,23,0,0,0,23,240,10,125.9990005,21/08/2023 8:59,21/08/2023 8:59,21/08/2023 9:01,21/08/2023 9:01,,"moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+moveForward
+turnRight
+moveForward
+turnLeft
+attack
+moveForward
+moveForward
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1945,702,For Loops_Lesson 7,tutorial,,7x7,382,2023-08-21T01:03:13.000,2023-08-21T01:03:13.000,2,3,2,20,12,0,0,0,12,180,6,97.7480011,21/08/2023 9:02,21/08/2023 9:02,21/08/2023 9:03,21/08/2023 9:03,,"turnLeft
+attack
+turnRight
+moveForward
+turnBack
+moveForward
+moveForward
+turnBack
+moveForward
+turnLeft
+moveForward
+moveForward"
+T1,1968,704,Conditions_Lesson 1,tutorial,,5x5,382,2023-08-21T01:04:45.000,2023-08-21T01:04:45.000,0,0,1,10,7,0,0,0,7,300,6,82.59700012,21/08/2023 9:03,21/08/2023 9:04,21/08/2023 9:05,21/08/2023 9:05,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1794,694,Commands_Lesson 8,tutorial,,9x5,375,2023-08-21T00:56:57.000,2023-08-21T00:56:57.000,1,0,2,29,9,0,0,0,9,240,6,57.12200165,21/08/2023 8:56,21/08/2023 8:56,21/08/2023 8:57,21/08/2023 8:57,,"turnRight
+moveForward
+attack
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1812,696,For Loops_ Lesson 1,tutorial,,3x8,375,2023-08-21T00:57:32.000,2023-08-21T00:57:32.000,0,0,0,16,1,1,0,1,3,300,7,26.45899963,21/08/2023 8:57,21/08/2023 8:57,21/08/2023 8:57,21/08/2023 8:58,,"while (NotReachDest)
+{
+    moveForward
+}"
+T1,1827,688,Commands_Lesson 2,tutorial,,7x7,373,2023-08-21T00:57:56.000,2023-08-21T00:57:56.000,0,0,1,32,7,0,0,0,7,300,6,774.0869141,21/08/2023 8:45,21/08/2023 8:45,21/08/2023 8:58,21/08/2023 8:58,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1809,691,Commands_Lesson 5,tutorial,,9x6,403,2023-08-21T00:57:29.000,2023-08-21T00:57:29.000,0,0,1,31,7,0,0,0,7,280,5,330.1589966,21/08/2023 8:52,21/08/2023 8:52,21/08/2023 8:57,21/08/2023 8:58,,"moveForward
+turnRight
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1862,692,Commands_Lesson 6,tutorial,,7x10,403,2023-08-21T00:59:25.000,2023-08-21T00:59:25.000,1,1,4,38,19,0,0,0,19,190,17,106.3359985,21/08/2023 8:58,21/08/2023 8:58,21/08/2023 8:59,21/08/2023 8:59,,"moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,1891,693,Commands_Lesson 7,tutorial,,3x5,403,2023-08-21T01:00:25.000,2023-08-21T01:00:25.000,0,0,1,10,5,0,0,0,5,260,4,53.13299942,21/08/2023 9:00,21/08/2023 9:00,21/08/2023 9:00,21/08/2023 9:00,,"moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1940,694,Commands_Lesson 8,tutorial,,9x5,403,2023-08-21T01:03:07.000,2023-08-21T01:03:07.000,1,0,2,29,9,0,0,0,9,220,6,155.6629944,21/08/2023 9:01,21/08/2023 9:01,21/08/2023 9:03,21/08/2023 9:03,,"turnRight
+moveForward
+attack
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1954,696,For Loops_ Lesson 1,tutorial,,3x8,403,2023-08-21T01:03:46.000,2023-08-21T01:04:15.000,0,0,0,16,7,0,0,0,7,300,7,25.14500046,21/08/2023 9:04,21/08/2023 9:04,21/08/2023 9:04,21/08/2023 9:04,,"moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,1822,691,Commands_Lesson 5,tutorial,,9x6,449,2023-08-21T00:57:42.000,2023-08-21T00:57:42.000,0,0,1,31,7,0,0,0,7,280,5,96.21700287,21/08/2023 8:56,21/08/2023 8:56,21/08/2023 8:58,21/08/2023 8:58,,"moveForward
+turnRight
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1875,692,Commands_Lesson 6,tutorial,,7x10,449,2023-08-21T00:59:45.000,2023-08-21T00:59:45.000,1,1,4,38,19,0,0,0,19,190,17,115.8180008,21/08/2023 8:58,21/08/2023 8:58,21/08/2023 8:59,21/08/2023 9:00,,"moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,1892,693,Commands_Lesson 7,tutorial,,3x5,449,2023-08-21T01:00:28.000,2023-08-21T01:00:28.000,0,0,1,10,5,0,0,0,5,280,4,37.69100189,21/08/2023 9:00,21/08/2023 9:00,21/08/2023 9:00,21/08/2023 9:00,,"moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1925,694,Commands_Lesson 8,tutorial,,9x5,449,2023-08-21T01:02:21.000,2023-08-21T01:02:21.000,1,0,2,29,9,0,0,0,9,240,6,108.185997,21/08/2023 9:01,21/08/2023 9:01,21/08/2023 9:02,21/08/2023 9:02,,"turnRight
+moveForward
+attack
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1935,696,For Loops_ Lesson 1,tutorial,,3x8,449,2023-08-21T01:02:59.000,2023-08-21T01:02:59.000,0,0,0,16,7,0,0,0,7,300,7,32.32300186,21/08/2023 9:02,21/08/2023 9:03,21/08/2023 9:03,21/08/2023 9:03,,"moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,1788,694,Commands_Lesson 8,tutorial,,9x5,383,2023-08-21T00:56:46.000,2023-08-21T00:56:46.000,1,0,2,29,10,0,0,0,10,200,6,111.7843018,21/08/2023 8:55,21/08/2023 8:55,21/08/2023 8:57,21/08/2023 8:57,,"turnRight
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1840,696,For Loops_ Lesson 1,tutorial,,3x8,383,2023-08-21T00:58:25.000,2023-08-21T00:58:25.000,0,0,0,16,7,0,0,0,7,300,7,90.11000061,21/08/2023 8:57,21/08/2023 8:57,21/08/2023 8:58,21/08/2023 8:58,,"moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,1790,693,Commands_Lesson 7,tutorial,,3x5,396,2023-08-21T00:56:48.000,2023-08-21T00:56:48.000,0,0,1,10,5,3,2,1,11,280,4,122.6583023,21/08/2023 8:55,21/08/2023 8:56,21/08/2023 8:57,21/08/2023 8:57,,"moveForward
+moveForward
+if (Enemy In Front)
+{
+    attack
+}
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+if (NotReachDest)
+{
+    moveForward
+}"
+T1,1846,694,Commands_Lesson 8,tutorial,,9x5,396,2023-08-21T00:58:38.000,2023-08-21T00:58:38.000,1,0,2,29,6,5,2,3,16,240,6,100.1732025,21/08/2023 8:57,21/08/2023 8:57,21/08/2023 8:58,21/08/2023 8:59,,"turnRight
+repeatCount = 1;
+while (repeatCount < 2)
+{
+    repeatCount add 1
+    moveForward
+}
+if (Enemy In Front)
+{
+    attack
+}
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+if (Enemy In Front)
+{
+    attack
+}
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1864,696,For Loops_ Lesson 1,tutorial,,3x8,396,2023-08-21T00:59:29.000,2023-08-21T00:59:29.000,0,0,0,16,1,1,0,1,3,300,7,39.33539963,21/08/2023 8:59,21/08/2023 8:59,21/08/2023 8:59,21/08/2023 8:59,,"repeatCount = 1;
+while (repeatCount < 8)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1920,689,Commands_Lesson 3,tutorial,,7x7,372,2023-08-21T01:02:05.000,2023-08-21T01:02:05.000,0,0,0,33,8,3,0,3,14,300,12,546.4047241,21/08/2023 8:53,21/08/2023 8:53,21/08/2023 9:02,21/08/2023 9:02,,"repeatCount = 1;
+while (repeatCount < 5)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 5)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+moveForward
+moveForward"
+T1,1948,690,Commands_Lesson 4,tutorial,,7x7,372,2023-08-21T01:03:23.000,2023-08-21T01:03:23.000,1,0,1,32,8,0,0,0,8,300,6,58.32180023,21/08/2023 9:02,21/08/2023 9:03,21/08/2023 9:03,21/08/2023 9:03,,"moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1807,687,Commands_Lesson 1,tutorial,,3x8,455,2023-08-21T00:57:25.000,2023-08-21T00:57:25.000,0,0,0,16,5,0,0,0,5,300,3,405.553009,21/08/2023 8:51,21/08/2023 8:51,21/08/2023 8:57,21/08/2023 8:57,,"moveForward
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,1845,688,Commands_Lesson 2,tutorial,,7x7,455,2023-08-21T00:58:38.000,2023-08-21T00:58:38.000,0,0,1,32,7,0,0,0,7,300,6,64.54129791,21/08/2023 8:58,21/08/2023 8:58,21/08/2023 8:59,21/08/2023 8:59,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1822,691,Commands_Lesson 5,tutorial,,9x6,449,2023-08-21T00:57:42.000,2023-08-21T00:57:42.000,0,0,1,31,7,0,0,0,7,280,5,96.21700287,21/08/2023 8:56,21/08/2023 8:56,21/08/2023 8:58,21/08/2023 8:58,,"moveForward
+turnRight
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1899,689,Commands_Lesson 3,tutorial,,7x7,455,2023-08-21T01:00:54.000,2023-08-21T01:00:54.000,0,0,0,33,15,0,0,0,15,300,12,115.9319,21/08/2023 8:59,21/08/2023 8:59,21/08/2023 9:01,21/08/2023 9:01,,"moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1921,690,Commands_Lesson 4,tutorial,,7x7,455,2023-08-21T01:02:05.000,2023-08-21T01:02:05.000,1,0,1,32,8,0,0,0,8,300,6,65.59799957,21/08/2023 9:01,21/08/2023 9:01,21/08/2023 9:02,21/08/2023 9:02,,"moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1961,691,Commands_Lesson 5,tutorial,,9x6,455,2023-08-21T01:04:10.000,2023-08-21T01:04:10.000,0,0,1,31,16,0,0,0,16,300,13,119.7360001,21/08/2023 9:02,21/08/2023 9:02,21/08/2023 9:04,21/08/2023 9:04,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1907,690,Commands_Lesson 4,tutorial,,7x7,401,2023-08-21T01:01:19.000,2023-08-21T01:01:19.000,1,0,1,32,8,0,0,0,8,300,6,87.88400269,21/08/2023 9:00,21/08/2023 9:00,21/08/2023 9:01,21/08/2023 9:01,,"moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1887,691,Commands_Lesson 5,tutorial,,9x6,386,2023-08-21T01:00:12.000,2023-08-21T01:00:12.000,0,0,1,31,8,0,0,0,8,260,5,238.511795,21/08/2023 8:56,21/08/2023 8:56,21/08/2023 9:00,21/08/2023 9:00,,"moveForward
+turnRight
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1792,691,Commands_Lesson 5,tutorial,,9x6,378,2023-08-21T00:56:51.000,2023-08-21T00:56:51.000,0,0,1,31,16,0,0,0,16,300,13,357.7149963,21/08/2023 8:51,21/08/2023 8:51,21/08/2023 8:57,21/08/2023 8:57,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1873,692,Commands_Lesson 6,tutorial,,7x10,378,2023-08-21T00:59:44.000,2023-08-21T00:59:44.000,1,1,4,38,19,0,0,0,19,190,17,165.0715027,21/08/2023 8:57,21/08/2023 8:57,21/08/2023 8:59,21/08/2023 9:00,,"moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,1900,693,Commands_Lesson 7,tutorial,,3x5,378,2023-08-21T01:00:57.000,2023-08-21T01:00:57.000,0,0,1,10,5,0,0,0,5,280,4,67.63870239,21/08/2023 9:00,21/08/2023 9:00,21/08/2023 9:01,21/08/2023 9:01,,"moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1937,694,Commands_Lesson 8,tutorial,,9x5,378,2023-08-21T01:03:03.000,2023-08-21T01:03:03.000,1,0,2,29,9,0,0,0,9,240,6,114.3470001,21/08/2023 9:01,21/08/2023 9:02,21/08/2023 9:03,21/08/2023 9:03,,"turnRight
+moveForward
+attack
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1951,696,For Loops_ Lesson 1,tutorial,,3x8,378,2023-08-21T01:03:39.000,2023-08-21T01:03:39.000,0,0,0,16,7,0,0,0,7,300,7,30.62100029,21/08/2023 9:03,21/08/2023 9:03,21/08/2023 9:04,21/08/2023 9:04,,"moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,1777,687,Commands_Lesson 1,tutorial,,3x8,406,2023-08-21T00:56:25.000,2023-08-21T00:56:44.000,0,0,0,16,3,0,0,0,3,300,3,14.10499954,21/08/2023 8:57,21/08/2023 8:57,21/08/2023 8:57,21/08/2023 8:57,,"moveForward
+moveForward
+moveForward"
+T1,1803,688,Commands_Lesson 2,tutorial,,7x7,406,2023-08-21T00:57:08.000,2023-08-21T00:57:08.000,0,0,1,32,7,0,0,0,7,300,6,22.93000031,21/08/2023 8:57,21/08/2023 8:57,21/08/2023 8:57,21/08/2023 8:57,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1842,689,Commands_Lesson 3,tutorial,,7x7,406,2023-08-21T00:58:34.000,2023-08-21T00:58:34.000,0,0,0,33,15,0,0,0,15,300,12,77.92700195,21/08/2023 8:57,21/08/2023 8:57,21/08/2023 8:58,21/08/2023 8:59,,"moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1967,690,Commands_Lesson 4,tutorial,,7x7,406,2023-08-21T01:04:29.000,2023-08-21T01:04:29.000,1,0,1,32,9,0,0,0,9,300,6,342.6239929,21/08/2023 8:59,21/08/2023 8:59,21/08/2023 9:04,21/08/2023 9:04,,"moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+T1,1917,688,Commands_Lesson 2,tutorial,,7x7,456,2023-08-21T01:01:45.000,2023-08-21T01:01:45.000,0,0,1,32,7,0,0,0,7,300,6,38.32899857,21/08/2023 9:01,21/08/2023 9:01,21/08/2023 9:02,21/08/2023 9:02,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,1939,689,Commands_Lesson 3,tutorial,,7x7,456,2023-08-21T01:03:06.000,2023-08-21T01:03:06.000,0,0,0,33,15,0,0,0,15,300,12,74.46800232,21/08/2023 9:02,21/08/2023 9:02,21/08/2023 9:03,21/08/2023 9:03,,"moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1952,690,Commands_Lesson 4,tutorial,,7x7,456,2023-08-21T01:03:40.000,2023-08-21T01:03:40.000,1,0,1,32,8,0,0,0,8,300,6,30.47400093,21/08/2023 9:03,21/08/2023 9:03,21/08/2023 9:04,21/08/2023 9:04,,"moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1835,691,Commands_Lesson 5,tutorial,,9x6,424,2023-08-21T00:58:09.000,2023-08-21T00:58:09.000,0,0,1,31,20,0,0,0,20,300,15,201.1060028,21/08/2023 8:55,21/08/2023 8:55,21/08/2023 8:58,21/08/2023 8:58,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward"
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+T1,1870,692,Commands_Lesson 6,tutorial,,7x10,424,2023-08-21T00:59:37.000,2023-08-21T00:59:37.000,1,1,4,38,19,0,0,0,19,190,17,77.34700012,21/08/2023 8:58,21/08/2023 8:59,21/08/2023 9:00,21/08/2023 9:00,,"moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,1895,693,Commands_Lesson 7,tutorial,,3x5,424,2023-08-21T01:00:41.000,2023-08-21T01:00:41.000,0,0,1,10,5,0,0,0,5,280,4,46.80500031,21/08/2023 9:00,21/08/2023 9:00,21/08/2023 9:01,21/08/2023 9:01,,"moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1950,694,Commands_Lesson 8,tutorial,,9x5,424,2023-08-21T01:03:26.000,2023-08-21T01:03:26.000,1,0,2,29,9,0,0,0,9,220,6,39.42599869,21/08/2023 9:03,21/08/2023 9:03,21/08/2023 9:03,21/08/2023 9:03,,"turnRight
+moveForward
+attack
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1826,690,Commands_Lesson 4,tutorial,,7x7,451,2023-08-21T00:57:54.000,2023-08-21T00:57:54.000,1,0,1,32,8,0,0,0,8,300,6,42.5890007,21/08/2023 8:57,21/08/2023 8:57,21/08/2023 8:58,21/08/2023 8:58,,"moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1863,691,Commands_Lesson 5,tutorial,,9x6,451,2023-08-21T00:59:29.000,2023-08-21T00:59:29.000,0,0,1,31,16,0,0,0,16,300,13,89.07900238,21/08/2023 8:58,21/08/2023 8:58,21/08/2023 8:59,21/08/2023 9:00,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1915,692,Commands_Lesson 6,tutorial,,7x10,451,2023-08-21T01:01:42.000,2023-08-21T01:01:42.000,1,1,4,38,19,0,0,0,19,190,17,123.4319992,21/08/2023 9:00,21/08/2023 9:00,21/08/2023 9:02,21/08/2023 9:02,,"moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,1904,700,For Loops_Lesson 5,tutorial,,5x11,416,2023-08-21T01:01:06.000,2023-08-21T01:01:06.000,2,0,1,38,19,0,0,0,19,240,10,304.0299988,21/08/2023 8:56,21/08/2023 8:57,21/08/2023 9:01,21/08/2023 9:01,,"moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+attack
+moveForward
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward"
+T1,1904,700,For Loops_Lesson 5,tutorial,,5x11,416,2023-08-21T01:01:06.000,2023-08-21T01:01:06.000,2,0,1,38,19,0,0,0,19,240,10,304.0299988,21/08/2023 8:56,21/08/2023 8:57,21/08/2023 9:01,21/08/2023 9:01,,"moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+attack
+moveForward
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward"
+T1,1865,688,Commands_Lesson 2,tutorial,,7x7,388,2023-08-21T00:59:31.000,2023-08-21T00:59:31.000,0,0,1,32,3,2,0,2,7,300,6,562.6483765,21/08/2023 8:50,21/08/2023 8:50,21/08/2023 8:59,21/08/2023 9:00,,"repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1926,689,Commands_Lesson 3,tutorial,,7x7,388,2023-08-21T01:02:22.000,2023-08-21T01:02:22.000,0,0,0,33,7,4,0,4,15,300,12,162.2570038,21/08/2023 9:00,21/08/2023 9:00,21/08/2023 9:02,21/08/2023 9:02,,"repeatCount = 1;
+while (repeatCount < 5)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 5)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1975,691,Commands_Lesson 5,tutorial,,9x6,417,2023-08-21T01:05:01.000,2023-08-21T01:05:01.000,0,0,1,31,7,0,0,0,7,260,5,123.0690994,21/08/2023 9:03,21/08/2023 9:03,21/08/2023 9:04,21/08/2023 9:05,,"moveForward
+turnRight
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,2032,692,Commands_Lesson 6,tutorial,,7x10,417,2023-08-21T01:10:01.000,2023-08-21T01:10:01.000,1,1,4,38,12,0,0,0,12,90,9,288.1567078,21/08/2023 9:05,21/08/2023 9:05,21/08/2023 9:09,21/08/2023 9:10,,"moveForward
+moveForward
+moveForward
+turnRight
+attack
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,2045,693,Commands_Lesson 7,tutorial,,3x5,417,2023-08-21T01:11:25.000,2023-08-21T01:11:25.000,0,0,1,10,2,2,1,1,6,240,4,75.09660339,21/08/2023 9:10,21/08/2023 9:10,21/08/2023 9:11,21/08/2023 9:11,,"while (NotReachDest)
+{
+    if (Dir == ""Forward"")
+    {
+        moveForward
+    }
+    else
+    {
+        attack
+    }
+}"
+T1,2066,694,Commands_Lesson 8,tutorial,,9x5,417,2023-08-21T01:13:15.000,2023-08-21T01:13:15.000,1,0,2,29,3,2,1,1,7,180,6,101.4352036,21/08/2023 9:11,21/08/2023 9:11,21/08/2023 9:13,21/08/2023 9:13,,"turnRight
+while (NotReachDest)
+{
+    if (Dir == ""Forward"")
+    {
+        moveForward
+    }
+    else
+    {
+        attack
+    }
+}"
+T1,2082,696,For Loops_ Lesson 1,tutorial,,3x8,417,2023-08-21T01:14:41.000,2023-08-21T01:14:41.000,0,0,0,16,1,2,1,1,5,300,7,50.01010132,21/08/2023 9:14,21/08/2023 9:14,21/08/2023 9:14,21/08/2023 9:14,,"while (NotReachDest)
+{
+    if (Dir == ""Forward"")
+    {
+        moveForward
+    }
+}"
+T1,1989,696,For Loops_ Lesson 1,tutorial,,3x8,421,2023-08-21T01:05:46.000,2023-08-21T01:05:46.000,0,0,0,16,7,0,0,0,7,300,7,77.76879883,21/08/2023 9:04,21/08/2023 9:05,21/08/2023 9:06,21/08/2023 9:06,,"moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,2062,700,For Loops_Lesson 5,tutorial,,5x11,421,2023-08-21T01:13:02.000,2023-08-21T01:13:02.000,2,0,1,38,19,0,0,0,19,240,10,430.1907959,21/08/2023 9:06,21/08/2023 9:06,21/08/2023 9:13,21/08/2023 9:13,,"moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+attack
+moveForward
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward"
+T1,2090,702,For Loops_Lesson 7,tutorial,,7x7,421,2023-08-21T01:15:20.000,2023-08-21T01:15:20.000,2,3,2,20,20,0,0,0,20,270,14,127.0667038,21/08/2023 9:13,21/08/2023 9:13,21/08/2023 9:15,21/08/2023 9:15,,"moveForward
+moveForward
+turnBack
+moveForward
+moveForward
+moveForward
+moveForward
+turnBack
+moveForward
+moveForward
+turnRight
+attack
+moveForward
+moveForward
+turnBack
+moveForward
+moveForward
+attack
+moveForward
+moveForward"
+T1,2102,704,Conditions_Lesson 1,tutorial,,5x5,421,2023-08-21T01:16:00.000,2023-08-21T01:16:00.000,0,0,1,10,7,0,0,0,7,300,6,30.27569962,21/08/2023 9:15,21/08/2023 9:16,21/08/2023 9:16,21/08/2023 9:16,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,2111,706,Conditions_Lesson 3,tutorial,,3x7,421,2023-08-21T01:16:45.000,2023-08-21T01:16:45.000,0,0,1,6,5,0,0,0,5,240,4,30.62140083,21/08/2023 9:16,21/08/2023 9:16,21/08/2023 9:17,21/08/2023 9:17,,"moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,2123,707,Conditions_Lesson 4,tutorial,,4x9,421,2023-08-21T01:18:03.000,2023-08-21T01:18:03.000,3,0,1,17,18,0,0,0,18,270,10,72.37539673,21/08/2023 9:17,21/08/2023 9:17,21/08/2023 9:18,21/08/2023 9:18,,"moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward"
+T1,1977,696,For Loops_ Lesson 1,tutorial,,3x8,407,2023-08-21T01:05:03.000,2023-08-21T01:05:03.000,0,0,0,16,1,1,0,1,3,300,7,102.8942032,21/08/2023 9:03,21/08/2023 9:03,21/08/2023 9:05,21/08/2023 9:05,,"repeatCount = 1;
+while (repeatCount < 8)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,2035,700,For Loops_Lesson 5,tutorial,,5x11,407,2023-08-21T01:10:09.000,2023-08-21T01:10:09.000,2,0,1,38,12,2,1,1,16,240,10,300.1849976,21/08/2023 9:05,21/08/2023 9:05,21/08/2023 9:10,21/08/2023 9:10,,"repeatCount = 1;
+while (repeatCount < 11)
+{
+    repeatCount add 1
+    moveForward
+    turnRight
+    moveForward
+    turnLeft
+    moveForward
+    if (Enemy In Front)
+    {
+        attack
+    }
+    moveForward
+    moveForward
+    turnLeft
+    moveForward
+    turnRight
+    moveForward
+}"
+T1,2064,702,For Loops_Lesson 7,tutorial,,7x7,407,2023-08-21T01:13:13.000,2023-08-21T01:13:13.000,2,3,2,20,9,2,1,1,13,350,12,156.8038025,21/08/2023 9:11,21/08/2023 9:11,21/08/2023 9:13,21/08/2023 9:13,,"repeatCount = 1;
+while (repeatCount < 10)
+{
+    repeatCount add 1
+    if (Dir == ""Forward"")
+    {
+        moveForward
+    }
+    else
+    {
+        turnBack
+    }
+}
+turnBack
+moveForward
+moveForward
+turnLeft
+attack
+moveForward
+moveForward"
+T1,2097,704,Conditions_Lesson 1,tutorial,,5x5,407,2023-08-21T01:15:34.000,2023-08-21T01:15:34.000,0,0,1,10,3,3,1,2,9,300,6,133.1116028,21/08/2023 9:13,21/08/2023 9:13,21/08/2023 9:15,21/08/2023 9:15,,"repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    if (NotReachDest)
+    {
+        moveForward
+    }
+}"
+T1,2113,706,Conditions_Lesson 3,tutorial,,3x7,407,2023-08-21T01:16:46.000,2023-08-21T01:16:46.000,0,0,1,6,2,2,1,1,6,240,4,61.19369888,21/08/2023 9:16,21/08/2023 9:16,21/08/2023 9:16,21/08/2023 9:17,,"repeatCount = 1;
+while (repeatCount < 6)
+{
+    repeatCount add 1
+    if (Enemy In Front)
+    {
+        attack
+    }
+    else
+    {
+        moveForward
+    }
+}"
+T1,2030,702,For Loops_Lesson 7,tutorial,,7x7,409,2023-08-21T01:09:54.000,2023-08-21T01:09:54.000,2,3,2,20,14,0,0,0,14,260,10,400.9519958,21/08/2023 9:03,21/08/2023 9:04,21/08/2023 9:10,21/08/2023 9:10,,"moveForward
+moveForward
+turnBack
+moveForward
+moveForward
+moveForward
+moveForward
+turnBack
+moveForward
+moveForward
+turnLeft
+attack
+moveForward
+moveForward"
+T1,2042,704,Conditions_Lesson 1,tutorial,,5x5,409,2023-08-21T01:11:14.000,2023-08-21T01:11:14.000,0,0,1,10,8,0,0,0,8,300,6,69.34100342,21/08/2023 9:10,21/08/2023 9:10,21/08/2023 9:11,21/08/2023 9:11,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,2051,706,Conditions_Lesson 3,tutorial,,3x7,409,2023-08-21T01:11:44.000,2023-08-21T01:11:44.000,0,0,1,6,5,0,0,0,5,240,4,23.8560009,21/08/2023 9:11,21/08/2023 9:11,21/08/2023 9:12,21/08/2023 9:12,,"moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,2093,707,Conditions_Lesson 4,tutorial,,4x9,409,2023-08-21T01:15:22.000,2023-08-21T01:15:22.000,3,0,1,17,21,0,0,0,21,240,10,213.6130066,21/08/2023 9:12,21/08/2023 9:12,21/08/2023 9:15,21/08/2023 9:15,,"moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+attack
+turnLeft
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward"
+T1,1993,700,For Loops_Lesson 5,tutorial,,5x11,374,2023-08-21T01:06:07.000,2023-08-21T01:06:07.000,2,0,1,38,19,0,0,0,19,240,10,104.9449997,21/08/2023 9:04,21/08/2023 9:05,21/08/2023 9:06,21/08/2023 9:06,,"moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+attack
+moveForward
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward"
+T1,2016,702,For Loops_Lesson 7,tutorial,,7x7,374,2023-08-21T01:08:15.000,2023-08-21T01:08:15.000,2,3,2,20,20,0,0,0,20,240,14,119.8300018,21/08/2023 9:06,21/08/2023 9:06,21/08/2023 9:08,21/08/2023 9:08,,"moveForward
+moveForward
+turnBack
+moveForward
+moveForward
+moveForward
+moveForward
+turnBack
+moveForward
+moveForward
+turnRight
+attack
+moveForward
+moveForward
+turnBack
+moveForward
+moveForward
+attack
+moveForward
+moveForward"
+T1,2031,704,Conditions_Lesson 1,tutorial,,5x5,374,2023-08-21T01:09:56.000,2023-08-21T01:09:56.000,0,0,1,10,7,0,0,0,7,300,6,92.43000031,21/08/2023 9:08,21/08/2023 9:09,21/08/2023 9:10,21/08/2023 9:10,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,2038,706,Conditions_Lesson 3,tutorial,,3x7,374,2023-08-21T01:10:35.000,2023-08-21T01:10:35.000,0,0,1,6,5,0,0,0,5,240,4,28.16300011,21/08/2023 9:10,21/08/2023 9:10,21/08/2023 9:10,21/08/2023 9:11,,"moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,2114,707,Conditions_Lesson 4,tutorial,,4x9,374,2023-08-21T01:17:00.000,2023-08-21T01:17:00.000,3,0,1,17,21,0,0,0,21,240,10,380.0780029,21/08/2023 9:11,21/08/2023 9:11,21/08/2023 9:17,21/08/2023 9:17,,"moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+attack
+turnLeft
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward"
+T1,2015,694,Commands_Lesson 8,tutorial,,9x5,410,2023-08-21T01:08:12.000,2023-08-21T01:08:12.000,1,0,2,29,24,0,0,0,24,240,16,584.4703979,21/08/2023 8:58,21/08/2023 8:58,21/08/2023 9:07,21/08/2023 9:08,,"turnRight
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+turnBack
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+T1,2026,696,For Loops_ Lesson 1,tutorial,,3x8,410,2023-08-21T01:09:18.000,2023-08-21T01:09:18.000,0,0,0,16,1,2,1,1,5,300,7,58.53170013,21/08/2023 9:08,21/08/2023 9:08,21/08/2023 9:09,21/08/2023 9:09,,"while (NotReachDest)
+{
+    if (Dir == ""Forward"")
+    {
+        moveForward
+    }
+}"
+T1,2044,700,For Loops_Lesson 5,tutorial,,5x11,410,2023-08-21T01:11:24.000,2023-08-21T01:11:24.000,2,0,1,38,19,0,0,0,19,240,10,118.9890976,21/08/2023 9:09,21/08/2023 9:10,21/08/2023 9:11,21/08/2023 9:11,,"moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+attack
+moveForward
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward"
+T1,2128,702,For Loops_Lesson 7,tutorial,,7x7,410,2023-08-21T01:18:21.000,2023-08-21T01:18:21.000,2,3,2,20,10,2,0,2,14,230,12,406.0184937,21/08/2023 9:12,21/08/2023 9:12,21/08/2023 9:18,21/08/2023 9:18,,"repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnBack
+repeatCount = 1;
+while (repeatCount < 6)
+{
+    repeatCount add 1
+    moveForward
+}
+turnBack
+moveForward
+moveForward
+turnLeft
+attack
+moveForward
+moveForward"
+T1,2136,704,Conditions_Lesson 1,tutorial,,5x5,410,2023-08-21T01:19:39.000,2023-08-21T01:19:39.000,0,0,1,10,5,1,0,1,7,300,6,68.14379883,21/08/2023 9:18,21/08/2023 9:19,21/08/2023 9:20,21/08/2023 9:20,,"repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,2036,700,For Loops_Lesson 5,tutorial,,5x11,402,2023-08-21T01:10:25.000,2023-08-21T01:10:25.000,2,0,1,38,4,3,2,1,10,240,24,379.1340942,21/08/2023 9:04,21/08/2023 9:04,21/08/2023 9:10,21/08/2023 9:10,,"while (NotReachDest)
+{
+    if (Dir == ""Right"")
+    {
+        turnRight
+    }
+    else
+    {
+        turnLeft
+    }
+    moveForward
+    if (Enemy In Front)
+    {
+        attack
+    }
+}"
+T1,1981,691,Commands_Lesson 5,tutorial,,9x6,381,2023-08-21T01:05:16.000,2023-08-21T01:05:16.000,0,0,1,31,17,0,0,0,17,300,13,207.8079987,21/08/2023 9:02,21/08/2023 9:02,21/08/2023 9:05,21/08/2023 9:05,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,2011,692,Commands_Lesson 6,tutorial,,7x10,381,2023-08-21T01:07:42.000,2023-08-21T01:07:42.000,1,1,4,38,19,0,0,0,19,190,17,133.654007,21/08/2023 9:05,21/08/2023 9:05,21/08/2023 9:07,21/08/2023 9:08,,"moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,2037,693,Commands_Lesson 7,tutorial,,3x5,381,2023-08-21T01:10:26.000,2023-08-21T01:10:26.000,0,0,1,10,7,0,0,0,7,260,4,160.6560059,21/08/2023 9:08,21/08/2023 9:08,21/08/2023 9:10,21/08/2023 9:10,,"moveForward
+moveForward
+attack
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,2048,694,Commands_Lesson 8,tutorial,,9x5,381,2023-08-21T01:11:35.000,2023-08-21T01:11:35.000,1,0,2,29,10,0,0,0,10,240,6,65.01100159,21/08/2023 9:11,21/08/2023 9:11,21/08/2023 9:12,21/08/2023 9:12,,"turnRight
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,2054,696,For Loops_ Lesson 1,tutorial,,3x8,381,2023-08-21T01:12:08.000,2023-08-21T01:12:08.000,0,0,0,16,8,0,0,0,8,300,7,27.04299927,21/08/2023 9:12,21/08/2023 9:12,21/08/2023 9:12,21/08/2023 9:12,,"moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,2101,700,For Loops_Lesson 5,tutorial,,5x11,381,2023-08-21T01:15:53.000,2023-08-21T01:15:53.000,2,0,1,38,24,0,0,0,24,240,10,219.3000031,21/08/2023 9:12,21/08/2023 9:12,21/08/2023 9:16,21/08/2023 9:16,,"moveForward
+turnRight
+moveForward
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+attack
+moveForward
+moveForward
+turnLeft
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnLeft
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,2125,702,For Loops_Lesson 7,tutorial,,7x7,381,2023-08-21T01:18:12.000,2023-08-21T01:18:12.000,2,3,2,20,23,0,0,0,23,260,14,129.7149963,21/08/2023 9:16,21/08/2023 9:16,21/08/2023 9:18,21/08/2023 9:18,,"moveForward
+moveForward
+turnBack
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnBack
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+attack
+moveForward
+turnBack
+moveForward
+moveForward
+moveForward
+attack
+moveForward
+moveForward"
+T1,2137,704,Conditions_Lesson 1,tutorial,,5x5,381,2023-08-21T01:19:47.000,2023-08-21T01:19:47.000,0,0,1,10,7,0,0,0,7,300,6,77.52600098,21/08/2023 9:18,21/08/2023 9:18,21/08/2023 9:20,21/08/2023 9:20,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,2142,706,Conditions_Lesson 3,tutorial,,3x7,381,2023-08-21T01:20:43.000,2023-08-21T01:20:43.000,0,0,1,6,8,0,0,0,8,240,4,50.64400101,21/08/2023 9:20,21/08/2023 9:20,21/08/2023 9:21,21/08/2023 9:21,,"moveForward
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,2084,700,For Loops_Lesson 5,tutorial,,5x11,399,2023-08-21T01:14:55.000,2023-08-21T01:14:55.000,2,0,1,38,6,4,3,1,14,240,10,80.44629669,21/08/2023 9:14,21/08/2023 9:14,21/08/2023 9:15,21/08/2023 9:15,,"while (NotReachDest)
+{
+    moveForward
+    if (Dir == ""Left"")
+    {
+        turnLeft
+    }
+    if (Dir == ""Right"")
+    {
+        turnRight
+    }
+    if (Dir == ""Forward"")
+    {
+        moveForward
+    }
+    else
+    {
+        turnLeft
+        attack
+    }
+}"
+T1,2055,692,Commands_Lesson 6,tutorial,,7x10,390,2023-08-21T01:12:13.000,2023-08-21T01:12:13.000,1,1,4,38,5,3,0,3,11,190,17,451.7344971,21/08/2023 9:05,21/08/2023 9:05,21/08/2023 9:12,21/08/2023 9:12,,"while (Dir == ""Forward"")
+{
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+while (NotReachDest)
+{
+    moveForward
+}"
+T1,2069,693,Commands_Lesson 7,tutorial,,3x5,390,2023-08-21T01:13:27.000,2023-08-21T01:13:27.000,0,0,1,10,3,2,1,1,7,280,4,46.62799835,21/08/2023 9:13,21/08/2023 9:13,21/08/2023 9:13,21/08/2023 9:13,,"while (NotReachDest)
+{
+    moveForward
+    if (Enemy In Front)
+    {
+        attack
+    }
+    else
+    {
+        moveForward
+    }
+}"
+T1,2083,694,Commands_Lesson 8,tutorial,,9x5,390,2023-08-21T01:14:52.000,2023-08-21T01:14:52.000,1,0,2,29,3,2,1,1,7,240,6,78.19760132,21/08/2023 9:14,21/08/2023 9:14,21/08/2023 9:15,21/08/2023 9:15,,"turnRight
+while (NotReachDest)
+{
+    moveForward
+    if (Enemy In Front)
+    {
+        attack
+    }
+}"
+T1,2094,696,For Loops_ Lesson 1,tutorial,,3x8,390,2023-08-21T01:15:22.000,2023-08-21T01:15:22.000,0,0,0,16,1,1,0,1,3,300,7,21.55960083,21/08/2023 9:15,21/08/2023 9:15,21/08/2023 9:15,21/08/2023 9:15,,"while (NotReachDest)
+{
+    moveForward
+}"
+T1,1994,694,Commands_Lesson 8,tutorial,,9x5,392,2023-08-21T01:06:11.000,2023-08-21T01:06:11.000,1,0,2,29,9,0,0,0,9,240,6,167.8190002,21/08/2023 9:03,21/08/2023 9:04,21/08/2023 9:06,21/08/2023 9:06,,"turnRight
+moveForward
+attack
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,2009,696,For Loops_ Lesson 1,tutorial,,3x8,392,2023-08-21T01:07:25.000,2023-08-21T01:07:25.000,0,0,0,16,1,1,0,1,3,300,7,63.33599854,21/08/2023 9:06,21/08/2023 9:07,21/08/2023 9:07,21/08/2023 9:07,,"while (NotReachDest)
+{
+    moveForward
+}"
+T1,2092,700,For Loops_Lesson 5,tutorial,,5x11,392,2023-08-21T01:15:22.000,2023-08-21T01:15:22.000,2,0,1,38,19,0,0,0,19,240,10,186.404007,21/08/2023 9:12,21/08/2023 9:12,21/08/2023 9:15,21/08/2023 9:15,,"moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+attack
+moveForward
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward"
+T1,2144,702,For Loops_Lesson 7,tutorial,,7x7,392,2023-08-21T01:20:57.000,2023-08-21T01:20:57.000,2,3,2,20,14,0,0,0,14,350,10,328.2260132,21/08/2023 9:16,21/08/2023 9:18,21/08/2023 9:21,21/08/2023 9:21,,"moveForward
+moveForward
+turnBack
+moveForward
+moveForward
+moveForward
+moveForward
+turnBack
+moveForward
+moveForward
+turnLeft
+attack
+moveForward
+moveForward"
+T1,2152,704,Conditions_Lesson 1,tutorial,,5x5,392,2023-08-21T01:21:37.000,2023-08-21T01:21:37.000,0,0,1,10,7,0,0,0,7,300,6,30.05800056,21/08/2023 9:21,21/08/2023 9:21,21/08/2023 9:22,21/08/2023 9:22,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,2156,706,Conditions_Lesson 3,tutorial,,3x7,392,2023-08-21T01:22:19.000,2023-08-21T01:22:19.000,0,0,1,6,5,0,0,0,5,240,4,34.63499832,21/08/2023 9:22,21/08/2023 9:22,21/08/2023 9:22,21/08/2023 9:22,,"moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1990,700,For Loops_Lesson 5,tutorial,,5x11,400,2023-08-21T01:05:53.000,2023-08-21T01:05:53.000,2,0,1,38,19,0,0,0,19,240,10,118.3270035,21/08/2023 9:04,21/08/2023 9:04,21/08/2023 9:06,21/08/2023 9:06,,"moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+attack
+moveForward
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward"
+T1,2010,702,For Loops_Lesson 7,tutorial,,7x7,400,2023-08-21T01:07:35.000,2023-08-21T01:07:35.000,2,3,2,20,12,0,0,0,12,180,6,96.1651001,21/08/2023 9:06,21/08/2023 9:06,21/08/2023 9:08,21/08/2023 9:08,,"turnLeft
+attack
+turnRight
+moveForward
+turnBack
+moveForward
+moveForward
+turnBack
+moveForward
+turnLeft
+moveForward
+moveForward"
+T1,2018,704,Conditions_Lesson 1,tutorial,,5x5,400,2023-08-21T01:08:35.000,2023-08-21T01:08:35.000,0,0,1,10,3,2,0,2,7,300,6,53.7030983,21/08/2023 9:08,21/08/2023 9:08,21/08/2023 9:09,21/08/2023 9:09,,"repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,2024,706,Conditions_Lesson 3,tutorial,,3x7,400,2023-08-21T01:09:10.000,2023-08-21T01:09:10.000,0,0,1,6,5,0,0,0,5,240,4,28.99349976,21/08/2023 9:09,21/08/2023 9:09,21/08/2023 9:09,21/08/2023 9:09,,"moveForward
+attack
+moveForward
+moveForward
+moveForward"
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+T1,2053,707,Conditions_Lesson 4,tutorial,,4x9,400,2023-08-21T01:12:08.000,2023-08-21T01:12:08.000,3,0,1,17,17,2,0,2,21,270,10,172.2845001,21/08/2023 9:09,21/08/2023 9:09,21/08/2023 9:12,21/08/2023 9:12,,"moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+while (NotReachDest)
+{
+    moveForward
+}"
+T1,2169,710,Conditions_Lesson 7,tutorial,,13x5,400,2023-08-21T01:33:07.000,2023-08-21T01:33:07.000,8,2,2,43,42,4,0,4,50,320,32,1251.212402,21/08/2023 9:12,21/08/2023 9:12,21/08/2023 9:33,21/08/2023 9:33,,"while (Dir == ""Forward"")
+{
+    moveForward
+}
+turnBack
+moveForward
+turnRight
+repeatCount = 1;
+while (repeatCount < 5)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+moveForward
+turnBack
+while (Dir == ""Forward"")
+{
+    moveForward
+}
+turnBack
+moveForward
+turnRight
+moveForward
+moveForward
+turnLeft
+moveForward
+turnBack
+moveForward
+moveForward
+turnBack
+moveForward
+turnRight
+repeatCount = 1;
+while (repeatCount < 5)
+{
+    repeatCount add 1
+    moveForward
+}
+turnLeft
+moveForward
+turnBack
+moveForward
+turnLeft
+moveForward
+moveForward
+turnLeft
+moveForward
+turnBack
+moveForward
+moveForward
+turnBack
+moveForward
+turnLeft
+moveForward
+moveForward
+turnLeft
+moveForward"
+T1,1978,696,For Loops_ Lesson 1,tutorial,,3x8,391,2023-08-21T01:05:09.000,2023-08-21T01:05:09.000,0,0,0,16,1,1,0,1,3,300,7,49.38190079,21/08/2023 9:04,21/08/2023 9:05,21/08/2023 9:05,21/08/2023 9:05,,"repeatCount = 1;
+while (repeatCount < 8)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,2068,700,For Loops_Lesson 5,tutorial,,5x11,391,2023-08-21T01:13:26.000,2023-08-21T01:13:26.000,2,0,1,38,22,1,1,0,24,240,10,490.303894,21/08/2023 9:05,21/08/2023 9:08,21/08/2023 9:13,21/08/2023 9:13,,"moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+if (Enemy In Front)
+{
+    attack
+}
+moveForward
+moveForward
+turnLeft
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward"
+T1,2154,702,For Loops_Lesson 7,tutorial,,7x7,391,2023-08-21T01:21:56.000,2023-08-21T01:21:56.000,2,3,2,20,13,3,1,2,19,260,10,502.5473022,21/08/2023 9:14,21/08/2023 9:20,21/08/2023 9:22,21/08/2023 9:22,,"moveForward
+moveForward
+turnRight
+turnRight
+repeatCount = 1;
+while (repeatCount < 5)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+turnRight
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+turnLeft
+moveForward
+if (Enemy In Front)
+{
+    attack
+}
+moveForward
+moveForward"
+T1,2166,704,Conditions_Lesson 1,tutorial,,5x5,391,2023-08-21T01:31:22.000,2023-08-21T01:31:22.000,0,0,1,10,5,1,0,1,7,300,6,50.6957016,21/08/2023 9:31,21/08/2023 9:31,21/08/2023 9:31,21/08/2023 9:31,,"repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,2167,706,Conditions_Lesson 3,tutorial,,3x7,391,2023-08-21T01:32:56.000,2023-08-21T01:32:56.000,0,0,1,6,2,2,1,1,6,240,4,80.57740021,21/08/2023 9:32,21/08/2023 9:32,21/08/2023 9:33,21/08/2023 9:33,,"repeatCount = 1;
+while (repeatCount < 6)
+{
+    repeatCount add 1
+    if (Enemy In Front)
+    {
+        attack
+    }
+    else
+    {
+        moveForward
+    }
+}"
+T1,2072,702,For Loops_Lesson 7,tutorial,,7x7,408,2023-08-21T01:13:56.000,2023-08-21T01:13:56.000,2,3,2,20,14,0,0,0,14,320,10,435.2267151,21/08/2023 9:07,21/08/2023 9:07,21/08/2023 9:14,21/08/2023 9:14,,"moveForward
+moveForward
+turnBack
+moveForward
+moveForward
+moveForward
+moveForward
+turnBack
+moveForward
+moveForward
+turnLeft
+attack
+moveForward
+moveForward"
+T1,2109,704,Conditions_Lesson 1,tutorial,,5x5,408,2023-08-21T01:16:42.000,2023-08-21T01:16:42.000,0,0,1,10,3,2,0,2,7,300,6,94.25689697,21/08/2023 9:15,21/08/2023 9:15,21/08/2023 9:17,21/08/2023 9:17,,"repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,2132,706,Conditions_Lesson 3,tutorial,,3x7,408,2023-08-21T01:18:51.000,2023-08-21T01:18:51.000,0,0,1,6,2,2,1,1,6,240,4,73.94519806,21/08/2023 9:18,21/08/2023 9:18,21/08/2023 9:19,21/08/2023 9:19,,"repeatCount = 1;
+while (repeatCount < 6)
+{
+    repeatCount add 1
+    moveForward
+    if (Enemy In Front)
+    {
+        attack
+    }
+}"
+T1,2151,707,Conditions_Lesson 4,tutorial,,4x9,408,2023-08-21T01:21:35.000,2023-08-21T01:21:35.000,3,0,1,17,13,2,0,2,17,240,10,145.5476074,21/08/2023 9:19,21/08/2023 9:19,21/08/2023 9:22,21/08/2023 9:22,,"repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+    turnRight
+    moveForward
+    turnLeft
+}
+moveForward
+turnRight
+attack
+turnLeft
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+    turnLeft
+    moveForward
+    turnRight
+}
+moveForward"
+T1,1971,687,Commands_Lesson 1,tutorial,,3x8,463,2023-08-21T01:04:58.000,2023-08-21T01:04:58.000,0,0,0,16,3,0,0,0,3,300,3,153.9255066,21/08/2023 9:02,21/08/2023 9:03,21/08/2023 9:05,21/08/2023 9:05,,"moveForward
+moveForward
+moveForward"
+T1,1996,688,Commands_Lesson 2,tutorial,,7x7,463,2023-08-21T01:06:16.000,2023-08-21T01:06:16.000,0,0,1,32,7,0,0,0,7,300,6,69.17320251,21/08/2023 9:05,21/08/2023 9:05,21/08/2023 9:06,21/08/2023 9:06,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,2014,689,Commands_Lesson 3,tutorial,,7x7,463,2023-08-21T01:08:08.000,2023-08-21T01:08:08.000,0,0,0,33,15,0,0,0,15,300,12,92.18569946,21/08/2023 9:06,21/08/2023 9:07,21/08/2023 9:08,21/08/2023 9:08,,"moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,2046,690,Commands_Lesson 4,tutorial,,7x7,463,2023-08-21T01:11:29.000,2023-08-21T01:11:29.000,1,0,1,32,8,0,0,0,8,300,6,193.1231995,21/08/2023 9:08,21/08/2023 9:08,21/08/2023 9:11,21/08/2023 9:11,,"moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,2147,691,Commands_Lesson 5,tutorial,,9x6,463,2023-08-21T01:21:16.000,2023-08-21T01:21:16.000,0,0,1,31,8,1,1,0,10,280,5,576.0527954,21/08/2023 9:12,21/08/2023 9:12,21/08/2023 9:21,21/08/2023 9:21,,"moveForward
+turnRight
+moveForward
+moveForward
+if (Enemy In Front)
+{
+    attack
+}
+moveForward
+moveForward
+moveForward"
+T1,2028,696,For Loops_ Lesson 1,tutorial,,3x8,385,2023-08-21T01:09:22.000,2023-08-21T01:09:22.000,0,0,0,16,1,1,0,1,3,300,7,30.33950043,21/08/2023 9:09,21/08/2023 9:09,21/08/2023 9:09,21/08/2023 9:09,,"repeatCount = 1;
+while (repeatCount < 10)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,2096,700,For Loops_Lesson 5,tutorial,,5x11,385,2023-08-21T01:15:29.000,2023-08-21T01:15:29.000,2,0,1,38,10,2,1,1,14,240,12,359.9573975,21/08/2023 9:10,21/08/2023 9:10,21/08/2023 9:15,21/08/2023 9:16,,"while (NotReachDest)
+{
+    moveForward
+    turnRight
+    moveForward
+    turnLeft
+    if (Enemy In Front)
+    {
+        attack
+    }
+    else
+    {
+        moveForward
+    }
+    turnLeft
+    moveForward
+    turnRight
+    moveForward
+}"
+T1,2140,702,For Loops_Lesson 7,tutorial,,7x7,385,2023-08-21T01:20:06.000,2023-08-21T01:20:06.000,2,3,2,20,13,3,0,3,19,330,14,270.10849,21/08/2023 9:16,21/08/2023 9:16,21/08/2023 9:20,21/08/2023 9:20,,"repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+    moveForward
+    turnBack
+    moveForward
+    moveForward
+}
+turnRight
+attack
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+turnBack
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+attack
+moveForward
+moveForward"
+T1,2150,704,Conditions_Lesson 1,tutorial,,5x5,385,2023-08-21T01:21:32.000,2023-08-21T01:21:32.000,0,0,1,10,7,1,0,1,9,300,6,79.19889832,21/08/2023 9:20,21/08/2023 9:20,21/08/2023 9:22,21/08/2023 9:22,,"moveForward
+turnRight
+turnLeft
+moveForward
+moveForward
+turnRight
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1970,692,Commands_Lesson 6,tutorial,,7x10,411,2023-08-21T01:04:53.000,2023-08-21T01:04:53.000,1,1,4,38,19,0,0,0,19,190,17,145.9859924,21/08/2023 9:02,21/08/2023 9:05,21/08/2023 9:05,21/08/2023 9:05,,"moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,2019,693,Commands_Lesson 7,tutorial,,3x5,411,2023-08-21T01:08:37.000,2023-08-21T01:08:37.000,0,0,1,10,2,2,1,1,6,260,4,126.4219971,21/08/2023 9:07,21/08/2023 9:07,21/08/2023 9:09,21/08/2023 9:09,,"while (NotReachDest)
+{
+    if (Enemy In Front)
+    {
+        attack
+    }
+    else
+    {
+        moveForward
+    }
+}"
+T1,2029,694,Commands_Lesson 8,tutorial,,9x5,411,2023-08-21T01:09:29.000,2023-08-21T01:09:29.000,1,0,2,29,3,2,1,1,7,240,6,47.02600098,21/08/2023 9:09,21/08/2023 9:09,21/08/2023 9:09,21/08/2023 9:10,,"turnRight
+while (NotReachDest)
+{
+    if (Enemy In Front)
+    {
+        attack
+    }
+    else
+    {
+        moveForward
+    }
+}"
+T1,2034,696,For Loops_ Lesson 1,tutorial,,3x8,411,2023-08-21T01:10:08.000,2023-08-21T01:10:08.000,0,0,0,16,1,1,0,1,3,300,7,33.36100006,21/08/2023 9:10,21/08/2023 9:10,21/08/2023 9:10,21/08/2023 9:10,,"while (NotReachDest)
+{
+    moveForward
+}"
+T1,2110,700,For Loops_Lesson 5,tutorial,,5x11,411,2023-08-21T01:16:43.000,2023-08-21T01:16:43.000,2,0,1,38,4,3,2,1,10,240,24,388.1579895,21/08/2023 9:10,21/08/2023 9:10,21/08/2023 9:16,21/08/2023 9:17,,"while (NotReachDest)
+{
+    if (Enemy In Front)
+    {
+        attack
+    }
+    if (Dir == ""Right"")
+    {
+        turnRight
+    }
+    else
+    {
+        turnLeft
+    }
+    moveForward
+}"
+T1,2025,689,Commands_Lesson 3,tutorial,,7x7,427,2023-08-21T01:09:12.000,2023-08-21T01:09:12.000,0,0,0,33,2,2,1,1,6,300,12,691.2255859,21/08/2023 8:57,21/08/2023 8:58,21/08/2023 9:09,21/08/2023 9:09,,"while (NotReachDest)
+{
+    if (Dir == ""Right"")
+    {
+        turnRight
+    }
+    moveForward
+}"
+T1,2157,690,Commands_Lesson 4,tutorial,,7x7,427,2023-08-21T01:22:23.000,2023-08-21T01:22:23.000,1,0,1,32,3,1,0,1,5,300,6,603.9376221,21/08/2023 9:12,21/08/2023 9:12,21/08/2023 9:22,21/08/2023 9:22,,"while (NotReachDest)
+{
+    moveForward
+    moveForward
+    turnRight
+}"
+T1,2017,700,For Loops_Lesson 5,tutorial,,5x11,216,2023-08-21T01:08:16.000,2023-08-21T01:08:16.000,2,0,1,38,19,0,0,0,19,240,10,424.9186096,21/08/2023 9:01,21/08/2023 9:02,21/08/2023 9:08,21/08/2023 9:08,,"moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+attack
+moveForward
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward"
+T1,2000,702,For Loops_Lesson 7,tutorial,,7x7,447,2023-08-21T01:06:38.000,2023-08-21T01:06:38.000,2,3,2,20,20,0,0,0,20,290,12,124.9011993,21/08/2023 9:05,21/08/2023 9:05,21/08/2023 9:06,21/08/2023 9:07,,"turnRight
+attack
+moveForward
+moveForward
+turnBack
+moveForward
+moveForward
+turnRight
+moveForward
+turnBack
+moveForward
+moveForward
+moveForward
+turnBack
+moveForward
+moveForward
+turnLeft
+attack
+moveForward
+moveForward"
+T1,2008,704,Conditions_Lesson 1,tutorial,,5x5,447,2023-08-21T01:07:19.000,2023-08-21T01:07:19.000,0,0,1,10,7,0,0,0,7,300,6,33.18270111,21/08/2023 9:07,21/08/2023 9:07,21/08/2023 9:07,21/08/2023 9:07,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,2021,706,Conditions_Lesson 3,tutorial,,3x7,447,2023-08-21T01:08:44.000,2023-08-21T01:08:44.000,0,0,1,6,2,2,1,1,6,240,4,56.21060181,21/08/2023 9:08,21/08/2023 9:08,21/08/2023 9:09,21/08/2023 9:09,,"while (NotReachDest)
+{
+    if (Enemy In Front)
+    {
+        attack
+    }
+    moveForward
+}"
+T1,2087,707,Conditions_Lesson 4,tutorial,,4x9,447,2023-08-21T01:15:09.000,2023-08-21T01:15:09.000,3,0,1,17,23,0,0,0,23,240,10,380.4440002,21/08/2023 9:09,21/08/2023 9:09,21/08/2023 9:15,21/08/2023 9:15,,"moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+attack
+turnLeft
+moveForward
+moveForward
+turnLeft
+moveForward
+moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward"
+T1,2148,700,For Loops_Lesson 5,tutorial,,5x11,379,2023-08-21T01:21:17.000,2023-08-21T01:21:17.000,2,0,1,38,11,2,0,2,15,240,10,1046.051025,21/08/2023 9:04,21/08/2023 9:19,21/08/2023 9:21,21/08/2023 9:21,,"repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+    turnRight
+    moveForward
+    turnLeft
+}
+attack
+moveForward
+moveForward
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    turnLeft
+    moveForward
+    turnRight
+    moveForward
+}"
+T1,1976,690,Commands_Lesson 4,tutorial,,7x7,405,2023-08-21T01:05:03.000,2023-08-21T01:05:03.000,1,0,1,32,8,0,0,0,8,300,6,139.7460022,21/08/2023 9:03,21/08/2023 9:03,21/08/2023 9:05,21/08/2023 9:05,,"moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1984,694,Commands_Lesson 8,tutorial,,9x5,448,2023-08-21T01:05:19.000,2023-08-21T01:05:19.000,1,0,2,29,9,0,0,0,9,240,6,74.95800018,21/08/2023 9:04,21/08/2023 9:04,21/08/2023 9:05,21/08/2023 9:05,,"turnRight
+moveForward
+attack
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,1997,696,For Loops_ Lesson 1,tutorial,,3x8,448,2023-08-21T01:06:19.000,2023-08-21T01:06:19.000,0,0,0,16,7,0,0,0,7,300,7,25.24300003,21/08/2023 9:06,21/08/2023 9:06,21/08/2023 9:06,21/08/2023 9:06,,"moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,2138,700,For Loops_Lesson 5,tutorial,,5x11,448,2023-08-21T01:20:04.000,2023-08-21T01:20:04.000,2,0,1,38,24,0,0,0,24,240,10,821.5170288,21/08/2023 9:06,21/08/2023 9:06,21/08/2023 9:20,21/08/2023 9:20,,"moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+turnLeft
+attack
+moveForward
+moveForward
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward"
+T1,1982,690,Commands_Lesson 4,tutorial,,7x7,443,2023-08-21T01:05:17.000,2023-08-21T01:05:17.000,1,0,1,32,9,0,0,0,9,300,6,61.91999817,21/08/2023 9:04,21/08/2023 9:04,21/08/2023 9:05,21/08/2023 9:05,,"moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+,2145,707,Conditions_Lesson 4,,,4x9,382,2023-08-21T01:21:07.000,2023-08-21T01:21:07.000,3,0,1,17,8,1,0,1,10,270,10,918.4810181,21/08/2023 9:06,21/08/2023 9:06,21/08/2023 9:21,21/08/2023 9:21,,"repeatCount = 1;
+while (repeatCount < 6)
+{
+    repeatCount add 1
+    moveForward
+    turnRight
+    moveForward
+    turnLeft
+    moveForward
+    turnLeft
+    moveForward
+    turnRight
+}"
+T1,2006,691,Commands_Lesson 5,tutorial,,9x6,443,2023-08-21T01:07:09.000,2023-08-21T01:07:09.000,0,0,1,31,16,0,0,0,16,300,13,104.7320023,21/08/2023 9:05,21/08/2023 9:05,21/08/2023 9:07,21/08/2023 9:07,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,1986,706,Conditions_Lesson 3,tutorial,,3x7,382,2023-08-21T01:05:35.000,2023-08-21T01:05:35.000,0,0,1,6,5,0,0,0,5,240,4,26.49699974,21/08/2023 9:05,21/08/2023 9:05,21/08/2023 9:06,21/08/2023 9:06,,"moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,2145,707,Conditions_Lesson 4,tutorial,,4x9,382,2023-08-21T01:21:07.000,2023-08-21T01:21:07.000,3,0,1,17,8,1,0,1,10,270,10,918.4810181,21/08/2023 9:06,21/08/2023 9:06,21/08/2023 9:21,21/08/2023 9:21,,"repeatCount = 1;
+while (repeatCount < 6)
+{
+    repeatCount add 1
+    moveForward
+    turnRight
+    moveForward
+    turnLeft
+    moveForward
+    turnLeft
+    moveForward
+    turnRight
+}"
+T1,1999,700,For Loops_Lesson 5,tutorial,,5x11,375,2023-08-21T01:06:32.000,2023-08-21T01:06:32.000,2,0,1,38,21,0,0,0,21,240,10,532.6690063,21/08/2023 8:58,21/08/2023 8:58,21/08/2023 9:06,21/08/2023 9:07,,"moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+moveForward
+turnRight
+moveForward
+turnLeft
+attack
+moveForward
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,2022,702,For Loops_Lesson 7,tutorial,,7x7,375,2023-08-21T01:08:50.000,2023-08-21T01:08:50.000,2,3,2,20,14,0,0,0,14,260,10,134.7949982,21/08/2023 9:07,21/08/2023 9:07,21/08/2023 9:09,21/08/2023 9:09,,"moveForward
+moveForward
+turnBack
+moveForward
+moveForward
+moveForward
+moveForward
+turnBack
+moveForward
+moveForward
+turnLeft
+attack
+moveForward
+moveForward"
+T1,2049,704,Conditions_Lesson 1,tutorial,,5x5,375,2023-08-21T01:11:37.000,2023-08-21T01:11:37.000,0,0,1,10,7,0,0,0,7,300,6,162.4649963,21/08/2023 9:09,21/08/2023 9:09,21/08/2023 9:12,21/08/2023 9:12,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,2061,706,Conditions_Lesson 3,tutorial,,3x7,375,2023-08-21T01:12:44.000,2023-08-21T01:12:44.000,0,0,1,6,5,0,0,0,5,240,4,60.77399826,21/08/2023 9:12,21/08/2023 9:12,21/08/2023 9:13,21/08/2023 9:13,,"moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,2080,707,Conditions_Lesson 4,tutorial,,4x9,375,2023-08-21T01:14:31.000,2023-08-21T01:14:31.000,3,0,1,17,3,3,2,1,9,270,10,101.3290024,21/08/2023 9:13,21/08/2023 9:13,21/08/2023 9:14,21/08/2023 9:15,,"while (NotReachDest)
+{
+    if (Dir == ""Forward"")
+    {
+        moveForward
+    }
+    else
+    {
+        if (Dir == ""Right"")
+        {
+            turnRight
+        }
+        else
+        {
+            turnLeft
+        }
+    }
+}"
+T1,1979,689,Commands_Lesson 3,tutorial,,7x7,373,2023-08-21T01:05:13.000,2023-08-21T01:05:13.000,0,0,0,33,7,8,4,4,23,300,12,431.4961853,21/08/2023 8:58,21/08/2023 9:04,21/08/2023 9:05,21/08/2023 9:05,,"if (NotReachDest)
+{
+    repeatCount = 1;
+    while (repeatCount < 5)
+    {
+        repeatCount add 1
+        moveForward
+    }
+    turnRight
+    if (NotReachDest)
+    {
+        repeatCount = 1;
+        while (repeatCount < 5)
+        {
+            repeatCount add 1
+            moveForward
+        }
+    }
+    turnRight
+    if (NotReachDest)
+    {
+        repeatCount = 1;
+        while (repeatCount < 3)
+        {
+            repeatCount add 1
+            moveForward
+        }
+    }
+    turnRight
+    if (NotReachDest)
+    {
+        repeatCount = 1;
+        while (repeatCount < 3)
+        {
+            repeatCount add 1
+            moveForward
+        }
+    }
+}"
+T1,2095,690,Commands_Lesson 4,tutorial,,7x7,373,2023-08-21T01:15:27.000,2023-08-21T01:15:27.000,1,0,1,32,6,4,1,3,14,300,6,607.5366821,21/08/2023 9:05,21/08/2023 9:06,21/08/2023 9:15,21/08/2023 9:15,,"if (NotReachDest)
+{
+    moveForward
+    repeatCount = 1;
+    while (repeatCount < 2)
+    {
+        repeatCount add 1
+        moveForward
+    }
+    turnRight
+    repeatCount = 1;
+    while (repeatCount < 3)
+    {
+        repeatCount add 1
+        moveForward
+    }
+    turnRight
+    repeatCount = 1;
+    while (repeatCount < 3)
+    {
+        repeatCount add 1
+        moveForward
+    }
+}"
+T1,2141,691,Commands_Lesson 5,tutorial,,9x6,373,2023-08-21T01:20:32.000,2023-08-21T01:20:32.000,0,0,1,31,7,3,2,1,13,280,5,299.901001,21/08/2023 9:16,21/08/2023 9:16,21/08/2023 9:20,21/08/2023 9:21,,"if (NotReachDest)
+{
+    moveForward
+    turnRight
+}
+while (Dir == ""Forward"")
+{
+    moveForward
+}
+attack
+if (NotReachDest)
+{
+    moveForward
+    moveForward
+    moveForward
+}"
+T1,2013,700,For Loops_Lesson 5,tutorial,,5x11,403,2023-08-21T01:07:55.000,2023-08-21T01:07:55.000,2,0,1,38,19,0,0,0,19,240,10,211.4609985,21/08/2023 9:04,21/08/2023 9:05,21/08/2023 9:08,21/08/2023 9:08,,"moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+attack
+moveForward
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward"
+T1,2067,702,For Loops_Lesson 7,tutorial,,7x7,403,2023-08-21T01:13:22.000,2023-08-21T01:13:22.000,2,3,2,20,20,0,0,0,20,390,14,321.3859863,21/08/2023 9:08,21/08/2023 9:09,21/08/2023 9:13,21/08/2023 9:13,,"moveForward
+moveForward
+turnBack
+moveForward
+moveForward
+moveForward
+moveForward
+turnBack
+moveForward
+moveForward
+turnRight
+attack
+moveForward
+moveForward
+turnBack
+moveForward
+moveForward
+attack
+moveForward
+moveForward"
+T1,2079,704,Conditions_Lesson 1,tutorial,,5x5,403,2023-08-21T01:14:28.000,2023-08-21T01:14:28.000,0,0,1,10,7,0,0,0,7,300,6,41.9280014,21/08/2023 9:14,21/08/2023 9:14,21/08/2023 9:14,21/08/2023 9:14,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,2085,706,Conditions_Lesson 3,tutorial,,3x7,403,2023-08-21T01:15:07.000,2023-08-21T01:15:07.000,0,0,1,6,5,0,0,0,5,240,4,32.92200089,21/08/2023 9:15,21/08/2023 9:15,21/08/2023 9:15,21/08/2023 9:15,,"moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,2004,700,For Loops_Lesson 5,tutorial,,5x11,449,2023-08-21T01:06:50.000,2023-08-21T01:06:50.000,2,0,1,38,23,0,0,0,23,240,10,200.048996,21/08/2023 9:04,21/08/2023 9:04,21/08/2023 9:07,21/08/2023 9:07,,"moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+moveForward
+turnRight
+moveForward
+turnLeft
+attack
+moveForward
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+moveForward
+turnLeft
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,2040,702,For Loops_Lesson 7,tutorial,,7x7,449,2023-08-21T01:10:52.000,2023-08-21T01:10:52.000,2,3,2,20,20,0,0,0,20,230,12,237.4450073,21/08/2023 9:07,21/08/2023 9:08,21/08/2023 9:11,21/08/2023 9:11,,"turnRight
+attack
+moveForward
+moveForward
+turnBack
+moveForward
+moveForward
+turnRight
+moveForward
+turnBack
+moveForward
+moveForward
+moveForward
+turnBack
+moveForward
+moveForward
+turnLeft
+attack
+moveForward
+moveForward"
+T1,2047,704,Conditions_Lesson 1,tutorial,,5x5,449,2023-08-21T01:11:32.000,2023-08-21T01:11:32.000,0,0,1,10,7,0,0,0,7,300,6,34.65800095,21/08/2023 9:11,21/08/2023 9:11,21/08/2023 9:11,21/08/2023 9:12,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward"
+T1,2057,706,Conditions_Lesson 3,tutorial,,3x7,449,2023-08-21T01:12:14.000,2023-08-21T01:12:14.000,0,0,1,6,5,0,0,0,5,240,4,34.82500076,21/08/2023 9:12,21/08/2023 9:12,21/08/2023 9:12,21/08/2023 9:12,,"moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,2071,707,Conditions_Lesson 4,tutorial,,4x9,449,2023-08-21T01:13:44.000,2023-08-21T01:13:44.000,3,0,1,17,21,0,0,0,21,270,10,85.08799744,21/08/2023 9:12,21/08/2023 9:12,21/08/2023 9:14,21/08/2023 9:14,,"moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+moveForward
+moveForward
+turnLeft
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward"
+T1,2159,710,Conditions_Lesson 7,tutorial,,13x5,449,2023-08-21T01:22:27.000,2023-08-21T01:22:27.000,8,2,2,43,50,0,0,0,50,320,32,517.1630249,21/08/2023 9:14,21/08/2023 9:14,21/08/2023 9:22,21/08/2023 9:22,,"moveForward
+moveForward
+turnBack
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+turnLeft
+moveForward
+turnBack
+moveForward
+moveForward
+turnBack
+moveForward
+turnLeft
+moveForward
+moveForward
+turnLeft
+moveForward
+turnBack
+moveForward
+moveForward
+turnBack
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnLeft
+moveForward
+turnBack
+moveForward
+moveForward
+moveForward
+turnBack
+moveForward
+turnLeft
+moveForward
+moveForward
+turnRight
+moveForward
+turnBack
+moveForward
+moveForward
+moveForward"
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+T1,1988,700,For Loops_Lesson 5,tutorial,,5x11,383,2023-08-21T01:05:37.000,2023-08-21T01:05:37.000,2,0,1,38,19,1,1,0,21,240,10,402.933197,21/08/2023 8:59,21/08/2023 8:59,21/08/2023 9:05,21/08/2023 9:06,,"moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+if (Enemy In Front)
+{
+    attack
+}
+moveForward
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward"
+T1,2020,702,For Loops_Lesson 7,tutorial,,7x7,383,2023-08-21T01:08:39.000,2023-08-21T01:08:39.000,2,3,2,20,9,4,1,3,17,320,10,155.9062042,21/08/2023 9:06,21/08/2023 9:06,21/08/2023 9:08,21/08/2023 9:09,,"repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+turnBack
+repeatCount = 1;
+while (repeatCount < 5)
+{
+    repeatCount add 1
+    moveForward
+}
+turnBack
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+turnLeft
+if (Enemy In Front)
+{
+    attack
+}
+moveForward
+moveForward"
+T1,2041,704,Conditions_Lesson 1,tutorial,,5x5,383,2023-08-21T01:11:12.000,2023-08-21T01:11:12.000,0,0,1,10,2,2,1,1,6,300,6,144.8834076,21/08/2023 9:09,21/08/2023 9:09,21/08/2023 9:11,21/08/2023 9:11,,"while (NotReachDest)
+{
+    if (Dir == ""Right"")
+    {
+        turnRight
+    }
+    moveForward
+}"
+T1,2060,706,Conditions_Lesson 3,tutorial,,3x7,383,2023-08-21T01:12:43.000,2023-08-21T01:12:43.000,0,0,1,6,2,2,1,1,6,240,4,68.08249664,21/08/2023 9:12,21/08/2023 9:12,21/08/2023 9:13,21/08/2023 9:13,,"while (NotReachDest)
+{
+    if (Enemy In Front)
+    {
+        attack
+    }
+    moveForward
+}"
+T1,2075,707,Conditions_Lesson 4,tutorial,,4x9,383,2023-08-21T01:14:17.000,2023-08-21T01:14:17.000,3,0,1,17,3,2,1,1,7,270,10,84.97709656,21/08/2023 9:13,21/08/2023 9:13,21/08/2023 9:14,21/08/2023 9:14,,"while (NotReachDest)
+{
+    if (Dir == ""Right"")
+    {
+        turnRight
+    }
+    else
+    {
+        turnLeft
+    }
+    moveForward
+}"
+T1,2075,707,Conditions_Lesson 4,tutorial,,4x9,383,2023-08-21T01:14:17.000,2023-08-21T01:14:17.000,3,0,1,17,3,2,1,1,7,270,10,84.97709656,21/08/2023 9:13,21/08/2023 9:13,21/08/2023 9:14,21/08/2023 9:14,,"while (NotReachDest)
+{
+    if (Dir == ""Right"")
+    {
+        turnRight
+    }
+    else
+    {
+        turnLeft
+    }
+    moveForward
+}"
+T1,2043,691,Commands_Lesson 5,tutorial,,9x6,372,2023-08-21T01:11:17.000,2023-08-21T01:11:17.000,0,0,1,31,7,4,0,4,15,300,13,466.9563904,21/08/2023 9:04,21/08/2023 9:04,21/08/2023 9:11,21/08/2023 9:11,,"repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 7)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}"
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+T1,2058,692,Commands_Lesson 6,tutorial,,7x10,372,2023-08-21T01:12:41.000,2023-08-21T01:12:41.000,1,1,4,38,5,3,0,3,11,190,17,77.12180328,21/08/2023 9:11,21/08/2023 9:11,21/08/2023 9:12,21/08/2023 9:13,,"repeatCount = 1;
+while (repeatCount < 8)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 8)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,2086,693,Commands_Lesson 7,tutorial,,3x5,372,2023-08-21T01:15:08.000,2023-08-21T01:15:08.000,0,0,1,10,5,0,0,0,5,280,4,136.7960052,21/08/2023 9:13,21/08/2023 9:13,21/08/2023 9:15,21/08/2023 9:15,,"moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,2120,694,Commands_Lesson 8,tutorial,,9x5,372,2023-08-21T01:17:35.000,2023-08-21T01:17:35.000,1,0,2,29,3,2,1,1,7,220,6,142.2566986,21/08/2023 9:15,21/08/2023 9:15,21/08/2023 9:17,21/08/2023 9:18,,"turnRight
+repeatCount = 1;
+while (repeatCount < 10)
+{
+    repeatCount add 1
+    if (Dir == ""Forward"")
+    {
+        moveForward
+    }
+    else
+    {
+        attack
+    }
+}"
+T1,2131,696,For Loops_ Lesson 1,tutorial,,3x8,372,2023-08-21T01:18:47.000,2023-08-21T01:18:47.000,0,0,0,16,1,1,0,1,3,300,7,55.16899872,21/08/2023 9:18,21/08/2023 9:18,21/08/2023 9:19,21/08/2023 9:19,,"repeatCount = 1;
+while (repeatCount < 8)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,1973,691,Commands_Lesson 5,tutorial,,9x6,401,2023-08-21T01:04:59.000,2023-08-21T01:04:59.000,0,0,1,31,16,0,0,0,16,300,13,215.5559998,21/08/2023 9:01,21/08/2023 9:02,21/08/2023 9:05,21/08/2023 9:05,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,2070,692,Commands_Lesson 6,tutorial,,7x10,401,2023-08-21T01:13:36.000,2023-08-21T01:13:36.000,1,1,4,38,15,0,0,0,15,90,13,499.6669922,21/08/2023 9:05,21/08/2023 9:06,21/08/2023 9:13,21/08/2023 9:14,,"moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,2077,693,Commands_Lesson 7,tutorial,,3x5,401,2023-08-21T01:14:26.000,2023-08-21T01:14:26.000,0,0,1,10,6,0,0,0,6,280,4,44.7120018,21/08/2023 9:14,21/08/2023 9:14,21/08/2023 9:14,21/08/2023 9:14,,"moveForward
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,2105,694,Commands_Lesson 8,tutorial,,9x5,401,2023-08-21T01:16:24.000,2023-08-21T01:16:24.000,1,0,2,29,10,0,0,0,10,240,6,105.2710037,21/08/2023 9:15,21/08/2023 9:15,21/08/2023 9:16,21/08/2023 9:16,,"turnRight
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,2116,696,For Loops_ Lesson 1,tutorial,,3x8,401,2023-08-21T01:17:01.000,2023-08-21T01:17:01.000,0,0,0,16,7,0,0,0,7,300,7,29.00600052,21/08/2023 9:17,21/08/2023 9:17,21/08/2023 9:17,21/08/2023 9:17,,"moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,2063,692,Commands_Lesson 6,tutorial,,7x10,386,2023-08-21T01:13:03.000,2023-08-21T01:13:03.000,1,1,4,38,32,0,0,0,32,190,21,765.0125122,21/08/2023 9:00,21/08/2023 9:01,21/08/2023 9:12,21/08/2023 9:13,,"moveForward
+turnRight
+moveForward
+attack
+moveForward
+attack
+moveForward
+turnLeft
+moveForward
+moveForward
+turnLeft
+moveForward
+attack
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,2073,693,Commands_Lesson 7,tutorial,,3x5,386,2023-08-21T01:13:57.000,2023-08-21T01:13:57.000,0,0,1,10,5,0,0,0,5,260,4,49.25230026,21/08/2023 9:13,21/08/2023 9:13,21/08/2023 9:14,21/08/2023 9:14,,"moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,2088,694,Commands_Lesson 8,tutorial,,9x5,386,2023-08-21T01:15:19.000,2023-08-21T01:16:14.000,1,0,2,29,9,0,0,0,9,220,6,49.3995018,21/08/2023 9:15,21/08/2023 9:16,21/08/2023 9:16,21/08/2023 9:16,,"turnRight
+moveForward
+attack
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,2118,696,For Loops_ Lesson 1,tutorial,,3x8,386,2023-08-21T01:17:16.000,2023-08-21T01:17:16.000,0,0,0,16,1,1,0,1,3,300,7,54.13029861,21/08/2023 9:16,21/08/2023 9:16,21/08/2023 9:17,21/08/2023 9:17,,"repeatCount = 1;
+while (repeatCount < 8)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,2149,700,For Loops_Lesson 5,tutorial,,5x11,386,2023-08-21T01:21:21.000,2023-08-21T01:21:21.000,2,0,1,38,19,1,0,1,21,240,10,236.580307,21/08/2023 9:17,21/08/2023 9:18,21/08/2023 9:21,21/08/2023 9:21,,"while (NotReachDest)
+{
+    moveForward
+    turnRight
+    moveForward
+    turnLeft
+    moveForward
+    turnRight
+    moveForward
+    turnLeft
+    attack
+    moveForward
+    moveForward
+    turnLeft
+    moveForward
+    turnRight
+    moveForward
+    turnLeft
+    moveForward
+    turnRight
+    moveForward
+}"
+T1,1985,700,For Loops_Lesson 5,tutorial,,5x11,378,2023-08-21T01:05:20.000,2023-08-21T01:05:20.000,2,0,1,38,19,0,0,0,19,240,10,92.82689667,21/08/2023 9:04,21/08/2023 9:04,21/08/2023 9:05,21/08/2023 9:05,,"moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+attack
+moveForward
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward"
+T1,2059,702,For Loops_Lesson 7,tutorial,,7x7,378,2023-08-21T01:12:41.000,2023-08-21T01:12:41.000,2,3,2,20,14,0,0,0,14,260,10,434.4204102,21/08/2023 9:05,21/08/2023 9:06,21/08/2023 9:13,21/08/2023 9:13,,"moveForward
+moveForward
+turnBack
+moveForward
+moveForward
+moveForward
+moveForward
+turnBack
+moveForward
+moveForward
+turnLeft
+attack
+moveForward
+moveForward"
+T1,2122,704,Conditions_Lesson 1,tutorial,,5x5,378,2023-08-21T01:17:54.000,2023-08-21T01:17:54.000,0,0,1,10,3,2,0,2,7,300,6,298.5003967,21/08/2023 9:13,21/08/2023 9:13,21/08/2023 9:18,21/08/2023 9:18,,"repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,2133,706,Conditions_Lesson 3,tutorial,,3x7,378,2023-08-21T01:19:07.000,2023-08-21T01:19:07.000,0,0,1,6,3,1,0,1,5,240,4,68.46089935,21/08/2023 9:18,21/08/2023 9:18,21/08/2023 9:19,21/08/2023 9:19,,"moveForward
+attack
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,2002,691,Commands_Lesson 5,tutorial,,9x6,406,2023-08-21T01:06:39.000,2023-08-21T01:06:39.000,0,0,1,31,16,0,0,0,16,300,13,123.2360001,21/08/2023 9:05,21/08/2023 9:05,21/08/2023 9:06,21/08/2023 9:07,,"moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,2052,691,Commands_Lesson 5,tutorial,,9x6,456,2023-08-21T01:11:45.000,2023-08-21T01:11:45.000,0,0,1,31,4,2,1,1,8,280,5,69.49199677,21/08/2023 9:11,21/08/2023 9:11,21/08/2023 9:12,21/08/2023 9:12,,"moveForward
+turnRight
+while (NotReachDest)
+{
+    moveForward
+    if (Enemy In Front)
+    {
+        attack
+    }
+}"
+T1,1974,696,For Loops_ Lesson 1,tutorial,,3x8,424,2023-08-21T01:05:00.000,2023-08-21T01:05:00.000,0,0,0,16,9,0,0,0,9,300,7,79.54299927,21/08/2023 9:04,21/08/2023 9:04,21/08/2023 9:05,21/08/2023 9:05,,"moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward"
+T1,1987,693,Commands_Lesson 7,tutorial,,3x5,451,2023-08-21T01:05:36.000,2023-08-21T01:05:36.000,0,0,1,10,6,0,0,0,6,280,4,226.8820038,21/08/2023 9:02,21/08/2023 9:02,21/08/2023 9:05,21/08/2023 9:06,,"moveForward
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,2023,694,Commands_Lesson 8,tutorial,,9x5,451,2023-08-21T01:09:05.000,2023-08-21T01:09:05.000,1,0,2,29,10,0,0,0,10,240,6,203.0500031,21/08/2023 9:06,21/08/2023 9:08,21/08/2023 9:09,21/08/2023 9:09,,"turnRight
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+moveForward"
+T1,2033,696,For Loops_ Lesson 1,tutorial,,3x8,451,2023-08-21T01:10:03.000,2023-08-21T01:10:03.000,0,0,0,16,1,1,0,1,3,300,7,47.70199966,21/08/2023 9:09,21/08/2023 9:09,21/08/2023 9:10,21/08/2023 9:10,,"while (Dir == ""Forward"")
+{
+    moveForward
+}"
+T1,2081,702,For Loops_Lesson 7,tutorial,,7x7,416,2023-08-21T01:14:40.000,2023-08-21T01:14:40.000,2,3,2,20,18,0,0,0,18,350,10,809.7810059,21/08/2023 9:01,21/08/2023 9:01,21/08/2023 9:15,21/08/2023 9:15,,"turnRight
+attack
+turnBack
+attack
+turnRight
+moveForward
+moveForward
+turnBack
+moveForward
+moveForward
+moveForward
+moveForward
+turnBack
+moveForward
+moveForward
+turnLeft
+moveForward
+moveForward"
+T1,2099,704,Conditions_Lesson 1,tutorial,,5x5,416,2023-08-21T01:15:37.000,2023-08-21T01:15:37.000,0,0,1,10,2,2,1,1,6,300,6,49.92399979,21/08/2023 9:15,21/08/2023 9:15,21/08/2023 9:16,21/08/2023 9:16,,"while (NotReachDest)
+{
+    if (Dir == ""Right"")
+    {
+        turnRight
+    }
+    moveForward
+}"
+T1,2103,706,Conditions_Lesson 3,tutorial,,3x7,416,2023-08-21T01:16:06.000,2023-08-21T01:16:06.000,0,0,1,6,2,2,1,1,6,180,4,23.97100067,21/08/2023 9:16,21/08/2023 9:16,21/08/2023 9:16,21/08/2023 9:16,,"while (NotReachDest)
+{
+    if (Enemy In Front)
+    {
+        attack
+    }
+    moveForward
+}"
+T1,2127,707,Conditions_Lesson 4,tutorial,,4x9,416,2023-08-21T01:18:17.000,2023-08-21T01:18:17.000,3,0,1,17,3,3,2,1,9,270,10,66.63899994,21/08/2023 9:17,21/08/2023 9:17,21/08/2023 9:18,21/08/2023 9:18,,"while (NotReachDest)
+{
+    if (Dir == ""Left"")
+    {
+        turnLeft
+    }
+    if (Dir == ""Right"")
+    {
+        turnRight
+    }
+    moveForward
+}"
+T1,2160,710,Conditions_Lesson 7,tutorial,,13x5,416,2023-08-21T01:22:28.000,2023-08-21T01:22:28.000,8,2,2,43,11,2,1,1,15,260,32,238.6000061,21/08/2023 9:18,21/08/2023 9:18,21/08/2023 9:22,21/08/2023 9:22,,"while (NotReachDest)
+{
+    moveForward
+    turnLeft
+    if (Enemy In Front)
+    {
+        attack
+        turnRight
+        moveForward
+        turnBack
+    }
+    else
+    {
+        moveForward
+        moveForward
+        turnLeft
+        moveForward
+        turnBack
+    }
+}"
+T1,2091,690,Commands_Lesson 4,tutorial,,7x7,388,2023-08-21T01:15:20.000,2023-08-21T01:15:20.000,1,0,1,32,5,3,0,3,11,300,6,764.9096069,21/08/2023 9:03,21/08/2023 9:03,21/08/2023 9:15,21/08/2023 9:15,,"repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,2155,691,Commands_Lesson 5,tutorial,,9x6,388,2023-08-21T01:22:02.000,2023-08-21T01:22:02.000,0,0,1,31,7,4,0,4,15,300,13,388.8085938,21/08/2023 9:16,21/08/2023 9:16,21/08/2023 9:22,21/08/2023 9:22,,"repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 7)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,2181,707,Conditions_Lesson 4,tutorial,,4x9,391,2023-08-21T01:39:40.000,2023-08-21T01:39:40.000,3,0,1,17,19,1,0,1,21,270,10,347.4613953,21/08/2023 9:34,21/08/2023 9:34,21/08/2023 9:40,21/08/2023 9:40,,"moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+moveForward
+moveForward
+turnLeft
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward"
+T1,2170,706,Conditions_Lesson 3,tutorial,,3x7,385,2023-08-21T01:33:55.000,2023-08-21T01:33:55.000,0,0,1,6,2,2,1,1,6,240,4,735.84552,21/08/2023 9:22,21/08/2023 9:22,21/08/2023 9:34,21/08/2023 9:34,,"while (NotReachDest)
+{
+    moveForward
+    if (Enemy In Front)
+    {
+        attack
+    }
+}"
+T1,2177,707,Conditions_Lesson 4,tutorial,,4x9,385,2023-08-21T01:36:47.000,2023-08-21T01:36:47.000,3,0,1,17,11,2,0,2,15,240,10,161.4658966,21/08/2023 9:34,21/08/2023 9:34,21/08/2023 9:37,21/08/2023 9:37,,"repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+    turnRight
+    moveForward
+    turnLeft
+}
+turnRight
+attack
+turnLeft
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+    turnLeft
+    moveForward
+    turnRight
+}"
+T1,2196,700,For Loops_Lesson 5,tutorial,,5x11,372,2023-08-21T01:55:11.000,2023-08-21T01:55:11.000,2,0,1,38,16,1,0,1,18,240,10,2178.006348,21/08/2023 9:19,21/08/2023 9:19,21/08/2023 9:55,21/08/2023 9:55,,"repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+    turnRight
+    moveForward
+    turnLeft
+}
+attack
+moveForward
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+moveForward
+turnRight
+moveForward"
+T1,3257,710,Conditions_Lesson 7,tutorial,,13x5,391,2023-08-21T04:43:00.000,2023-08-21T04:43:00.000,8,2,2,43,26,2,0,2,30,350,32,1063.414185,21/08/2023 12:25,21/08/2023 12:27,21/08/2023 12:42,21/08/2023 12:43,,"repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+    turnLeft
+    moveForward
+    moveForward
+    turnLeft
+    moveForward
+    turnBack
+}
+moveForward
+moveForward
+repeatCount = 1;
+while (repeatCount < 5)
+{
+    repeatCount add 1
+    turnBack
+    moveForward
+    turnLeft
+    moveForward
+    moveForward
+    turnLeft
+    moveForward
+}
+turnBack
+moveForward
+moveForward
+turnBack
+moveForward
+turnLeft
+moveForward
+moveForward
+turnLeft
+moveForward"
+T1,3274,711,While Loops_Lesson 1,tutorial,,5x21,391,2023-08-21T04:43:55.000,2023-08-21T04:43:55.000,0,0,16,70,1,1,0,1,3,300,18,49.09230042,21/08/2023 12:43,21/08/2023 12:43,21/08/2023 12:44,21/08/2023 12:44,,"repeatCount = 1;
+while (repeatCount < 19)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,3379,712,While Loops_Lesson 2,tutorial,,6x6,391,2023-08-21T04:51:20.000,2023-08-21T04:51:20.000,0,0,2,20,6,2,1,1,10,200,9,432.9892883,21/08/2023 12:44,21/08/2023 12:44,21/08/2023 12:51,21/08/2023 12:51,,"repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+    turnLeft
+    if (Enemy In Front)
+    {
+        attack
+    }
+    else
+    {
+        moveForward
+    }
+    moveForward
+    moveForward
+}"
+T1,3474,713,While loops_Lesson 3,tutorial,,8x8,391,2023-08-21T04:56:57.000,2023-08-21T04:56:57.000,7,0,0,52,7,1,0,1,9,300,11,255.7236023,21/08/2023 12:53,21/08/2023 12:54,21/08/2023 12:57,21/08/2023 12:57,,"repeatCount = 1;
+while (repeatCount < 5)
+{
+    repeatCount add 1
+    moveForward
+    turnLeft
+    moveForward
+    moveForward
+    turnLeft
+    moveForward
+    turnRight
+}"
+T1,3669,714,While Loops_Lesson 4,tutorial,,5x9,391,2023-08-21T05:04:37.000,2023-08-21T05:04:37.000,4,2,2,30,18,4,2,2,26,420,14,404.6795044,21/08/2023 12:58,21/08/2023 12:58,21/08/2023 1:04,21/08/2023 1:04,,"repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+if (Enemy In Front)
+{
+    attack
+}
+else
+{
+    moveForward
+}
+moveForward
+moveForward
+moveForward
+moveForward
+turnLeft
+moveForward
+moveForward
+turnLeft
+moveForward
+moveForward
+moveForward
+if (Enemy In Front)
+{
+    attack
+}
+else
+{
+    moveForward
+}
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+moveForward"
+T1,10154,721,Algorithm_Lesson 1,tutorial,,10x7,391,2023-08-22T08:45:02.000,2023-08-22T08:45:02.000,3,4,4,17,26,10,3,7,46,540,49,982.7661133,22/08/2023 4:29,22/08/2023 4:30,22/08/2023 4:45,22/08/2023 4:45,,"repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    repeatCount = 1;
+    while (repeatCount < 6)
+    {
+        repeatCount add 1
+        moveForward
+    }
+    turnRight
+    repeatCount = 1;
+    while (repeatCount < 3)
+    {
+        repeatCount add 1
+        moveForward
+    }
+    turnRight
+    repeatCount = 1;
+    while (repeatCount < 4)
+    {
+        repeatCount add 1
+        moveForward
+    }
+    if (Enemy In Front)
+    {
+        attack
+    }
+    moveForward
+    moveForward
+    turnBack
+}
+turnRight
+moveForward
+turnRight
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+if (Enemy In Front)
+{
+    attack
+}
+moveForward
+moveForward
+turnBack
+repeatCount = 1;
+while (repeatCount < 6)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+moveForward
+moveForward
+turnRight
+repeatCount = 1;
+while (repeatCount < 5)
+{
+    repeatCount add 1
+    moveForward
+}
+if (Enemy In Front)
+{
+    attack
+}
+moveForward
+moveForward"
+T1,11017,702,For Loops_Lesson 7,tutorial,,7x7,372,2023-08-22T13:13:16.000,2023-08-22T13:13:16.000,2,3,2,20,11,5,2,3,21,390,14,128.925293,22/08/2023 9:11,22/08/2023 9:11,22/08/2023 9:13,22/08/2023 9:14,,"repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+    moveForward
+    turnBack
+    moveForward
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    if (Enemy In Front)
+    {
+        attack
+    }
+    else
+    {
+        moveForward
+    }
+}
+turnBack
+repeatCount = 1;
+while (repeatCount < 6)
+{
+    repeatCount add 1
+    if (Enemy In Front)
+    {
+        attack
+    }
+    else
+    {
+        moveForward
+    }
+}"
+T1,11020,704,Conditions_Lesson 1,tutorial,,5x5,372,2023-08-22T13:14:33.000,2023-08-22T13:14:33.000,0,0,1,10,3,2,1,1,7,300,6,70.30639648,22/08/2023 9:14,22/08/2023 9:14,22/08/2023 9:15,22/08/2023 9:15,,"repeatCount = 1;
+while (repeatCount < 7)
+{
+    repeatCount add 1
+    if (Dir == ""Right"")
+    {
+        turnRight
+        moveForward
+    }
+    else
+    {
+        moveForward
+    }
+}"
+T1,11024,706,Conditions_Lesson 3,tutorial,,3x7,372,2023-08-22T13:16:59.000,2023-08-22T13:16:59.000,0,0,1,6,3,2,1,1,7,240,4,50.67359924,22/08/2023 9:16,22/08/2023 9:17,22/08/2023 9:17,22/08/2023 9:17,,"repeatCount = 1;
+while (repeatCount < 6)
+{
+    repeatCount add 1
+    if (Enemy In Front)
+    {
+        attack
+        moveForward
+    }
+    else
+    {
+        moveForward
+    }
+}"
+T1,11027,707,Conditions_Lesson 4,tutorial,,4x9,372,2023-08-22T13:23:59.000,2023-08-22T13:23:59.000,3,0,1,17,10,3,1,2,16,240,10,282.790802,22/08/2023 9:20,22/08/2023 9:20,22/08/2023 9:24,22/08/2023 9:24,,"repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+    turnRight
+    if (Enemy In Front)
+    {
+        attack
+        turnLeft
+    }
+    else
+    {
+        moveForward
+        turnLeft
+    }
+}
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+    turnLeft
+    moveForward
+    turnRight
+}"
+T1,26805,138,Nicholas' Maze,public,,4x8,407,2023-08-28T00:40:00.000,2023-08-28T00:40:29.000,0,0,0,0,27,1,0,1,29,290,19,409.7163086,28/08/2023 8:34,28/08/2023 8:34,28/08/2023 8:40,28/08/2023 8:40,,"attack
+moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+attack
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+turnBack
+moveForward
+turnLeft
+repeatCount = 1;
+while (repeatCount < 6)
+{
+    repeatCount add 1
+    moveForward
+}
+turnLeft
+moveForward
+attack
+moveForward
+moveForward
+turnLeft
+moveForward
+moveForward"
+T1,26842,278,Wen jun's maze,public,Kill ma monsters,10x10,409,2023-08-28T00:51:37.000,2023-08-28T00:51:37.000,0,0,0,0,20,2,0,2,24,70,16,748.5020142,28/08/2023 8:39,28/08/2023 8:39,28/08/2023 8:52,,,"repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnLeft
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnLeft
+moveForward
+turnRight
+attack
+moveForward
+moveForward
+turnLeft
+moveForward
+moveForward
+moveForward
+turnLeft
+attack
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,26812,449,Undermaze,public,"Choose to be a pacifist or a warmonger. Pick you adventure now!
+-TBL 7",10x10,402,2023-08-28T00:43:23.000,2023-08-28T00:43:23.000,3,1,3,0,3,3,2,1,9,340,41,615.4730835,28/08/2023 8:33,28/08/2023 8:33,28/08/2023 8:43,,,"while (NotReachDest)
+{
+    if (Dir == ""Forward"")
+    {
+        moveForward
+    }
+    else
+    {
+        if (Dir == ""Left"")
+        {
+            turnLeft
+        }
+        else
+        {
+            turnRight
+        }
+    }
+}"
+T1,26871,702,For Loops_Lesson 7,tutorial,,7x7,402,2023-08-28T00:59:11.000,2023-08-28T00:59:11.000,2,3,2,20,22,0,0,0,22,390,14,290.509613,28/08/2023 8:54,28/08/2023 8:55,28/08/2023 8:59,,,"turnRight
+attack
+moveForward
+moveForward
+turnBack
+moveForward
+moveForward
+turnLeft
+moveForward
+moveForward
+turnBack
+moveForward
+moveForward
+moveForward
+moveForward
+turnBack
+moveForward
+moveForward
+turnRight
+attack
+moveForward
+moveForward"
+T1,26808,449,Undermaze,public,"Choose to be a pacifist or a warmonger. Pick you adventure now!
+-TBL 7",10x10,399,2023-08-28T00:41:31.000,2023-08-28T00:41:31.000,3,1,3,0,3,3,2,1,9,340,41,563.2528076,28/08/2023 8:32,28/08/2023 8:32,28/08/2023 8:41,,,"while (NotReachDest)
+{
+    if (Dir == ""Forward"")
+    {
+        moveForward
+    }
+    else
+    {
+        if (Dir == ""Left"")
+        {
+            turnLeft
+        }
+        else
+        {
+            turnRight
+        }
+    }
+}"
+T1,26839,143,Get Rekt,public,,10x10,392,2023-08-28T00:51:16.000,2023-08-28T00:52:22.000,0,0,0,0,21,7,0,7,35,300,40,957.0993042,28/08/2023 8:37,28/08/2023 8:37,28/08/2023 8:52,28/08/2023 8:51,,"turnBack
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnLeft
+moveForward
+moveForward
+turnRight
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+moveForward
+turnBack
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnLeft
+repeatCount = 1;
+while (repeatCount < 10)
+{
+    repeatCount add 1
+    moveForward
+}
+turnLeft
+repeatCount = 1;
+while (repeatCount < 10)
+{
+    repeatCount add 1
+    moveForward
+}
+turnLeft
+repeatCount = 1;
+while (repeatCount < 7)
+{
+    repeatCount add 1
+    moveForward
+}
+turnLeft
+moveForward"
+T1,26823,449,Undermaze,public,"Choose to be a pacifist or a warmonger. Pick you adventure now!
+-TBL 7",10x10,459,2023-08-28T00:47:54.000,2023-08-28T00:47:54.000,3,1,3,0,3,3,2,1,9,340,41,99.70749664,28/08/2023 8:46,28/08/2023 8:46,28/08/2023 8:48,,,"while (NotReachDest)
+{
+    if (Dir == ""Forward"")
+    {
+        moveForward
+    }
+    else
+    {
+        if (Dir == ""Left"")
+        {
+            turnLeft
+        }
+        else
+        {
+            turnRight
+        }
+    }
+}"
+T1,26826,874,Maze 2,public,Maze with many blindcorners,6x6,2974,2023-08-28T00:49:11.000,2023-08-28T00:49:11.000,3,0,2,18,26,0,0,0,26,200,14,959.0910034,28/08/2023 8:33,28/08/2023 8:33,28/08/2023 8:49,28/08/2023 8:48,,"moveForward
+turnLeft
+moveForward
+attack
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+moveForward
+turnLeft
+moveForward
+turnBack
+moveForward
+turnRight
+moveForward
+moveForward
+turnLeft
+moveForward
+turnRight
+attack
+moveForward
+turnLeft
+moveForward"
+T1,26816,449,Undermaze,public,"Choose to be a pacifist or a warmonger. Pick you adventure now!
+-TBL 7",10x10,379,2023-08-28T00:44:13.000,2023-08-28T00:44:13.000,3,1,3,0,3,3,2,1,9,340,41,703.8637695,28/08/2023 8:33,28/08/2023 8:33,28/08/2023 8:44,,,"while (NotReachDest)
+{
+    if (Dir == ""Forward"")
+    {
+        moveForward
+    }
+    else
+    {
+        if (Dir == ""Left"")
+        {
+            turnLeft
+        }
+        else
+        {
+            turnRight
+        }
+    }
+}"
+T1,26867,874,Maze 2,public,Maze with many blindcorners,6x6,448,2023-08-28T00:57:36.000,2023-08-28T00:57:36.000,3,0,2,18,31,2,2,0,35,200,14,1475.259644,28/08/2023 8:33,28/08/2023 8:33,28/08/2023 8:58,,,"moveForward
+turnLeft
+moveForward
+moveForward
+if (Enemy In Front)
+{
+    attack
+}
+else
+{
+    moveForward
+}
+moveForward
+turnLeft
+moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+moveForward
+turnLeft
+moveForward
+turnLeft
+turnLeft
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+turnLeft
+moveForward
+turnRight
+if (Enemy In Front)
+{
+    attack
+}
+else
+{
+    moveForward
+}
+moveForward
+turnLeft
+moveForward"
+T1,26834,760,4P,public,Have Fun!,11x11,443,2023-08-28T00:50:54.000,2023-08-28T00:51:38.000,4,4,4,35,26,13,4,9,52,160,49,913.7449951,28/08/2023 8:36,28/08/2023 8:37,28/08/2023 8:51,28/08/2023 8:51,,"turnBack
+while (Dir == ""Forward"")
+{
+    moveForward
+}
+if (Enemy In Front)
+{
+    attack
+}
+moveForward
+turnRight
+while (Dir == ""Forward"")
+{
+    moveForward
+}
+turnRight
+while (Dir == ""Forward"")
+{
+    moveForward
+}
+if (Enemy In Front)
+{
+    attack
+}
+while (Dir == ""Forward"")
+{
+    moveForward
+}
+turnRight
+while (Dir == ""Forward"")
+{
+    moveForward
+}
+if (Enemy In Front)
+{
+    attack
+}
+while (Dir == ""Forward"")
+{
+    moveForward
+}
+turnRight
+while (Dir == ""Forward"")
+{
+    moveForward
+}
+if (Enemy In Front)
+{
+    attack
+}
+while (Dir == ""Forward"")
+{
+    moveForward
+}
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+moveForward
+turnRight
+while (Dir == ""Forward"")
+{
+    moveForward
+}"
+T1,26856,776,Monster maze,public,,10x10,382,2023-08-28T00:54:04.000,2023-08-28T00:54:44.000,2,5,8,24,23,1,0,1,25,140,18,1315.369995,28/08/2023 8:33,28/08/2023 8:33,28/08/2023 8:55,28/08/2023 8:54,,"moveForward
+turnLeft
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+turnLeft
+moveForward
+attack
+turnRight
+moveForward
+moveForward
+moveForward
+moveForward
+turnLeft
+while (NotReachDest)
+{
+    moveForward
+}"
+T1,26857,760,4P,public,Have Fun!,11x11,383,2023-08-28T00:54:07.000,2023-08-28T01:01:15.000,4,4,4,35,10,8,5,3,26,160,49,1743.339844,28/08/2023 8:32,28/08/2023 8:33,28/08/2023 9:01,28/08/2023 8:57,,"turnBack
+while (Dir == ""Forward"")
+{
+    moveForward
+}
+if (Enemy In Front)
+{
+    attack
+}
+repeatCount = 1;
+while (repeatCount < 21)
+{
+    repeatCount add 1
+    if (Dir == ""Right"")
+    {
+        turnRight
+    }
+    else
+    {
+        moveForward
+    }
+    if (Dir == ""Left"")
+    {
+        turnLeft
+    }
+    else
+    {
+        moveForward
+    }
+    if (Enemy In Front)
+    {
+        attack
+    }
+    if (Dir == ""Forward"")
+    {
+        moveForward
+    }
+}
+repeatCount = 1;
+while (repeatCount < 5)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,26807,449,Undermaze,public,"Choose to be a pacifist or a warmonger. Pick you adventure now!
+-TBL 7",10x10,396,2023-08-28T00:41:25.000,2023-08-28T00:45:15.000,3,1,3,0,3,4,3,1,11,340,41,716.1251831,28/08/2023 8:33,28/08/2023 8:34,28/08/2023 8:45,28/08/2023 8:41,,"while (NotReachDest)
+{
+    if (Dir == ""Forward"")
+    {
+        moveForward
+    }
+    else
+    {
+        if (Dir == ""Left"")
+        {
+            turnLeft
+        }
+        else
+        {
+            if (Dir == ""Right"")
+            {
+                turnRight
+            }
+        }
+    }
+}"
+T1,26838,143,Get Rekt,public,,10x10,378,2023-08-28T00:51:07.000,2023-08-28T00:51:07.000,0,0,0,0,20,10,0,10,40,300,42,1058.029053,28/08/2023 8:34,28/08/2023 8:39,28/08/2023 8:51,,,"turnBack
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnLeft
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 6)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 5)
+{
+    repeatCount add 1
+    moveForward
+}
+turnBack
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+turnLeft
+repeatCount = 1;
+while (repeatCount < 10)
+{
+    repeatCount add 1
+    moveForward
+}
+turnLeft
+repeatCount = 1;
+while (repeatCount < 9)
+{
+    repeatCount add 1
+    moveForward
+}
+turnLeft
+repeatCount = 1;
+while (repeatCount < 7)
+{
+    repeatCount add 1
+    moveForward
+}
+turnLeft
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,26853,764,Art Maze,public,,9x9,388,2023-08-28T00:53:36.000,2023-08-28T00:54:07.000,1,2,2,48,27,12,0,12,51,310,33,1245.994141,28/08/2023 8:33,28/08/2023 8:34,28/08/2023 8:54,28/08/2023 8:54,,"moveForward
+turnLeft
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+turnBack
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+turnLeft
+repeatCount = 1;
+while (repeatCount < 7)
+{
+    repeatCount add 1
+    moveForward
+}
+turnLeft
+repeatCount = 1;
+while (repeatCount < 5)
+{
+    repeatCount add 1
+    moveForward
+}
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    turnLeft
+    repeatCount = 1;
+    while (repeatCount < 3)
+    {
+        repeatCount add 1
+        moveForward
+    }
+}
+attack
+moveForward
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    turnRight
+    repeatCount = 1;
+    while (repeatCount < 3)
+    {
+        repeatCount add 1
+        moveForward
+    }
+}
+turnLeft
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+attack
+moveForward
+turnRight
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+turnLeft
+moveForward"
+T1,26916,883,Grp6-T01,public,jiayou lol,10x10,407,2023-08-28T01:41:52.000,2023-08-28T01:41:52.000,1,1,3,18,15,0,0,0,15,240,8,139.3231964,28/08/2023 9:40,28/08/2023 9:40,28/08/2023 9:42,,,"turnLeft
+moveForward
+turnRight
+attack
+moveForward
+moveForward
+turnRight
+attack
+moveForward
+moveForward
+attack
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,26924,893,GRP5-T01,public,i am in pain,10x10,409,2023-08-28T01:45:50.000,2023-08-28T01:45:50.000,2,4,4,69,17,4,1,3,25,460,26,173.5700073,28/08/2023 9:43,28/08/2023 9:43,28/08/2023 9:46,,,"repeatCount = 1;
+while (repeatCount < 5)
+{
+    repeatCount add 1
+    moveForward
+    turnRight
+    moveForward
+    turnLeft
+}
+moveForward
+turnBack
+repeatCount = 1;
+while (repeatCount < 13)
+{
+    repeatCount add 1
+    if (Enemy In Front)
+    {
+        attack
+    }
+    else
+    {
+        moveForward
+    }
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 5)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+attack
+moveForward
+moveForward
+turnRight
+moveForward
+moveForward"
+T1,26920,893,GRP5-T01,public,i am in pain,10x10,402,2023-08-28T01:43:25.000,2023-08-28T01:43:25.000,2,4,4,69,4,4,3,1,12,460,26,162.5511017,28/08/2023 9:41,28/08/2023 9:41,28/08/2023 9:43,,,"while (NotReachDest)
+{
+    if (Dir == ""Forward"")
+    {
+        moveForward
+    }
+    else
+    {
+        if (Dir == ""Left"")
+        {
+            turnLeft
+        }
+        else
+        {
+            turnRight
+        }
+    }
+    if (Enemy In Front)
+    {
+        attack
+    }
+}"
+T1,26816,449,Undermaze,public,"Choose to be a pacifist or a warmonger. Pick you adventure now!
+-TBL 7",10x10,379,2023-08-28T00:44:13.000,2023-08-28T00:44:13.000,,1,3,0,3,3,2,1,,,41,703.8637695,28/08/2023 8:33,28/08/2023 8:33,28/08/2023 8:44,,,"while (NotReachDest)
+{
+    if (Dir == ""Forward"")
+    {
+        moveForward
+    }
+    else
+    {
+        if (Dir == ""Left"")
+        {
+            turnLeft
+        }
+        else
+        {
+            turnRight
+        }
+    }
+}"
+T1,26943,896,GROUP 3 T01,public,,15x15,402,2023-08-28T02:04:51.000,2023-08-28T02:04:51.000,4,9,15,24,34,5,2,3,44,30,68,1278.362061,28/08/2023 9:44,28/08/2023 9:44,28/08/2023 10:05,,,"turnRight
+moveForward
+moveForward
+turnLeft
+attack
+moveForward
+turnRight
+repeatCount = 1;
+while (repeatCount < 6)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+moveForward
+turnLeft
+moveForward
+turnBack
+moveForward
+turnRight
+moveForward
+turnLeft
+repeatCount = 1;
+while (repeatCount < 6)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+moveForward
+turnRight
+moveForward
+turnLeft
+moveForward
+moveForward
+turnRight
+attack
+turnLeft
+moveForward
+moveForward
+turnRight
+while (NotReachDest)
+{
+    if (Dir == ""Forward"")
+    {
+        moveForward
+    }
+    else
+    {
+        if (Dir == ""Left"")
+        {
+            turnLeft
+        }
+        else
+        {
+            turnRight
+        }
+    }
+}"
+T1,26917,893,GRP5-T01,public,i am in pain,10x10,399,2023-08-28T01:42:10.000,2023-08-28T01:42:10.000,2,4,4,69,4,4,3,1,12,460,26,93.33000183,28/08/2023 9:41,28/08/2023 9:41,28/08/2023 9:42,,,"while (NotReachDest)
+{
+    if (Dir == ""Forward"")
+    {
+        moveForward
+    }
+    else
+    {
+        if (Dir == ""Left"")
+        {
+            turnLeft
+        }
+        else
+        {
+            turnRight
+        }
+    }
+    if (Enemy In Front)
+    {
+        attack
+    }
+}"
+T1,26934,879,Grp4-T01,public,,10x10,387,2023-08-28T01:56:30.000,2023-08-28T01:56:55.000,3,4,5,20,19,7,2,5,33,490,33,737.8687744,28/08/2023 9:45,28/08/2023 9:45,28/08/2023 9:57,28/08/2023 9:57,,"turnRight
+moveForward
+turnLeft
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnLeft
+moveForward
+turnRight
+repeatCount = 1;
+while (repeatCount < 13)
+{
+    repeatCount add 1
+    if (Dir == ""Forward"")
+    {
+        moveForward
+    }
+    else
+    {
+        turnRight
+        moveForward
+    }
+}
+turnLeft
+repeatCount = 1;
+while (repeatCount < 6)
+{
+    repeatCount add 1
+    moveForward
+}
+turnLeft
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnLeft
+moveForward
+turnLeft
+repeatCount = 1;
+while (repeatCount < 100)
+{
+    repeatCount add 1
+    if (Dir == ""Forward"")
+    {
+        moveForward
+    }
+    else
+    {
+        turnLeft
+    }
+}"
+T1,26915,888,Grp 7 T01,public,,20x20,392,2023-08-28T01:40:22.000,2023-08-28T01:41:06.000,1,4,30,99,8,1,0,1,10,280,18,139.7050018,28/08/2023 9:39,28/08/2023 9:39,28/08/2023 9:41,28/08/2023 9:41,,"repeatCount = 1;
+while (repeatCount < 15)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+moveForward
+turnLeft
+moveForward
+moveForward
+turnLeft
+moveForward"
+T1,26922,888,Grp 7 T01,public,,20x20,391,2023-08-28T01:44:42.000,2023-08-28T01:44:42.000,1,4,30,99,8,1,0,1,10,280,18,152.4779968,28/08/2023 9:42,28/08/2023 9:42,28/08/2023 9:45,,,"while (Dir == ""Forward"")
+{
+    moveForward
+}
+turnRight
+moveForward
+turnLeft
+moveForward
+moveForward
+turnLeft
+moveForward"
+T1,26933,894,Group 10 T01,public,,10x10,216,2023-08-28T01:55:39.000,2023-08-28T01:56:07.000,3,1,6,38,33,6,0,6,45,70,37,940.8814697,28/08/2023 9:41,28/08/2023 9:41,28/08/2023 9:56,28/08/2023 9:56,,"moveForward
+turnRight
+turnRight
+moveForward
+turnRight
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnLeft
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+attack
+moveForward
+turnLeft
+moveForward
+attack
+moveForward
+moveForward
+attack
+moveForward
+moveForward
+turnLeft
+repeatCount = 1;
+while (repeatCount < 8)
+{
+    repeatCount add 1
+    moveForward
+}
+turnLeft
+repeatCount = 1;
+while (repeatCount < 9)
+{
+    repeatCount add 1
+    moveForward
+}
+turnLeft
+repeatCount = 1;
+while (repeatCount < 6)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+moveForward
+moveForward
+turnLeft
+moveForward
+moveForward
+moveForward"
+T1,26942,886,Grp1 - T01,public,ez,20x20,447,2023-08-28T02:04:31.000,2023-08-28T02:05:14.000,3,5,4,52,23,9,0,9,41,460,87,1566.295898,28/08/2023 9:39,28/08/2023 9:40,28/08/2023 10:05,28/08/2023 10:05,,"moveForward
+moveForward
+turnRight
+moveForward
+turnLeft
+repeatCount = 1;
+while (repeatCount < 8)
+{
+    repeatCount add 1
+    moveForward
+}
+turnLeft
+attack
+repeatCount = 1;
+while (repeatCount < 12)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnBack
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnLeft
+repeatCount = 1;
+while (repeatCount < 20)
+{
+    repeatCount add 1
+    moveForward
+}
+turnLeft
+repeatCount = 1;
+while (repeatCount < 5)
+{
+    repeatCount add 1
+    moveForward
+}
+turnBack
+repeatCount = 1;
+while (repeatCount < 6)
+{
+    repeatCount add 1
+    moveForward
+}
+attack
+repeatCount = 1;
+while (repeatCount < 20)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 20)
+{
+    repeatCount add 1
+    moveForward
+}"
+T1,26918,885,GRP2_T01,public,,6x6,382,2023-08-28T01:42:18.000,2023-08-28T01:44:33.000,0,15,15,0,7,3,1,2,13,580,13,303.0429993,28/08/2023 9:40,28/08/2023 9:40,28/08/2023 9:45,28/08/2023 9:43,,"turnRight
+moveForward
+attack
+while (NotReachDest)
+{
+    if (Dir == ""Forward"")
+    {
+        moveForward
+    }
+    else
+    {
+        turnLeft
+        repeatCount = 1;
+        while (repeatCount < 5)
+        {
+            repeatCount add 1
+            moveForward
+        }
+    }
+}
+attack"
+T1,26921,885,GRP2_T01,public,,6x6,383,2023-08-28T01:44:11.000,2023-08-28T01:44:44.000,0,15,15,0,12,3,0,3,18,670,11,204.6085968,28/08/2023 9:41,28/08/2023 9:42,28/08/2023 9:45,28/08/2023 9:44,,"turnRight
+moveForward
+attack
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnLeft
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+moveForward
+turnLeft
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+turnLeft
+moveForward"
+T1,26932,882,Grp 9-T01,public,,10x10,383,2023-08-28T01:55:12.000,2023-08-28T01:55:39.000,1,1,21,16,18,6,3,3,30,70,21,640.315979,28/08/2023 9:45,28/08/2023 9:46,28/08/2023 9:56,28/08/2023 9:55,,"turnRight
+moveForward
+turnRight
+moveForward
+moveForward
+turnRight
+moveForward
+turnLeft
+repeatCount = 1;
+while (repeatCount < 7)
+{
+    repeatCount add 1
+    if (Dir == ""Forward"")
+    {
+        moveForward
+    }
+    else
+    {
+        attack
+    }
+}
+turnLeft
+repeatCount = 1;
+while (repeatCount < 9)
+{
+    repeatCount add 1
+    if (Dir == ""Forward"")
+    {
+        moveForward
+    }
+    else
+    {
+        attack
+    }
+}
+turnLeft
+repeatCount = 1;
+while (repeatCount < 6)
+{
+    repeatCount add 1
+    if (Dir == ""Forward"")
+    {
+        moveForward
+    }
+    else
+    {
+        attack
+    }
+}
+turnLeft
+moveForward"
+T1,26919,888,Grp 7 T01,public,,20x20,378,2023-08-28T01:42:49.000,2023-08-28T01:42:49.000,1,4,30,99,7,2,0,2,11,280,18,94.52590179,28/08/2023 9:41,28/08/2023 9:42,28/08/2023 9:43,,,"repeatCount = 1;
+while (repeatCount < 15)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+moveForward
+turnLeft
+repeatCount = 1;
+while (repeatCount < 3)
+{
+    repeatCount add 1
+    moveForward
+}
+turnLeft
+moveForward"
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+T1,26927,880,Grp8-T01,public,EZ Game,10x10,406,2023-08-28T01:49:52.000,2023-08-28T01:50:09.000,3,2,5,54,16,5,1,4,26,310,19,200.3892059,28/08/2023 9:47,28/08/2023 9:47,28/08/2023 9:50,28/08/2023 9:50,,"moveForward
+moveForward
+if (Enemy In Front)
+{
+    attack
+}
+while (Dir == ""Forward"")
+{
+    moveForward
+}
+turnBack
+moveForward
+turnLeft
+while (Dir == ""Forward"")
+{
+    moveForward
+}
+turnRight
+moveForward
+turnLeft
+while (Dir == ""Forward"")
+{
+    moveForward
+}
+turnRight
+while (Dir == ""Forward"")
+{
+    moveForward
+}
+turnLeft
+moveForward"
+T1,27069,692,Commands_Lesson 6,tutorial,,7x10,463,2023-08-28T03:16:51.000,2023-08-28T03:16:51.000,1,1,4,38,5,3,0,3,11,190,17,260.4035034,28/08/2023 11:13,28/08/2023 11:13,28/08/2023 11:17,,,"while (Dir == ""Forward"")
+{
+    moveForward
+}
+turnRight
+repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+turnRight
+while (NotReachDest)
+{
+    moveForward
+}"
+T1,27070,693,Commands_Lesson 7,tutorial,,3x5,463,2023-08-28T03:18:17.000,2023-08-28T03:18:17.000,0,0,1,10,3,2,0,2,7,260,4,73.94599915,28/08/2023 11:17,28/08/2023 11:17,28/08/2023 11:18,,,"repeatCount = 1;
+while (repeatCount < 4)
+{
+    repeatCount add 1
+    moveForward
+}
+attack
+while (NotReachDest)
+{
+    moveForward
+}"
