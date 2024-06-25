@@ -8,7 +8,6 @@
 - I am still a current student so I will be adding more content as time goes by
 
 ## Content
----
 
 - **Year 1 Modules**
   - SC1003 - Introduction to Computational Thinking & Programming
