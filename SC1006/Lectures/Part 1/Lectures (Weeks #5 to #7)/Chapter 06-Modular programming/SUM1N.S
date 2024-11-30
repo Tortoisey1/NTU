@@ -1,0 +1,17 @@
+		MOV		R0, #0x100
+		MOV		R1, #5
+		STMFD	SP!,{R0-R1}
+		BL		SUM1N
+		ADD		SP,SP,#8
+		END
+		
+SUM1N	STMFD	SP!,{R4-R6}
+		LDR		R5, [SP,#16]
+		LDR		R6, [SP,#12]
+		MOV		R4, #0
+LOOP		ADD		R4,R4,R5
+		SUBS		R5,R5,#1
+		BNE		LOOP
+		STR		R4,[R6]
+		LDMFD	SP!,{R4-R6}
+		MOV		PC,LR

@@ -1,0 +1,21 @@
+Num1		DCD		0x20
+Num2		DCD		0x14
+Result	DCD		0
+		ADR		SP, 0xFFFFFFFC
+		MOV		R0, #0x100
+		LDR		R2, [R0],#4
+		LDR		R1,[R0],#4
+		STMFD	SP!,{R0,R1,R2}
+		BL		Mean
+		ADD		SP,SP,#12
+		END
+		
+Mean		STMFD	SP!,{R0,R1,R2}
+		LDR		R0,[SP,#20]
+		LDR		R1,[SP,#16]
+		ADD		R0,R0,R1
+		ASR		R0,R0,#1
+		LDR		R1,[SP]
+		STR		R0,[R1]
+		LDMFD	SP!,{R0,R1,R2}
+		MOV		PC, LR

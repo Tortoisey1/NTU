@@ -1,0 +1,14 @@
+Num1		DCD		0x20
+Num2		DCD		0x14
+Result	DCD		0
+		ADR		SP, 0xFFFFFFFC
+		MOV		R0, #0x100
+		BL		Mean
+		END
+		
+Mean		LDR		R1, [R0]
+		LDR		R2, [R0, #4]
+		ADD		R1,R1,R2
+		ASR		R1,R1,#1
+		STR		R1, [R0,#8]
+		MOV		PC, LR

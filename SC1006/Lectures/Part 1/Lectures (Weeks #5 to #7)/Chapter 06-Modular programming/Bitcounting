@@ -1,0 +1,11 @@
+		MOV		R1, #0x0F1
+		BL		Count1s
+		END
+		
+Count1s	MOV		R2, #32
+		MOV		R0, #0
+Loop		RRXS		R1,R1
+		ADC		R0,R0,#0
+		SUBS		R2,R2,#1
+		BNE		Loop
+		MOV		PC, LR

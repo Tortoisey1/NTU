@@ -1,0 +1,12 @@
+		MOV		R1, #0x0F1
+		BL		Count1s
+		END
+		
+Count1s	MOV		R2, #32
+		MOV		R0, #0
+		MOV		R3, #1
+Loop		AND		R4,R3,R1, ROR R2
+		ADD		R0,R0,R4
+		SUBS		R2,R2,#1
+		BNE		Loop
+		MOV		PC, LR

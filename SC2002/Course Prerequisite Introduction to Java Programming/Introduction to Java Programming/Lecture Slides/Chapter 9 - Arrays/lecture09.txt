@@ -1,0 +1,141 @@
+
+Lecture 9 Summary
+=================
+
+5 parts: Basics, Refernece type, new features, sorting+searching, multi-dim. array
+
+
+======================================================================
+
+[Basic Concepts and Syntax]
+
+- What is an Array?
+  - A variable storing a group of data that have the same type
+  - Data is stored sequentially in memory
+  - A reference variable
+    (storing memory address)
+
+- Basic syntax:
+  - Declaring Array:
+    int [] days ;
+
+  - Creating Array:
+    days = new int[12] ;
+
+  - Declaring and Creating:
+    int [] days = new int[12] ;
+
+  - Initialize by assignment:
+    days[0] = 31 ;
+
+  - Initialize an array at declaration:
+    int [] days = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 } ;
+
+  - Subscripting an Array
+    - from 0 to length-1
+      e.g., days[0] to days[11]
+
+  - Array size
+    days.length
+
+
+======================================================================
+
+[Reference type]
+
+- Passing arguments to methods:
+  - Pass by value
+    for primitive data types
+  - Pass by reference
+    for reference data types
+    (variable storing memory address, e.g., array)
+  - Example:
+    int[] numArray = new int[10];
+    int   n        = 10 ;
+    int   maxValue ;
+    maxValue = maximum( numArray , n );
+
+    -> public static int maximum(int[ ] table, int num) { ... }
+
+- Copying Arrays
+
+  - Memory address copy
+    array2 = array1 ;
+
+  - Explicit copy
+    for (index = 0; index < 5; index++)
+         array2[index] = array1[index];
+
+  - Use System.arraycopy( Source_Array      , Source_Position      ,
+                          Destination_Array , Destination_Position , Length );
+
+
+======================================================================
+
+- Two new features in Java
+
+  - Variable Length Parameter Lists
+    - Ellipsis (...) to indicate variable number of parameters,
+      e.g., array table in
+         public static int maximum( int ... table )
+      - Hence, you can call method maximium with different 
+        number of arguments and Java will initialize the 
+        array table to store your input arguments accordingly.
+
+  - Enhanced for loop:
+      for (int num: table)
+         System.out.println( num ) ;
+    is the same as:
+      for (int i = 0 ; i < table.length ; i ++ )
+      {
+         int num = table[i] ;
+         System.out.println( num ) ;
+      }
+
+
+======================================================================
+
+- Sorting Arrays
+  - Bubble sort:
+    1. For every pair of two consecutive locations:
+       Compare and swap (if needed) two numbers at a time
+    2. Repeat until all numbers are in order
+    http://www.cs.oswego.edu/~mohammad/classes/csc241/samples/sort/Sort2-E.html
+
+- Searching Arrays
+  - Linear Search
+    - Compares each element in the array with the search key 
+      until a match is found or the end of the array is reached.
+  - Binary Search (Optional)
+
+
+======================================================================
+
+- Multidimensional Arrays
+  - e.g.
+    - int[][] x = new int[3][5];
+      i.e.
+        int[][] x;
+        x = new int[3][5];
+    - char[][][] x = new char[3][4][5];
+
+  - Memory: row major
+    x[0][0] -> x[0][1] -> x[0][2] -> x[0][3] -> x[0][4]
+       -> x[1][0] -> x[1][1] -> x[1][2] -> x[1][3] -> x[1][4]
+       -> x[2][0] -> x[2][1] -> x[2][2] -> x[2][3] -> x[2][4]
+
+  - Initializing multidimensional arrays:
+    int[][] x = { { 1 , 2 } ,   /* 1st row */
+                  { 6 , 7 } };  /* 2nd row */
+
+  - Operations:
+    int sum = 0 ;
+    for ( row = 0 ; row < 2 ; row++ )
+       for ( column = 0 ; column < 2 ; column++ )
+          sum += x[row][column] ;
+
+  - Array length:
+    int sum = 0 ;
+    for ( row = 0 ; row < x.length ; row++ )
+       for ( column = 0 ; column < x[row].length ; column++ )
+          sum += x[row][column] ;
