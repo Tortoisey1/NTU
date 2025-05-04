@@ -1,0 +1,17 @@
+﻿Tick,ready list,current thread,Timer Interrupt triggered,Thread completion,Context switch
+40,child1 child2 child3,main,timer interrupt scheduled at 80,n/a,child1
+50,child2 child3 main,child1,n/a,thread 1 completed,child2
+60,,,,,
+70,,,,,
+80,,,,,
+120,,,,,
+130,,,,,
+140,,,,,
+150,,,,,
+160,,,,,
+200,,,,,
+210,,,,,
+220,,,,,
+230,,,,,
+240,,,,,
+250,,,,,
